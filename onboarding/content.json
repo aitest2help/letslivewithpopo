@@ -1,0 +1,443 @@
+{
+  "title_id": "Hidup bersama Popo",
+  "title_en": "Life with Popo",
+  "intro_id": "Kenali orangnya dulu. Lalu pelajari bagaimana menemaninya.",
+  "intro_en": "Get to know the person first. Then learn how to be alongside her.",
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": 1,
+      "short_id": "Kenalan dengan Popo",
+      "short_en": "Getting to know Popo",
+      "title_id": "Kenalan lebih dekat dengan Popo",
+      "title_en": "Come and get to know Popo better",
+      "subtitle_id": "Ingatannya memudar, tapi perasaannya tetap ada.",
+      "subtitle_en": "Her memory fades, but her feelings remain.",
+      "sections": [
+        {
+          "id": "ch1-welcome",
+          "title_id": "Pujian kecil, senyum lebar.",
+          "title_en": "A little compliment, a warm smile.",
+          "icon": "heart",
+          "cards": [
+            {
+              "id": "ch1-hello",
+              "image": "popo-sunglasses",
+              "title_id": "Ini Popo, ibu kami.",
+              "title_en": "Meet Popo, our mother.",
+              "body_id": [
+                "Lis membantu memilih kacamata hitam ini. Popo senang mendapat pujian yang tulus—mungkin senyumnya mengingatkan Anda pada ibu atau nenek di rumah."
+              ],
+              "body_en": [
+                "Lis helped choose these sunglasses. Popo enjoys a sincere compliment—perhaps her smile reminds you of your mother or grandmother back home."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch1-story",
+          "title_id": "Ia pernah mulai dari nol juga.",
+          "title_en": "She once had to start afresh, too.",
+          "icon": "home",
+          "cards": [
+            {
+              "id": "ch1-childhood",
+              "title_id": "Dari toko keluarga yang ramai",
+              "title_en": "From a busy family shop",
+              "body_id": [
+                "Keluarga Popo memiliki toko besar di Guangzhou: kebutuhan sehari-hari, bahan makanan, kue bulan buatan sendiri dan tempat memotong daging. Ia anak kedua dari tujuh anak.",
+                "Meski keluarga memiliki empat pembantu di rumah, neneknya tetap meminta Popo membantu pekerjaan rumah dan toko. Sopan santun dan tetap rendah hati penting baginya."
+              ],
+              "body_en": [
+                "Popo’s family had a large store in Guangzhou: daily necessities, groceries, homemade mooncakes and a meat-cutting counter. She was the second of seven children.",
+                "Although there were four helpers at home, her grandmother still asked Popo to help with household and shop chores. Good manners and staying grounded mattered to her."
+              ]
+            },
+            {
+              "id": "ch1-school-reading",
+              "title_id": "Sekolah singkat, suka membaca sampai sekarang",
+              "title_en": "Little schooling, a lasting love of reading",
+              "body_id": [
+                "Popo hanya menyelesaikan tahun kedua sekolah dasar. Tetapi ia mengenali banyak huruf Tionghoa dan senang membacanya keras-keras, bahkan tanpa diminta."
+              ],
+              "body_en": [
+                "Popo completed only the second year of primary school. Yet she recognises many Chinese characters and enjoys reading them aloud, even without being asked."
+              ]
+            },
+            {
+              "id": "ch1-younger-work",
+              "image": "popo-young",
+              "title_id": "Kisah hidup Popo mungkin mirip kisah Anda!",
+              "title_en": "Popo’s life might be like yours!",
+              "body_id": [
+                "Karena perang, Popo harus meninggalkan kampung halamannya dan datang ke Hong Kong. Pekerjaan pertamanya adalah sebagai pembantu—yang paling muda di rumah keluarga berbahasa Shanghai. Ia sama sekali belum mengerti bahasanya; ada kesulitan dan tangis.",
+                "Tetapi ia cerdas, rajin dan mau belajar. Pasangan pemberi kerjanya sangat menyayanginya dan berkali-kali meminta ia tetap tinggal saat keluarga lain menawarkan pekerjaan."
+              ],
+              "body_en": [
+                "Because of war, Popo had to leave her hometown and come to Hong Kong. Her very first job was as a maid—the youngest in a Shanghainese-speaking household. She understood none of the language, and there were hardships and tears.",
+                "But she was smart, hardworking and willing to learn. Her employers became very fond of her and repeatedly asked her to stay when another family offered her a job."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch1-pride",
+          "title_id": "Bantu, tanpa mengambil alih.",
+          "title_en": "Help, without taking over.",
+          "icon": "hand",
+          "cards": [
+            {
+              "id": "ch1-bag-and-towels",
+              "title_id": "Tas dan barangnya punya tempat sendiri",
+              "title_en": "Her bag and belongings matter",
+              "body_id": [
+                "Saat bangun, yang pertama dicari Popo adalah tasnya. Ia memeriksa dan merapikan isinya, serta senang menata pakaian dan aksesori di kamar—sering memindahkannya dari satu laci ke laci lain.",
+                "Ia juga melipat handuk kecil dan meletakkannya dekat tempat tidur. Ini barangnya, dengan caranya sendiri; jangan masuk untuk menatanya ulang kecuali ia meminta. Bantuan rutin mencuci pakaian dan seprai adalah hal yang berbeda."
+              ],
+              "body_en": [
+                "When she wakes, the first thing Popo looks for is her bag. She checks and arranges its contents, and likes packing clothes and accessories in her room—often moving them from one drawer to another.",
+                "She also folds little towels and keeps them near her bed. These are her things, arranged in her own way; do not go into her room to rearrange them unless she asks. The regular laundry and bedding help is different."
+              ]
+            },
+            {
+              "id": "ch1-self-care",
+              "title_id": "Yang masih bisa sendiri, biarkan ia lakukan",
+              "title_en": "Let her do the things she still can",
+              "body_id": [
+                "Popo mencuci muka, menyikat gigi dan mandi sendiri. Ia tidak suka dibantu saat mandi. Ia hanya mencuci dengan tangan pakaian yang dipakainya sebelum mandi; setelah itu Lis membantu menjemurnya.",
+                "Pakaian lainnya dan seprai mudah terlupakan. Lis juga mencuci semuanya itu, biasanya tanpa Popo menyadarinya. Tetap dekat untuk mengecek ia baik-baik saja saat mandi dan pastikan ventilasi menyala; sesudahnya Lis membantu berganti pakaian sambil bercanda."
+              ],
+              "body_en": [
+                "Popo washes her face, brushes her teeth and bathes herself. She dislikes being helped during the bath. She hand-washes only the clothes she was wearing before bathing; Lis helps hang those afterward.",
+                "The rest of her clothes and bedding are easily forgotten. Lis actually washes those too, usually without Popo noticing. Stay nearby to check she is alright during bathing and keep ventilation working; afterward, Lis helps her dress while joking with her."
+              ]
+            },
+            {
+              "id": "ch1-painting-purpose",
+              "image": "popo-painting",
+              "title_id": "Masih berkarya. Masih membantu keluarga.",
+              "title_en": "Still working. Still helping her family.",
+              "body_id": [
+                "Meski berusia 91 tahun, Popo percaya ia masih bekerja: sebagai Manajer Ruang Sampel di Kan Wai Centre, yang ia datangi pada hari kerja. Selama enam tahun kami menjaga cerita yang akrab ini—ia membuat gambar dan kerajinan sebagai sampel untuk dijual di India, mendapat kupon belanja supermarket, dan membantu mencukupi kebutuhan keluarga.",
+                "Ia merasa kemampuannya diakui dan dihargai. Saat kami memberikan buku gambar, ia menganggap ada tugas yang perlu diselesaikan di rumah. Ini kebanggaan dan keyakinannya bahwa ia masih berguna—bukan sekadar mengisi sore hari."
+              ],
+              "body_en": [
+                "Even at 91, Popo believes she has a job: Sample Room Manager at Kan Wai Centre, where she goes on weekdays. For six years we have kept this familiar story alive—she makes painting and craft samples for sale in India, earns supermarket coupons, and helps keep her family going.",
+                "Her skills feel recognised and valued. When we give her a painting book, she believes work has been assigned to finish at home. It is her pride and reassurance that she is still useful—not just something to fill the afternoon."
+              ]
+            },
+            {
+              "id": "ch1-painting-family-story",
+              "title_en": "“At home, you can earn three times more!”",
+              "title_id": "“Di rumah, bisa dapat tiga kali lebih banyak!”",
+              "body_en": [
+                "Lis and we encourage Popo with this line, and we call her every day to cheer her on. Sometimes we add a playful story: the imaginary Indian centre boss has six wives, all of whom love her paintings and compete to get them printed on white T-shirts for resale in India’s mountain areas. Why six wives? It gives us something to joke about together.",
+                "This is our made-up encouragement story, not a real job or earnings arrangement. We do not always tell it in so much detail; sometimes a simpler joke is enough."
+              ],
+              "body_id": [
+                "Lis dan kami menyemangati Popo dengan kalimat ini, dan kami meneleponnya setiap hari untuk memberi semangat. Kadang kami menambah cerita lucu: bos pusat kegiatan asal India dalam cerita rekaan kami punya enam istri. Semuanya menyukai gambar Popo dan berebut untuk mencetaknya di kaus putih, lalu menjualnya di daerah pegunungan India. Kenapa enam istri? Supaya ada bahan bercanda bersama.",
+                "Ini cerita penyemangat yang kami buat, bukan pekerjaan atau aturan penghasilan sungguhan. Tidak selalu kami ceritakan selengkap ini; kadang lelucon sederhana saja sudah cukup."
+              ]
+            },
+            {
+              "id": "ch1-painting-focus",
+              "title_en": "She takes her work seriously—sometimes too seriously to pause.",
+              "title_id": "Ia serius dengan karyanya—kadang sulit diajak berhenti sejenak.",
+              "body_en": [
+                "At the centre, Popo is known for commitment and talent in art. At home she can become completely absorbed, wanting every task finished without a break.",
+                "Know this before starting: getting her to pause is not always easy. Appreciate her effort, and work with us when she needs a break rather than assuming she will stop when asked."
+              ],
+              "body_id": [
+                "Di pusat kegiatan, Popo dikenal tekun dan berbakat dalam berkarya. Di rumah ia bisa sangat tenggelam dalam pekerjaannya, ingin semua tugas selesai tanpa jeda.",
+                "Pahami ini sebelum mulai: mengajaknya berhenti sejenak tidak selalu mudah. Hargai usahanya, dan bekerja samalah dengan kami saat ia perlu beristirahat, bukan menganggap ia pasti berhenti begitu diminta."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch1-loves",
+          "title_id": "Hal kecil, senang besar.",
+          "title_en": "Small things, real pleasure.",
+          "icon": "sun",
+          "cards": [
+            {
+              "id": "ch1-music-tv",
+              "title_id": "Lagu yang akrab, komedi yang menemani",
+              "title_en": "Familiar songs, comedy together",
+              "body_id": [
+                "Popo suka musik yang akrab dan komedi. Lagu Kanton lama, termasuk Adam Cheng (鄭少秋), bisa membangkitkan kenangan bahagia masa mudanya dan kadang menenangkan suasana hatinya.",
+                "Gunakan YouTube di TV internet: putar kesukaannya pada pagi hari untuk memulai dengan suasana senang, atau saat ia kesal untuk membantu menghiburnya. Lis dan kami akan mengajarkan cara mencari daftar putar dan memutarnya, termasuk memakai ponsel dengan TV."
+              ],
+              "body_en": [
+                "Popo likes familiar music and comedy. Old Cantonese songs, including Adam Cheng (鄭少秋), can bring back happy memories of her younger days and sometimes calm her mood.",
+                "Use YouTube on the internet TV: play her favourites in the morning to set a happy tone, or when she is upset to help lift her spirits. Lis and we will teach you how to find the playlists and play them, including using the phone with the TV."
+              ]
+            },
+            {
+              "id": "ch1-everyday-words",
+              "image": "popo-reading",
+              "title_id": "Koran, menu, papan toko—banyak bahan ngobrol",
+              "title_en": "Newspapers, menus, shop signs—plenty to talk about",
+              "body_id": [
+                "Popo sering membaca huruf yang dikenali dengan suara keras, tanpa diminta. Lis mengambil koran di lobi; di rumah mereka juga ngobrol tentang berita dan apa yang terlihat di TV.",
+                "Saat keluar, Lis menunjuk harga, menu, nama toko atau iklan dan bertanya artinya. Popo senang menjelaskan. Ikuti minatnya, bukan menjadikannya ujian."
+              ],
+              "body_en": [
+                "Popo often reads recognised characters aloud without prompting. Lis collects the newspaper in the lobby; at home they also chat about news and what is on TV.",
+                "On outings, Lis points to prices, menus, shop names or advertisements and asks their meaning. Popo enjoys explaining. Follow her interest; do not make it a test."
+              ]
+            },
+            {
+              "id": "ch1-breakfast-favourites",
+              "title_id": "Sarapan yang sudah akrab",
+              "title_en": "Breakfasts she knows and likes",
+              "body_id": [
+                "Lis menyiapkan sarapan untuk mereka berdua. Popo sendiri yang mengajari Lis membuat bubur putih."
+              ],
+              "body_en": [
+                "Lis makes breakfast for them both. Popo herself taught Lis to make plain rice congee."
+              ],
+              "bullets_id": [
+                "Bubur putih; pendamping susu asin Daliang disediakan keluarga.",
+                "Bubur daging ikan dengan irisan selada Tionghoa dan jahe, untuk sarapan.",
+                "Telur rebus, jagung kukus dan ubi kukus termasuk pilihan yang sudah dikenalnya."
+              ],
+              "bullets_en": [
+                "Plain rice congee; the family supplies its Daliang salted-milk accompaniment.",
+                "Fish-meat congee with shredded Chinese lettuce and ginger, for breakfast.",
+                "Boiled eggs, steamed corn and steamed sweet potato are among her familiar choices."
+              ]
+            },
+            {
+              "id": "ch1-home-food",
+              "title_id": "Masakan rumahan, tidak perlu serba baru",
+              "title_en": "Home cooking—not something new every day",
+              "body_id": [
+                "Popo menikmati masakan rumahan yang akrab: selada dan sawi, ikan kukus, kari Jepang, tumis telur dan tomat, telur kukus serta tahu kukus. Ia juga menikmati beberapa masakan Indonesia, termasuk tempe goreng.",
+                "Lis dapat menunjukkan belanja di pasar dan memasak bersama. Kumpulan foto serta cara masak akan dilengkapi nanti; tahu tetap mengikuti batas keluarga: sekali tiap dua minggu."
+              ],
+              "body_en": [
+                "Popo enjoys familiar home cooking: lettuce and sawi greens, steamed fish, Japanese curry, stir-fried tomato and egg, steamed egg and steamed tofu. She also enjoys some Indonesian cooking, including fried tempeh.",
+                "Lis can show shopping at the wet market and cooking together. The photo and cooking collection will be enriched later; tofu still follows the family’s once-every-two-weeks limit."
+              ]
+            },
+            {
+              "id": "ch1-treats-outings",
+              "title_id": "Lihat-lihat toko, ke taman, lalu es krim.",
+              "title_en": "Shop windows, the park, then an ice cream.",
+              "body_id": [
+                "Pada akhir pekan dan hari libur, sore hari—biasanya sekitar pukul 3–5—untuk jalan bersama: lihat-lihat toko di mal, sedikit berolahraga di taman dekat rumah, lalu menikmati es krim di McDonald’s. Kami dan Lis mengajak Popo keluar agar ia senang, tetap bergerak dan lebih siap beristirahat pada malam hari.",
+                "Berjalanlah di sampingnya dan bantu mengecek langkahnya tetap mantap. Bawa handuk dan payungnya, tisu serta kipas kecil; tambahkan jaket atau syal saat dingin. Keluarga mendukung pengaturan kegiatan; makan malam Minggu biasanya bersama keluarga."
+              ],
+              "body_en": [
+                "On weekends and holidays, afternoons—usually around 3–5 p.m.—are for a walk together: browse shops in the mall, do a little exercise in the nearby park, then enjoy an ice cream at McDonald’s. We and Lis encourage these outings so Popo enjoys herself, stays mobile and is a little more ready for rest at night.",
+                "Walk alongside her and help check she is steady. Bring her towel and umbrella, tissues and a small portable fan; add a jacket or scarf in cold weather. Family supports the outing arrangements; Sunday dinner is usually shared with family."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch1-getting-along",
+          "title_id": "Dekat lewat obrolan, bukan ujian.",
+          "title_en": "Connect through conversation, not a test.",
+          "icon": "chat",
+          "cards": [
+            {
+              "id": "ch1-familiar-conversation",
+              "title_id": "Beri petunjuk kecil, ikuti suasananya",
+              "title_en": "A little hint, guided by her mood",
+              "body_id": [
+                "Lis berbicara dengan bahasa Kanton sehari-hari. Keluarga dan Lis mengobrol tentang anak serta keluarga Popo, saudara, orang tua, kampung asal, rumah, toko dan empat pembantu dulu.",
+                "Kalau ia lupa nama, beri petunjuk marga atau satu huruf dalam namanya. Kalau kesal, ganti topik—misalnya perannya di pusat kegiatan. Percakapan beberapa kali sehari bukan target wajib atau jaminan menjaga ingatan."
+              ],
+              "body_en": [
+                "Lis uses ordinary daily Cantonese. Family and Lis chat about Popo’s children and family, siblings, parents, hometown, home, shop and the four helpers from her younger days.",
+                "If a name slips away, hint with the surname or one character of the name. If she is upset, change subject—for example to her role at the centre. Several daily chats are not a required quota or a promise to preserve memory."
+              ]
+            },
+            {
+              "id": "ch1-mood-support",
+              "title_id": "Saat kesal, Anda tidak sendirian",
+              "title_en": "When she is upset, you are not alone",
+              "body_id": [
+                "Kami menelepon Popo setiap hari atas inisiatif kami. Saat Popo kesal dan Lis perlu dukungan, ia mengirim pesan kepada kami; kami mencari cara menenangkan Popo bersama, lalu menelepon untuk menindaklanjuti atau mendukung Lis bersama-sama.",
+                "Lis bisa mengalihkan perhatian ke musik, masa muda atau teman-temannya, atau berhenti dulu dari percakapan langsung. Saat hal kecil yang membuatnya kesal mulai terlupakan, Lis kembali mengajaknya bercanda. Anda tidak harus menangani saat-saat ini sendiri."
+              ],
+              "body_en": [
+                "We call Popo proactively every day. When she is upset and Lis needs support, she messages us; we work out together how to calm Popo, and call to follow through or support Lis jointly.",
+                "Lis may divert her attention to music, younger days or friends, or step back from direct conversation for a while. As the little upset fades from Popo’s memory, Lis starts joking with her again. You do not need to manage these moments alone."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch1-people",
+          "title_id": "Hubungan tumbuh pelan-pelan.",
+          "title_en": "Closeness grows gradually.",
+          "icon": "user",
+          "cards": [
+            {
+              "id": "ch1-building-trust",
+              "title_id": "Mulai dengan ngobrol dan bercanda",
+              "title_en": "Start with chatting and joking",
+              "body_id": [
+                "Saat pertama mengenal Popo, Lis menyarankan sering ngobrol dan bercanda. Ia merangkul atau menggandengnya ketika nyaman untuk keduanya.",
+                "Keluarga kami tinggal dekat. Kami tetap terlibat melalui telepon setiap hari dan bekerja sama dengan Anda saat perlu dukungan; saling mengenal butuh waktu, dan kita menjalaninya bersama."
+              ],
+              "body_en": [
+                "When first getting to know Popo, Lis suggests frequent friendly chats and jokes. She puts an arm around her or holds her hand when both are comfortable.",
+                "Our family lives nearby. We stay involved through daily calls and work with you whenever support is needed; getting to know each other takes time, and we do it together."
+              ]
+            },
+            {
+              "id": "ch1-lis-message",
+              "title_id": "Pesan Lis untuk Anda",
+              "title_en": "A message from Lis to you",
+              "quote_id": "buat mbk pengganti saya semoga betah ya merawat popo.\ndan semoga mbknya juga baik dengan popo, sabar merawat popo.\nsebernarnya popo itu baik dan perhatian.",
+              "quote_en": "To the woman replacing me, I hope you will feel at home caring for Popo. I hope you will be kind to her and patient in caring for her. Really, Popo is kind and considerate.",
+              "author": "Lis",
+              "body_id": [],
+              "body_en": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "number": 2,
+      "short_id": "Memahami demensia",
+      "short_en": "Understanding dementia",
+      "title_id": "Apa yang berubah, apa yang tetap ada",
+      "title_en": "What changes, what remains",
+      "subtitle_id": "Demensia lebih dari lupa. Popo tetap seorang ibu, dengan perasaan dan harga diri.",
+      "subtitle_en": "Dementia is more than forgetting. Popo is still a mother, with feelings and dignity.",
+      "sections": [
+        {
+          "id": "ch2-understanding",
+          "title_id": "Bukan hanya soal lupa.",
+          "title_en": "More than forgetting.",
+          "icon": "note",
+          "cards": [
+            {
+              "id": "ch2-more-than-memory",
+              "title_id": "Bukan sengaja, bukan sifat buruk",
+              "title_en": "Not deliberate. Not bad character.",
+              "body_id": [
+                "Demensia terjadi karena penyakit atau kerusakan yang memengaruhi otak. Ingatan, cara berpikir, memahami percakapan dan kegiatan sehari-hari bisa berubah.",
+                "Ini bukan bagian yang pasti dari penuaan. Bingung atau lupa bukan berarti Popo sengaja mempersulit Anda."
+              ],
+              "body_en": [
+                "Dementia results from disease or damage affecting the brain. Memory, thinking, understanding conversation and everyday activities can change.",
+                "It is not an inevitable part of ageing. Confusion or forgetting does not mean Popo is deliberately making things difficult for you."
+              ]
+            },
+            {
+              "id": "ch2-strengths",
+              "title_id": "Masih banyak yang bisa ia lakukan",
+              "title_en": "There is still much she can do",
+              "body_id": [
+                "Popo masih membaca huruf Tionghoa, melipat handuk, berkarya dan mengerjakan perawatan diri. Kemampuannya bisa berbeda menurut hari dan kegiatan.",
+                "Beri waktu dan bantuan secukupnya. Bicara langsung dengan hormat kepada Popo sebagai orang dewasa, bukan membicarakannya seolah ia tidak ada."
+              ],
+              "body_en": [
+                "Popo still reads Chinese characters, folds towels, makes art and manages personal care. Her abilities can vary by day and activity.",
+                "Allow time and give just the help needed. Speak directly and respectfully to Popo as an adult, not about her as if she were absent."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch2-feelings",
+          "title_id": "Perasaannya tetap nyata.",
+          "title_en": "Her feelings are still real.",
+          "icon": "heart",
+          "cards": [
+            {
+              "id": "ch2-feeling-safe",
+              "title_id": "Cerita bisa berubah, rasa takut tetap terasa",
+              "title_en": "The story may change; the fear still feels real",
+              "body_id": [
+                "Saat kesal, Popo bisa mengatakan anggota keluarga mengambil barangnya, tinggal di rumah ini lalu pergi saat ia datang, atau rumah ini dijual. Kami menelepon atas inisiatif kami; saat Lis perlu bantuan, ia mengirim pesan dan kami mendukungnya untuk menenangkan Popo bersama.",
+                "Dengarkan kekhawatirannya tanpa ikut memastikan cerita itu benar. Suara tenang dan penjelasan singkat lebih membantu daripada memaksa ia mengingat."
+              ],
+              "body_en": [
+                "When upset, Popo may say a family member took her belongings, was staying here and left when she returned, or that this home is being sold. We call proactively; when Lis needs help, she messages us and we support her in calming Popo together.",
+                "Listen to her worry without confirming the account as fact. A calm voice and a short explanation are more helpful than pressing her to remember."
+              ]
+            },
+            {
+              "id": "ch2-current-habits",
+              "title_id": "Kenali Popo hari ini, bukan hanya catatan lama",
+              "title_en": "Know Popo today, not only the older notes",
+              "body_id": [
+                "Lis memberi gambaran kebiasaannya sekarang. Tidak semua contoh demensia terjadi pada Popo setiap hari."
+              ],
+              "body_en": [
+                "Lis describes her current habits. Not every example of dementia happens to Popo every day."
+              ],
+              "bullets_id": [
+                "Ia sering ingin kembali ke rumah lamanya.",
+                "Ia jarang membicarakan suaminya sekarang.",
+                "Menurut Lis, setelah makan ia tidak meminta makanan tambahan."
+              ],
+              "bullets_en": [
+                "She often wants to return to her old home.",
+                "She rarely mentions her husband now.",
+                "According to Lis, she does not ask for extra food after eating."
+              ]
+            },
+            {
+              "id": "ch2-kindness",
+              "title_id": "Nada suara juga bentuk perhatian",
+              "title_en": "Your tone is part of your care",
+              "body_id": [
+                "Gunakan kalimat pendek, satu hal dulu, lalu beri waktu menjawab. Senyum dan suara lembut tidak harus disertai pelukan; sentuhan hanya jika nyaman untuk Anda dan Popo.",
+                "Ia mungkin lupa kata-kata, tetapi cara kita memperlakukannya tetap penting. Kalau Anda kewalahan, minta dukungan—Anda tidak harus menanggung semuanya sendiri."
+              ],
+              "body_en": [
+                "Use short sentences, one idea at a time, then allow time to reply. A smile and a gentle voice do not require a hug; touch is only for when you and Popo are comfortable.",
+                "She may forget words, but how we treat her still matters. If you feel overwhelmed, ask for support—you do not have to carry everything alone."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch2-changes",
+          "title_id": "Tetap terhubung, peka pada perubahan.",
+          "title_en": "Stay connected. Notice changes.",
+          "icon": "chat",
+          "cards": [
+            {
+              "id": "ch2-family-hints",
+              "title_id": "Temani ingatannya, jangan mengejarnya",
+              "title_en": "Support her memories; do not chase an answer",
+              "body_id": [
+                "Cerita keluarga, petunjuk marga atau satu huruf nama bisa membantu memulai obrolan yang akrab. Kalau ia kesal atau tidak ingin menjawab, ubah topik dan ikuti suasananya.",
+                "Keluarga sudah memakai cara ini selama enam tahun dan merasakan manfaatnya. Ini pengalaman keluarga, bukan ujian, target wajib atau jaminan menghentikan demensia."
+              ],
+              "body_en": [
+                "Family stories, a surname hint or one character of a name can help start familiar conversation. If she is upset or does not want to answer, change subject and follow her mood.",
+                "Family has used this approach for six years and reports a positive experience. It is family experience, not an exam, required quota or a guarantee of stopping dementia."
+              ]
+            },
+            {
+              "id": "ch2-sudden-change",
+              "kind": "safety",
+              "title_id": "Perubahan mendadak: jangan anggap biasa",
+              "title_en": "Sudden change: do not assume it is ordinary",
+              "body_id": [
+                "Kalau Popo tiba-tiba bingung dengan cara baru atau jauh lebih bingung dari biasanya, segera cari bantuan medis darurat. Jangan otomatis menganggapnya hanya demensia.",
+                "Hubungi keluarga tanpa menunda pertolongan. Untuk keadaan darurat di Hong Kong, telepon 999; temani Popo dengan tenang di tempat aman."
+              ],
+              "body_en": [
+                "If Popo suddenly becomes confused in a new way or much more confused than usual, get emergency medical help immediately. Do not automatically assume it is only dementia.",
+                "Notify family without delaying help. For an emergency in Hong Kong, call 999; stay calmly with Popo in a safe place."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

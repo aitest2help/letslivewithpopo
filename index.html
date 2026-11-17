@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id" translate="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="google" content="notranslate">
+  <meta name="description" content="Kenalan dengan Popo dan memahami demensia melalui cerita keluarga, foto asli dan panduan singkat.">
+  <meta name="theme-color" content="#426951">
+  <title>Hidup bersama Popo — Kenalan dan memahami</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./onboarding/styles.css">
+  <script type="module" src="./onboarding/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" id="skip-link">Langsung ke cerita</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#main" aria-label="Hidup bersama Popo">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><path d="M7 26C2 17 10 9 18 17L20 20L22 17C30 9 38 17 33 26L20 37Z" fill="currentColor"/><circle cx="11" cy="6" r="4" fill="currentColor"/><circle cx="29" cy="6" r="4" fill="#b3c8a8"/></svg></span>
+        <span><strong>Let’s Live with Popo</strong><small id="header-tagline">Kenali. Pahami. Temani.</small></span>
+      </a>
+      <div class="language-switch" role="group" aria-label="Bahasa / Language">
+        <button type="button" data-language="id" aria-pressed="true" lang="id">ID<span class="sr-only"> Bahasa Indonesia</span></button>
+        <button type="button" data-language="en" aria-pressed="false" lang="en">EN<span class="sr-only"> English</span></button>
+      </div>
+    </div>
+    <nav class="chapter-nav" id="chapter-nav" aria-label="Bab panduan">
+      <a href="#ch1" aria-current="location"><span class="nav-number">01</span><span>Kenalan dengan Popo</span></a>
+      <a href="#ch2"><span class="nav-number">02</span><span>Memahami demensia</span></a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <div id="guide">
+      <section class="loading-cover wrap"><p class="eyebrow">Untuk teman baru Popo</p><h1>Kenalan lebih dekat<br>dengan Popo.</h1><p>Kenali orangnya dulu. Lalu pelajari bagaimana menemaninya.</p><p id="loading-message" role="status">Menyiapkan cerita…</p></section>
+    </div>
+    <noscript><p class="wrap">Aktifkan JavaScript untuk membaca panduan, memilih bahasa dan menggunakan tombol Dengarkan.</p></noscript>
+  </main>
+  <div id="audio-notice" class="audio-notice" role="status" hidden></div>
+  <aside class="audio-player" id="audio-player" aria-label="Pemutar suara" hidden>
+    <div class="player-inner">
+      <span id="player-symbol" aria-hidden="true"></span>
+      <div class="player-copy"><strong id="player-label"></strong><span id="player-status" role="status"></span></div>
+      <button id="player-pause" type="button"></button>
+      <button id="player-stop" type="button"></button>
+    </div>
+  </aside>
+</body>
+</html>
