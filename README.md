@@ -13,3 +13,7 @@ Only the reader-facing demo is included. No applicant page, raw Lis feedback, pr
 GitHub Pages serves main at the repository root. No build step; .nojekyll disables Jekyll processing. All asset/module/data paths are relative to the project URL. Changes are ordinary Git commits. Preserve an earlier commit/tag and restore through a new forward commit if rollback is requested; never force-push.
 
 Indonesian voice availability depends on the phone/browser and may require installing a matching voice. A missing voice is explained rather than replaced with English. Actual audio needs a phone check.
+
+## Supplied photo library for Copilot
+
+See the [illustrated image index](assets/library/INDEX.md) and [structured manifest](assets/library/manifest.json). Available supplied Popo/Lis and food pictures are included with source-backed labels; unfamiliar dishes are marked label pending. Duplicate sources are cross-referenced rather than repeatedly uploaded. No additional chapters or care-content rewrite is part of this update.

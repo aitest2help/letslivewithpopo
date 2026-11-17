@@ -1,0 +1,523 @@
+{
+  "scope": "Supplied Popo/Lis and food photographs only; no videos, private documents, research images or generated mockups.",
+  "public": true,
+  "entries": [
+    {
+      "file": "food/F01-plain-congee-daliang-milk.png",
+      "thumbnail": "thumbnails/F01-plain-congee-daliang-milk.png",
+      "group": "food",
+      "caption_en": "Plain rice congee with Daliang salted milk / Shunde milk slices",
+      "caption_id": "Bubur putih dengan Daliang salted milk / Shunde milk slices",
+      "status": "Family-labelled food photograph",
+      "source_aliases": [
+        "F01-plain-congee-daliang-milk.png",
+        "breakfast-for-two.png"
+      ],
+      "width": 1200,
+      "height": 1600,
+      "bytes": 1172457,
+      "pixel_sha256": "faec32276767ee18165eaa9a1c8ab50320c560298895cf81326c3b4a4eee198f"
+    },
+    {
+      "file": "food/F02-sweet-corn-egg-milk-honey-water.png",
+      "thumbnail": "thumbnails/F02-sweet-corn-egg-milk-honey-water.png",
+      "group": "food",
+      "caption_en": "Steamed sweet corn, boiled egg, milk and honey water",
+      "caption_id": "Jagung manis kukus, telur rebus, susu dan air madu",
+      "status": "Family-labelled food photograph",
+      "source_aliases": [
+        "F02-sweet-corn-egg-milk-honey-water.png",
+        "2027-photo-002.png"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 1775915,
+      "pixel_sha256": "4f183ec5e93a2a52a32cd853797f17ea57507927ecd81f894f7a74ed49694767"
+    },
+    {
+      "file": "food/F03-scrambled-egg-sandwiches-honey-ginger-water.png",
+      "thumbnail": "thumbnails/F03-scrambled-egg-sandwiches-honey-ginger-water.png",
+      "group": "food",
+      "caption_en": "Scrambled-egg sandwiches with honey-ginger water",
+      "caption_id": "Roti lapis telur orak-arik dan air madu jahe",
+      "status": "Family-labelled food photograph",
+      "source_aliases": [
+        "F03-scrambled-egg-sandwiches-honey-ginger-water.png"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1836351,
+      "pixel_sha256": "7e646e77abde98b063a8956327cfc828ca63f86302f0be425830cf2a8695d25a"
+    },
+    {
+      "file": "food/F04-rice-rolls-lemon-honey-ginger-water.png",
+      "thumbnail": "thumbnails/F04-rice-rolls-lemon-honey-ginger-water.png",
+      "group": "food",
+      "caption_en": "Steamed rice rolls, pepper and soy sauce; lemon-honey-ginger water",
+      "caption_id": "Gulungan nasi kukus, lada dan kecap asin; air lemon madu jahe",
+      "status": "Family-labelled food photograph",
+      "source_aliases": [
+        "F04-rice-rolls-lemon-honey-ginger-water.png"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 2199710,
+      "pixel_sha256": "7c40fd951acfba26d0f7553e57f26885ea9874dd9564b66a4213249258b4b89b"
+    },
+    {
+      "file": "food/F07-fish-congee-lettuce-ginger.png",
+      "thumbnail": "thumbnails/F07-fish-congee-lettuce-ginger.png",
+      "group": "food",
+      "caption_en": "Fish congee with Chinese lettuce and ginger",
+      "caption_id": "Bubur ikan dengan selada Tionghoa dan jahe",
+      "status": "Family-labelled food photograph",
+      "source_aliases": [
+        "F07-fish-congee-lettuce-ginger.png"
+      ],
+      "width": 1079,
+      "height": 1409,
+      "bytes": 1546075,
+      "pixel_sha256": "bacccf7e3d3a27b36f97a8921779c237eeb5c67400491c1139770040949a0802"
+    },
+    {
+      "file": "food/F08-steamed-sweet-potato-egg-honey-ginger-water.png",
+      "thumbnail": "thumbnails/F08-steamed-sweet-potato-egg-honey-ginger-water.png",
+      "group": "food",
+      "caption_en": "Steamed sweet potato, sometimes with egg, and honey-ginger water",
+      "caption_id": "Ubi kukus, kadang dengan telur, dan air madu jahe",
+      "status": "Family-labelled food photograph",
+      "source_aliases": [
+        "F08-steamed-sweet-potato-egg-honey-ginger-water.png"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1539296,
+      "pixel_sha256": "5c0429945d53ca8e3ea0783010172f942c5c7f303cdd10d863cd99cf2caca17b"
+    },
+    {
+      "file": "food/F13-steamed-fish-chinese-lettuce-dinner.png",
+      "thumbnail": "thumbnails/F13-steamed-fish-chinese-lettuce-dinner.png",
+      "group": "food",
+      "caption_en": "Steamed fish with Chinese lettuce",
+      "caption_id": "Ikan kukus dengan selada Tionghoa",
+      "status": "Family-labelled food photograph",
+      "source_aliases": [
+        "F13-steamed-fish-chinese-lettuce-dinner.png"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 2718833,
+      "pixel_sha256": "51d1e270a2c1763fb62613d4c04b272b2ad661b391be352f848e6603595812b1"
+    },
+    {
+      "file": "popo/popo-accessories-and-sunglasses.png",
+      "thumbnail": "thumbnails/popo-accessories-and-sunglasses.png",
+      "group": "popo",
+      "caption_en": "Popo wearing sunglasses; Lis helped choose them. The family says she enjoys accessories and compliments.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "01-accessories.png"
+      ],
+      "width": 1200,
+      "height": 1600,
+      "bytes": 1859171,
+      "pixel_sha256": "abe3c918a5fe9f27d3aeb5f9521c7236eb4f057688fc739596ad990e41b28ab7"
+    },
+    {
+      "file": "popo/popo-reading-newspaper.png",
+      "thumbnail": "thumbnails/popo-reading-newspaper.png",
+      "group": "popo",
+      "caption_en": "Popo reading her Chinese newspaper.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "02-newspaper.png",
+        "popo-reading-newspaper.png"
+      ],
+      "width": 1200,
+      "height": 1600,
+      "bytes": 1674410,
+      "pixel_sha256": "5a92d4d91977948f1b544179f4c8e1cc4742761d632f49966bb6afe27672767a"
+    },
+    {
+      "file": "popo/popo-colouring-focused.png",
+      "thumbnail": "thumbnails/popo-colouring-focused.png",
+      "group": "popo",
+      "caption_en": "Popo concentrating on colouring/artwork.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "03-colouring-focus.png"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1460465,
+      "pixel_sha256": "1228efa8db74fe2bf481c970a9762e11eb32fcd97aeaefd8a86b01d0bb03667a"
+    },
+    {
+      "file": "popo/popo-colouring-second-photo.png",
+      "thumbnail": "thumbnails/popo-colouring-second-photo.png",
+      "group": "popo",
+      "caption_en": "A second supplied moment during artwork.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "04-colouring-smile.png"
+      ],
+      "width": 1200,
+      "height": 1600,
+      "bytes": 2323015,
+      "pixel_sha256": "c6c53a45fa2aa3b7e0cb0f5c3857f9b7cfbb44bb606a7156167ef6db86270b1a"
+    },
+    {
+      "file": "popo/popo-enjoying-lis-pandan-jelly.png",
+      "thumbnail": "thumbnails/popo-enjoying-lis-pandan-jelly.png",
+      "group": "popo",
+      "caption_en": "Popo enjoying pandan jelly made by Lis.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "06-pandan-jelly.png"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 1661284,
+      "pixel_sha256": "51d2ea8c044bff7d851aafc16dcc3bcf2698ce918a8371f14859b4f2a31331a5"
+    },
+    {
+      "file": "popo/popo-ice-cream-outing-01.png",
+      "thumbnail": "thumbnails/popo-ice-cream-outing-01.png",
+      "group": "popo",
+      "caption_en": "Popo enjoying ice cream on an outing.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "07-ice-cream.png"
+      ],
+      "width": 1536,
+      "height": 2048,
+      "bytes": 3663802,
+      "pixel_sha256": "4e8dd1bbc0f0c262608206425f0b7b79f4af849886d4a041fb3160110dab67bd"
+    },
+    {
+      "file": "popo/morning-music-on-tv.png",
+      "thumbnail": "thumbnails/morning-music-on-tv.png",
+      "group": "popo",
+      "caption_en": "Supplied morning TV/music photograph; Lis prepares familiar YouTube music.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "music-on-tv.png"
+      ],
+      "width": 1600,
+      "height": 1200,
+      "bytes": 1964403,
+      "pixel_sha256": "8f5536afdbad4368a623abdef2863e18bbba1fd251ef04706f6839e13f714c86"
+    },
+    {
+      "file": "popo/popo-at-table.png",
+      "thumbnail": "thumbnails/popo-at-table.png",
+      "group": "popo",
+      "caption_en": "Popo seated at a table; exact food/drink label has not been supplied.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "popo-at-table.png"
+      ],
+      "width": 1200,
+      "height": 1600,
+      "bytes": 1545784,
+      "pixel_sha256": "6da578de47263e28a4d62a369f609200501d30b993fcfbf617a2e19fcaa8cf35"
+    },
+    {
+      "file": "popo/popo-eating-meal.png",
+      "thumbnail": "thumbnails/popo-eating-meal.png",
+      "group": "popo",
+      "caption_en": "Popo eating a meal; exact dish/ingredients are not confirmed.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "popo-eating-meal.png"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 2451691,
+      "pixel_sha256": "b9eee89058e897836696cf6a6b39c072996b5a8cb60c0fcba57f0d04979a150a"
+    },
+    {
+      "file": "popo/popo-reading-leaflet.png",
+      "thumbnail": "thumbnails/popo-reading-leaflet.png",
+      "group": "popo",
+      "caption_en": "Popo reading a leaflet; do not infer a particular class or location.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "popo-reading-leaflet.png"
+      ],
+      "width": 899,
+      "height": 1599,
+      "bytes": 1227851,
+      "pixel_sha256": "2457a372faefeb5b7b4a99e21238f59bd93ed4f7bd2961339f8a764d9e553d95"
+    },
+    {
+      "file": "popo/popo-in-vehicle.png",
+      "thumbnail": "thumbnails/popo-in-vehicle.png",
+      "group": "popo",
+      "caption_en": "Popo travelling in a vehicle during an outing.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "popo-in-vehicle.png"
+      ],
+      "width": 899,
+      "height": 1599,
+      "bytes": 1086451,
+      "pixel_sha256": "bed642369ccecd2ae0f78da033e3930a585d43f0cdbdbb7dab5c4ff27ecd21ec"
+    },
+    {
+      "file": "popo/popo-ice-cream.png",
+      "thumbnail": "thumbnails/popo-ice-cream.png",
+      "group": "popo",
+      "caption_en": "A further ice-cream outing photograph.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "popo-ice-cream.png"
+      ],
+      "width": 899,
+      "height": 1599,
+      "bytes": 1475748,
+      "pixel_sha256": "572e28668ee2ccc25749d882a95c92b233a8036e872682ba115d04318cd3f6d0"
+    },
+    {
+      "file": "popo/newspapers-in-lobby.png",
+      "thumbnail": "thumbnails/newspapers-in-lobby.png",
+      "group": "popo",
+      "caption_en": "Newspapers in the lobby, where Lis reports collecting the newspaper.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "newspapers-in-lobby.png"
+      ],
+      "width": 1600,
+      "height": 1200,
+      "bytes": 1597690,
+      "pixel_sha256": "2fd29849a3b3546dd6ee3d2ced6058550db2d3314b25937844732c445e66bb92"
+    },
+    {
+      "file": "activity-screenshots/park-exercise-whatsapp-screenshot.png",
+      "thumbnail": "thumbnails/park-exercise-whatsapp-screenshot.png",
+      "group": "activity-screenshots",
+      "caption_en": "Supplied WhatsApp screenshot of park-exercise video previews; not an actual video or a reviewed exercise demonstration.",
+      "caption_id": null,
+      "status": "Supplied screenshot",
+      "source_aliases": [
+        "park-exercise-whatsapp-screenshot.png"
+      ],
+      "width": 668,
+      "height": 1070,
+      "bytes": 943853,
+      "pixel_sha256": "461e23b708cb56a7e4ebb81eac13edf2ba4622bccbc0a0661de8a47fc18cf7d9"
+    },
+    {
+      "file": "lis/lis-portrait.png",
+      "thumbnail": "thumbnails/lis-portrait.png",
+      "group": "lis",
+      "caption_en": "Lis’s portrait, supplied for the introduction/testimonial.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "lis-portrait.png"
+      ],
+      "width": 940,
+      "height": 1799,
+      "bytes": 1993856,
+      "pixel_sha256": "6f58fcf881aeb01598c0daaebc7e4eab17471fcf4f387fe72a4470bdcda0278a"
+    },
+    {
+      "file": "lis/lis-with-popo.png",
+      "thumbnail": "thumbnails/lis-with-popo.png",
+      "group": "lis",
+      "caption_en": "Lis with Popo, supplied for the introduction/testimonial.",
+      "caption_id": null,
+      "status": "Supplied family photograph",
+      "source_aliases": [
+        "lis-and-mother.png"
+      ],
+      "width": 1126,
+      "height": 2000,
+      "bytes": 2856533,
+      "pixel_sha256": "b00453849a27536358d21589ddc50921e718ad59e6eab1b1857f5abbf5141ae0"
+    },
+    {
+      "file": "food-label-pending/R01-2027-brief-page-12-food-label-pending.png",
+      "thumbnail": "thumbnails/R01-2027-brief-page-12-food-label-pending.png",
+      "group": "food-label-pending",
+      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 12; individual dish label/ingredients pending.",
+      "caption_id": null,
+      "status": "Dish label pending",
+      "source_aliases": [
+        "2027-photo-000.png",
+        "R01"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 1825120,
+      "pixel_sha256": "b420eb5c243a9b36d1e9c432376908d147a5942a5fc08039c2c8d58eb0a76247"
+    },
+    {
+      "file": "food-label-pending/R02-2027-brief-page-12-food-label-pending.png",
+      "thumbnail": "thumbnails/R02-2027-brief-page-12-food-label-pending.png",
+      "group": "food-label-pending",
+      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 12; individual dish label/ingredients pending.",
+      "caption_id": null,
+      "status": "Dish label pending",
+      "source_aliases": [
+        "2027-photo-001.png",
+        "R02"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 1519296,
+      "pixel_sha256": "8560ed39a1b091c1139b1561e7665be57320833e2084e8463ec414a9ad32438e"
+    },
+    {
+      "file": "food-label-pending/R04-2027-brief-page-12-food-label-pending.png",
+      "thumbnail": "thumbnails/R04-2027-brief-page-12-food-label-pending.png",
+      "group": "food-label-pending",
+      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 12; individual dish label/ingredients pending.",
+      "caption_id": null,
+      "status": "Dish label pending",
+      "source_aliases": [
+        "2027-photo-003.png",
+        "R04"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 1733681,
+      "pixel_sha256": "898afd930f38ea45151a24eb5f569984ef6a46fcd6302c61da65c6ab0cd827b4"
+    },
+    {
+      "file": "food-label-pending/R05-2027-brief-page-12-food-label-pending.png",
+      "thumbnail": "thumbnails/R05-2027-brief-page-12-food-label-pending.png",
+      "group": "food-label-pending",
+      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 12; individual dish label/ingredients pending.",
+      "caption_id": null,
+      "status": "Dish label pending",
+      "source_aliases": [
+        "2027-photo-004.png",
+        "R05"
+      ],
+      "width": 899,
+      "height": 1599,
+      "bytes": 1674103,
+      "pixel_sha256": "baf333d33cf809bdb28110320483a27c066c166aed9b46e75ac0353918ca9337"
+    },
+    {
+      "file": "food-label-pending/R06-2027-brief-page-13-food-label-pending.png",
+      "thumbnail": "thumbnails/R06-2027-brief-page-13-food-label-pending.png",
+      "group": "food-label-pending",
+      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 13; individual dish label/ingredients pending.",
+      "caption_id": null,
+      "status": "Dish label pending",
+      "source_aliases": [
+        "2027-photo-005.png",
+        "R06"
+      ],
+      "width": 1536,
+      "height": 2048,
+      "bytes": 3019199,
+      "pixel_sha256": "0f54303a72e79cf1b29aa56d482a66cf63730f232fb02199b203ce8a30257443"
+    },
+    {
+      "file": "food-label-pending/R07-2027-brief-page-13-food-label-pending.png",
+      "thumbnail": "thumbnails/R07-2027-brief-page-13-food-label-pending.png",
+      "group": "food-label-pending",
+      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 13; individual dish label/ingredients pending.",
+      "caption_id": null,
+      "status": "Dish label pending",
+      "source_aliases": [
+        "2027-photo-006.png",
+        "R07"
+      ],
+      "width": 750,
+      "height": 1000,
+      "bytes": 646770,
+      "pixel_sha256": "61d0804786987f86c37235396a0c88387ee536de3c687de8f6ce7da67641cd45"
+    },
+    {
+      "file": "food-label-pending/R08-2027-brief-page-13-food-label-pending.png",
+      "thumbnail": "thumbnails/R08-2027-brief-page-13-food-label-pending.png",
+      "group": "food-label-pending",
+      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 13; individual dish label/ingredients pending.",
+      "caption_id": null,
+      "status": "Dish label pending",
+      "source_aliases": [
+        "2027-photo-007.png",
+        "R08"
+      ],
+      "width": 1920,
+      "height": 1080,
+      "bytes": 2756352,
+      "pixel_sha256": "e39e0b843a19564802840ace0004b77528cf2cf84587ca4bcc4ed19dd5551869"
+    },
+    {
+      "file": "food-label-pending/R09-2027-brief-page-13-food-label-pending.png",
+      "thumbnail": "thumbnails/R09-2027-brief-page-13-food-label-pending.png",
+      "group": "food-label-pending",
+      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 13; individual dish label/ingredients pending.",
+      "caption_id": null,
+      "status": "Dish label pending",
+      "source_aliases": [
+        "2027-photo-008.png",
+        "R09"
+      ],
+      "width": 1536,
+      "height": 2048,
+      "bytes": 3003669,
+      "pixel_sha256": "b2a2d60d2164ab7027939bac26339a11d82a9f4b9817413d70cb6fd9c0d56175"
+    },
+    {
+      "file": "food-label-pending/R10-2027-brief-page-13-food-label-pending.png",
+      "thumbnail": "thumbnails/R10-2027-brief-page-13-food-label-pending.png",
+      "group": "food-label-pending",
+      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 13; individual dish label/ingredients pending.",
+      "caption_id": null,
+      "status": "Dish label pending",
+      "source_aliases": [
+        "2027-photo-009.png",
+        "R10"
+      ],
+      "width": 1536,
+      "height": 2048,
+      "bytes": 3086492,
+      "pixel_sha256": "77454ef2f6f36d2c28e565f68058e77fa2875a5e9ca90476ccb238bd4f031435"
+    }
+  ],
+  "duplicate_sources": [
+    {
+      "duplicate": "breakfast-for-two.png",
+      "retained": "food/F01-plain-congee-daliang-milk.png",
+      "reason": "Previously confirmed same photograph"
+    },
+    {
+      "duplicate": "popo-reading-newspaper.png",
+      "retained": "popo/popo-reading-newspaper.png",
+      "reason": "Exact decoded-pixel duplicate"
+    },
+    {
+      "duplicate": "2027-photo-002.png",
+      "retained": "food/F02-sweet-corn-egg-milk-honey-water.png",
+      "reason": "Previously confirmed same photograph"
+    }
+  ],
+  "unmapped_uploaded_images_not_published": [],
+  "demo_derivatives": [
+    "../photos/popo-sunglasses.jpg",
+    "../photos/popo-young.jpg",
+    "../photos/popo-painting.jpg",
+    "../photos/popo-reading.jpg",
+    "../photos/popo-art-ch2.jpg"
+  ]
+}
