@@ -13,7 +13,7 @@ Chapters 1–2 retain their previous reader copy. Chapters 3–4 were added on 1
 
 ## Visibility and scope
 
-Published without password protection at the owner’s explicit request on 17 November 2026. Text and selected photographs are publicly accessible. Noindex is an indexing instruction, not access protection. This is not a final approved six-chapter guide for a new hire. Do not add private medical/contact/source records before an agreed privacy solution.
+Published without password protection at the owner’s explicit request on 17 November 2026. Text and selected photographs are publicly accessible. Noindex is an indexing instruction, not access protection. This is not a final approved six-chapter guide for a new hire. Private household contact information must never be published. Complete, verified medication instructions may be published with the owner’s permission; raw prescriptions and private source records remain excluded. This layout update adds no medication regimen.
 
 Only the reader-facing demo is included. No applicant page, raw Lis feedback, prescription/medicine register, database, WhatsApp integration, generated narration, authentication or source tools. Medication-specific details belong in the current reviewed doctor-approved handover, not guessed from the narrative. The applicant site is a separate repository and is not modified by this deployment.
 
@@ -26,3 +26,9 @@ Indonesian voice availability depends on the phone/browser and may require insta
 ## Supplied photo library for Copilot
 
 See the [illustrated image index](assets/library/INDEX.md) and [structured manifest](assets/library/manifest.json). Available supplied Popo/Lis and food pictures use source-backed labels; unfamiliar dishes are marked label pending. Duplicate sources are cross-referenced rather than repeatedly uploaded. The original library is unchanged by the chapter extension. Three small full-frame existing-photo derivatives support the morning, homecoming and outings cards; see [routine-image notes](onboarding/assets/README.md).
+
+## Chapter 3 day-flow — 18 November 2026
+
+Six labelled day moments connect with a thin sage line: morning, leaving for the centre, daytime at the centre/at home, homecoming, evening and bedtime. Weekends, activities, food and comfort remain visible below. Every previous practical care sentence is retained; only the mixed waiting/home-time paragraph was split into its natural moments. Chapters 1, 2 and 4 and the full photo library are unchanged.
+
+Four short Lis excerpts use her supplied portrait and exact Indonesian words. English is labelled translation. Do not give this portrait/quotation styling to authored family advice or new example dialogue. A Listen button reads only its own card and quote, then stops. Use the current `onboarding/content.json` as the layout/content baseline; do not replace it with the older nine-group draft. Keep normal Git history and the pre-update rollback tag.

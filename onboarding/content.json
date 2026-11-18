@@ -453,7 +453,7 @@
           "id": "ch3-morning",
           "title_id": "Pagi yang akrab",
           "title_en": "A familiar morning",
-          "icon": "heart",
+          "icon": "sun",
           "cards": [
             {
               "id": "ch3-waking-bag-self-care",
@@ -480,7 +480,13 @@
               "body_en": [
                 "Lis plays YouTube music through the TV. Popo enjoys old Cantonese songs, including Adam Cheng (鄭少秋). Familiar songs can bring back happy memories of her younger days and sometimes calm her mood. Lis and the family will show the playlists and how to play them.",
                 "Lis collects the newspaper from the lobby. Popo enjoys reading and often says Chinese characters she recognises aloud without prompting. Listen when she wants to share."
-              ]
+              ],
+              "lis_quote": {
+                "author": "Lis",
+                "portrait": "lis-portrait",
+                "text_id": "selsai sarapan popo membaca koran karena popo suka membaca.",
+                "text_en": "After breakfast, Popo reads the newspaper because she likes reading."
+              }
             },
             {
               "id": "ch3-get-ready",
@@ -506,9 +512,15 @@
               "body_en": [
                 "Existing prescribed medicines and blood-pressure checks are part of Popo’s morning and evening routines. Lis and the family will show the current doctor-approved written plan, and how to measure and record according to the reviewed handover.",
                 "Follow that plan for timing, administration and recording. The order of activities described in this chapter is not medicine timing or dosing guidance. Ask before carrying out an instruction that is unclear."
-              ]
+              ],
+              "reader_label_id": "Panduan untuk Anda",
+              "reader_label_en": "For your reference"
             }
-          ]
+          ],
+          "day_flow": {
+            "label_id": "Pagi",
+            "label_en": "Morning"
+          }
         },
         {
           "id": "ch3-centre",
@@ -531,18 +543,61 @@
             },
             {
               "id": "ch3-wait-and-return",
-              "title_id": "Menunggu nyaman, lalu waktu di rumah",
-              "title_en": "Wait comfortably, then time at home",
+              "title_id": "Menunggu dengan nyaman",
+              "title_en": "Waiting comfortably",
               "body_id": [
                 "Lis melaporkan mobil jemputan datang lebih siang pada Senin, Rabu dan Jumat. Kadang ia membawa Popo ke bawah lebih awal agar Popo tidak kesal. Ini pola yang dialami Lis, bukan aturan untuk menunggu lama setiap kali.",
-                "Sesuaikan dengan kabar penjemputan, cuaca dan kenyamanan Popo. Setelah Popo berangkat, Lis pulang untuk membersihkan rumah. Setelah pekerjaan selesai, gunakan juga waktu saat Popo di pusat kegiatan untuk beristirahat."
+                "Sesuaikan dengan kabar penjemputan, cuaca dan kenyamanan Popo."
               ],
               "body_en": [
                 "Lis reports that the pickup van comes later on Mondays, Wednesdays and Fridays. Sometimes she takes Popo downstairs earlier to avoid her becoming upset. This is a pattern Lis has experienced, not a rule to wait a long time on every occasion.",
-                "Adjust to pickup information, weather and Popo’s comfort. After Popo leaves, Lis returns to clean the home. Once tasks are finished, also use time while Popo is at the centre to rest."
+                "Adjust to pickup information, weather and Popo’s comfort."
               ]
             }
-          ]
+          ],
+          "day_flow": {
+            "label_id": "Bersiap berangkat",
+            "label_en": "Leaving for the centre"
+          }
+        },
+        {
+          "id": "ch3-daytime",
+          "title_id": "Hari Popo di sana. Waktu Anda di rumah.",
+          "title_en": "Her day there. Your time at home.",
+          "icon": "sun",
+          "cards": [
+            {
+              "id": "ch3-home-time",
+              "title_id": "Hari Popo di pusat kegiatan. Waktu di rumah—dan untuk Anda.",
+              "title_en": "Her day at the centre. Time at home—and for you.",
+              "body_id": [
+                "Popo makan siang di pusat kegiatan; melukis dan membuat kerajinan juga menjadi bagian yang berarti baginya.",
+                "Setelah Popo berangkat, Lis pulang untuk membersihkan rumah. Setelah pekerjaan selesai, gunakan juga waktu saat Popo di pusat kegiatan untuk beristirahat."
+              ],
+              "body_en": [
+                "Popo has lunch at the centre; painting and crafts are also a meaningful part of her day.",
+                "After Popo leaves, Lis returns to clean the home. Once tasks are finished, also use time while Popo is at the centre to rest."
+              ],
+              "body_labels_id": [
+                "Popo di pusat kegiatan",
+                "Anda di rumah"
+              ],
+              "body_labels_en": [
+                "Popo at the centre",
+                "You at home"
+              ],
+              "lis_quote": {
+                "author": "Lis",
+                "portrait": "lis-portrait",
+                "text_id": "selesai saya mengatar popo saya pulang untuk bersih bersih rumah.",
+                "text_en": "After taking Popo to the centre, I return home to clean the house."
+              }
+            }
+          ],
+          "day_flow": {
+            "label_id": "Siang",
+            "label_en": "Daytime"
+          }
         },
         {
           "id": "ch3-homecoming",
@@ -561,7 +616,9 @@
               "body_en": [
                 "When Popo returns, Lis cleans her bag, umbrella and shoes before preparing a snack. Lis and the family will show the products used and the current cleaning method.",
                 "Use products according to their instructions. Do not invent mixtures or dilution amounts."
-              ]
+              ],
+              "reader_label_id": "Panduan untuk Anda",
+              "reader_label_en": "For your reference"
             },
             {
               "id": "ch3-after-centre-snack",
@@ -590,9 +647,19 @@
                 "After a snack, Popo usually bathes herself. She dislikes help during the bath. Stay nearby to check she is all right while preserving her privacy, and make sure the ventilation fan is on. Routinely washing her body is not part of the current role.",
                 "Check that the floor is dry after Popo uses the bathroom. When she comes out, Lis usually supports her by the hand or arm; learn the appropriate support method during handover.",
                 "Popo hand-washes only the clothes she was wearing before bathing. She accepts Lis’s help hanging those clothes. Other clothes and bedding are easily forgotten; Lis washes those too, usually without Popo noticing. This laundry help is different from rearranging Popo’s personal belongings."
-              ]
+              ],
+              "lis_quote": {
+                "author": "Lis",
+                "portrait": "lis-portrait",
+                "text_id": "popo tidak suka di bantu saat mandi, selesai mandi saya membantu popo menjemur pakaiannya yang sudah di cuci.",
+                "text_en": "Popo does not like being helped while bathing. After her bath, I help hang the clothes she has washed."
+              }
             }
-          ]
+          ],
+          "day_flow": {
+            "label_id": "Pulang ke rumah",
+            "label_en": "Coming home"
+          }
         },
         {
           "id": "ch3-evening",
@@ -637,9 +704,15 @@
               "body_en": [
                 "Lis applies lotion to Popo’s hands or arms and feet or legs. Blood-pressure measurement and recording follow the plan shown during handover.",
                 "Support with foot, skin and hair care, and removing and cleaning dentures, still needs to be learned. Lis and the family will train you in the methods and products appropriate to the reviewed care instructions. Do not substitute improvised methods or materials."
-              ]
+              ],
+              "reader_label_id": "Panduan untuk Anda",
+              "reader_label_en": "For your reference"
             }
-          ]
+          ],
+          "day_flow": {
+            "label_id": "Malam",
+            "label_en": "Evening"
+          }
         },
         {
           "id": "ch3-night",
@@ -658,7 +731,13 @@
               "body_en": [
                 "Lis prepares Popo’s pillow and blanket at bedtime. Keep the room comfortable, neither too hot nor cold, and reduce disturbing noise.",
                 "Lis sometimes hugs Popo before sleep. This is their habit, not your obligation. Touch is only for when it is welcome to Popo and comfortable for you too."
-              ]
+              ],
+              "lis_quote": {
+                "author": "Lis",
+                "portrait": "lis-portrait",
+                "text_id": "ketika popo mau tidur biasanya saya menyiapkan slimut dan bantal popo, saya juga sering memeluk popo ketika mau tidur.",
+                "text_en": "When Popo is going to sleep, I usually prepare her blanket and pillow. I also often hug her when she is going to sleep."
+              }
             },
             {
               "id": "ch3-night-pattern",
@@ -686,14 +765,20 @@
               "body_en": [
                 "The family reports a doctor-approved medicine plan for sleep and behaviour. Lis and the family will show the current written plan, including family approval where the plan requires it.",
                 "If Popo continues to struggle with sleep, contact the family and follow that plan. Do not add, repeat or change medicines yourself. Terms such as night medicine or extra medicine are not dosing or administration-sequence instructions."
-              ]
+              ],
+              "reader_label_id": "Panduan untuk Anda",
+              "reader_label_en": "For your reference"
             }
-          ]
+          ],
+          "day_flow": {
+            "label_id": "Menjelang tidur",
+            "label_en": "Settling for the night"
+          }
         },
         {
           "id": "ch3-weekends",
-          "title_id": "Akhir pekan dan hari tanpa pusat kegiatan",
-          "title_en": "Weekends and days without the centre",
+          "title_id": "Hari tanpa pusat kegiatan",
+          "title_en": "Days without the centre",
           "icon": "walk",
           "cards": [
             {
