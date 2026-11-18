@@ -10,6 +10,12 @@ let audioState = { state: 'idle', key: null };
 let noticeTimer;
 let observer;
 const records = new Map();
+const chapterIcons = { 1: 'heart', 2: 'note', 3: 'sun', 4: 'hand' };
+const header = document.querySelector('.site-header');
+const headerOffset = () => Math.ceil(header.getBoundingClientRect().height) + 18;
+new ResizeObserver(() => {
+  document.documentElement.style.setProperty('--header-offset', `${headerOffset()}px`);
+}).observe(header);
 const ui = {
   id: {
     tagline: 'Kenali. Pahami. Temani.', chapter: 'Bab', section: 'Bagian',
@@ -69,11 +75,13 @@ function renderCard(card) {
   const paragraphs = (value(card, 'body') || []).map(p => `<p>${esc(p)}</p>`).join('');
   const bullets = (value(card, 'bullets') || []).map(p => `<li>${esc(p)}</li>`).join('');
   const quoteMarkup = quote ? `<span class="quote-symbol" aria-hidden="true">“</span><blockquote><p>${esc(quote)}</p><cite>— ${esc(card.author)}</cite></blockquote>` : '';
+  const dialogue = (card.dialogue || []).map(turn => `<p class="dialogue-line"><strong>${esc(turn.speaker === 'Helper' ? (language === 'id' ? 'Anda' : 'You') : turn.speaker)}</strong><span>${esc(value(turn, 'text'))}</span></p>`).join('');
+  const dialogueMarkup = dialogue ? `<div class="dialogue-example"><p class="example-label">${language === 'id' ? 'Contoh ucapan — sesuaikan dalam bahasa Kanton' : 'Example wording — adapt in everyday Cantonese'}</p>${dialogue}</div>` : '';
   const note = value(card, 'note');
   return `<article class="${classes}" id="${esc(card.id)}">
     ${image}<div class="copy">
       ${card.kind === 'safety' ? `<p class="safety-label">${esc(ui[language].safety)}</p>` : ''}
-      <h3>${esc(title)}</h3>${paragraphs}${bullets ? `<ul>${bullets}</ul>` : ''}${quoteMarkup}
+      <h3>${esc(title)}</h3>${paragraphs}${bullets ? `<ul>${bullets}</ul>` : ''}${quoteMarkup}${dialogueMarkup}
       ${note ? `<p class="gentle-note">${esc(note)}</p>` : ''}${listenButton(card.id)}
     </div></article>`;
 }
@@ -99,16 +107,16 @@ function render() {
   records.clear();
   $('guide').innerHTML = content.chapters.map(renderChapter).join('');
   document.documentElement.lang = language;
-  document.title = language === 'id' ? 'Hidup bersama Popo — Kenalan dan memahami' : 'Life with Popo — Know and understand';
+  document.title = language === 'id' ? 'Hidup bersama Popo — Panduan keseharian' : 'Life with Popo — Everyday care guide';
   $('header-tagline').textContent = ui[language].tagline;
   $('skip-link').textContent = ui[language].skip;
   $('chapter-nav').setAttribute('aria-label', ui[language].nav);
-  $('chapter-nav').innerHTML = content.chapters.map(ch => `<a href="#${esc(ch.id)}"><span class="nav-icon">${icon(ch.number === 1 ? 'heart' : 'note')}<span class="nav-number">${String(ch.number).padStart(2, '0')}</span></span><span>${esc(value(ch, 'short'))}</span></a>`).join('');
+  $('chapter-nav').innerHTML = content.chapters.map(ch => `<a href="#${esc(ch.id)}"><span class="nav-icon">${icon(chapterIcons[ch.number])}<span class="nav-number">${String(ch.number).padStart(2, '0')}</span></span><span>${esc(value(ch, 'short'))}</span></a>`).join('');
   document.querySelectorAll('[data-language]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.language === language)));
   $('player-symbol').innerHTML = icon('sound');
   const navLinks = Array.from($('chapter-nav').querySelectorAll('a'));
   function highlight() {
-    const current = content.chapters.filter(ch => $(ch.id).getBoundingClientRect().top <= 170).at(-1) || content.chapters[0];
+    const current = content.chapters.filter(ch => $(ch.id).getBoundingClientRect().top <= headerOffset() + 15).at(-1) || content.chapters[0];
     navLinks.forEach(a => current.id === a.hash.slice(1) ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'));
   }
   observer = new IntersectionObserver(highlight, { threshold: 0, rootMargin: '-150px 0px -65% 0px' });
@@ -118,7 +126,8 @@ function render() {
 }
 
 function cardText(card) {
-  return [value(card, 'title'), ...(value(card, 'body') || []), ...(value(card, 'bullets') || []), value(card, 'quote'), value(card, 'note')].filter(Boolean).join('. ');
+  const dialogue = card.dialogue?.length ? [language === 'id' ? 'Contoh ucapan untuk disesuaikan dalam bahasa Kanton' : 'Example wording to adapt in everyday Cantonese', ...card.dialogue.map(turn => `${turn.speaker === 'Helper' ? (language === 'id' ? 'Anda' : 'You') : turn.speaker}: ${value(turn, 'text')}`)] : [];
+  return [value(card, 'title'), ...(value(card, 'body') || []), ...(value(card, 'bullets') || []), value(card, 'quote'), ...dialogue, value(card, 'note')].filter(Boolean).join('. ');
 }
 
 function updatePlayer() {
@@ -144,7 +153,7 @@ function updatePlayer() {
 
 function changeLanguage(next) {
   if (next === language || !content) return;
-  const firstVisible = Array.from(document.querySelectorAll('.card')).find(el => el.getBoundingClientRect().bottom > 170);
+  const firstVisible = Array.from(document.querySelectorAll('.card')).find(el => el.getBoundingClientRect().bottom > headerOffset());
   const position = firstVisible ? { id: firstVisible.id, offset: firstVisible.getBoundingClientRect().top } : null;
   const nearTop = window.scrollY < 120;
   controller.stop();
@@ -172,7 +181,7 @@ $('player-stop').addEventListener('click', () => controller.stop());
 window.addEventListener('pagehide', () => controller.stop());
 
 try {
-  const responses = await Promise.all([fetch(new URL('./content.json', import.meta.url)), fetch(new URL('./photos.json', import.meta.url))]);
+  const responses = await Promise.all([fetch(new URL('./content.json?v=20261118-ch34', import.meta.url)), fetch(new URL('./photos.json?v=20261118-ch34', import.meta.url))]);
   if (responses.some(r => !r.ok)) throw new Error('Guide files unavailable');
   [content, photos] = await Promise.all(responses.map(r => r.json()));
   render();

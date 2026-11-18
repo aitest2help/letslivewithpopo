@@ -438,6 +438,926 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ch3",
+      "number": 3,
+      "short_id": "Hari bersama Popo",
+      "short_en": "A day with Popo",
+      "title_id": "Menjalani hari yang menyenangkan",
+      "title_en": "Making a good day",
+      "subtitle_id": "Kebiasaan yang akrab, makanan yang disukai, dan waktu bersama. Ini gambaran hari Popo, bukan jadwal yang kaku.",
+      "subtitle_en": "Familiar habits, enjoyed food and time together. This is a picture of Popo’s day, not a rigid timetable.",
+      "sections": [
+        {
+          "id": "ch3-morning",
+          "title_id": "Pagi yang akrab",
+          "title_en": "A familiar morning",
+          "icon": "heart",
+          "cards": [
+            {
+              "id": "ch3-waking-bag-self-care",
+              "title_id": "Tasnya dulu, lalu sarapan bersama",
+              "title_en": "Her bag first, then breakfast together",
+              "image": "breakfast-congee",
+              "body_id": [
+                "Saat bangun, Popo biasanya mencari tasnya dan merapikan isinya. Ia mencuci muka dan menyikat gigi sendiri, lalu sarapan bersama Lis.",
+                "Lis menyiapkan sarapan untuk mereka berdua. Bubur putih adalah salah satu kesukaan Popo; Popo sendiri yang mengajari Lis membuatnya. Mulai dari makanan yang sudah akrab, tidak perlu menu baru setiap pagi."
+              ],
+              "body_en": [
+                "On waking, Popo usually looks for her bag and arranges its contents. She washes her face and brushes her teeth herself, then has breakfast with Lis.",
+                "Lis prepares breakfast for them both. Plain congee is one of Popo’s favourites; Popo herself taught Lis to make it. Start with familiar food; there is no need for a new menu every morning."
+              ]
+            },
+            {
+              "id": "ch3-music-paper",
+              "title_id": "Musik dan koran",
+              "title_en": "Music and the newspaper",
+              "body_id": [
+                "Lis memutar musik YouTube lewat TV. Popo suka lagu Kanton lama, termasuk Adam Cheng (鄭少秋). Lagu yang akrab bisa mengingatkannya pada masa muda yang menyenangkan dan kadang menenangkan suasana hatinya. Lis dan keluarga akan menunjukkan daftar putar dan cara memutarnya.",
+                "Lis mengambil koran dari lobi. Popo senang membaca dan sering mengucapkan huruf Tionghoa yang ia kenali dengan suara keras, tanpa diminta. Dengarkan bila ia ingin berbagi."
+              ],
+              "body_en": [
+                "Lis plays YouTube music through the TV. Popo enjoys old Cantonese songs, including Adam Cheng (鄭少秋). Familiar songs can bring back happy memories of her younger days and sometimes calm her mood. Lis and the family will show the playlists and how to play them.",
+                "Lis collects the newspaper from the lobby. Popo enjoys reading and often says Chinese characters she recognises aloud without prompting. Listen when she wants to share."
+              ]
+            },
+            {
+              "id": "ch3-get-ready",
+              "title_id": "Bantu bersiap, tanpa mengambil alih",
+              "title_en": "Help her get ready without taking over",
+              "body_id": [
+                "Lis membantu Popo berganti pakaian sambil bercanda, mengoleskan losion dan memakai sepatu untuk pusat kegiatan. Beri waktu untuk bagian yang masih bisa Popo lakukan sendiri.",
+                "Perhatikan pilihan pakaian dan penampilannya; pujian yang tulus bisa menyenangkan hatinya. Berjalanlah dekat di sampingnya dan gunakan cara mendampingi yang ditunjukkan Lis dan keluarga. Jangan mencoba teknik mengangkat sendiri."
+              ],
+              "body_en": [
+                "Lis helps Popo change clothes while joking, apply lotion and put on shoes for the day centre. Allow time for the parts Popo can still do herself.",
+                "Notice her clothing choices and appearance; sincere appreciation can make her feel good. Walk close alongside her and use the support method shown by Lis and the family. Do not improvise a lifting technique."
+              ]
+            },
+            {
+              "id": "ch3-morning-care-plan",
+              "title_id": "Obat dan tekanan darah",
+              "title_en": "Medicines and blood pressure",
+              "body_id": [
+                "Obat yang sudah diresepkan dan pemeriksaan tekanan darah termasuk rutinitas pagi dan malam Popo. Lis dan keluarga akan menunjukkan panduan tertulis yang berlaku dan sudah disetujui dokter, serta cara mengukur dan mencatat sesuai serah terima yang sudah ditinjau.",
+                "Ikuti waktu, cara pemberian dan pencatatan dalam panduan itu. Cerita urutan kegiatan di bab ini bukan petunjuk waktu atau dosis obat. Bila ada petunjuk yang belum jelas, tanyakan sebelum menjalankannya."
+              ],
+              "body_en": [
+                "Existing prescribed medicines and blood-pressure checks are part of Popo’s morning and evening routines. Lis and the family will show the current doctor-approved written plan, and how to measure and record according to the reviewed handover.",
+                "Follow that plan for timing, administration and recording. The order of activities described in this chapter is not medicine timing or dosing guidance. Ask before carrying out an instruction that is unclear."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch3-centre",
+          "title_id": "Pergi ke pusat kegiatan",
+          "title_en": "Going to the day centre",
+          "icon": "walk",
+          "cards": [
+            {
+              "id": "ch3-centre-handover",
+              "title_id": "Ikuti kabar penjemputan",
+              "title_en": "Follow pickup updates",
+              "body_id": [
+                "Popo biasanya pergi ke pusat kegiatan pada Senin–Jumat dan makan siang di sana. Perubahan hari atau kunjungan dokter akan diberi tahu terpisah.",
+                "Pengemudi atau petugas biasanya menelepon sebelum penjemputan atau kepulangan. Sisakan waktu agar Popo tidak terburu-buru. Lis dan keluarga akan menunjukkan rute, titik temu dan cara mendampinginya."
+              ],
+              "body_en": [
+                "Popo usually attends the day centre Monday–Friday and has lunch there. Changes of day or doctor visits will be communicated separately.",
+                "The driver or staff usually call before pickup or return. Allow time so Popo does not have to rush. Lis and the family will show the route, meeting point and how to support her."
+              ]
+            },
+            {
+              "id": "ch3-wait-and-return",
+              "title_id": "Menunggu nyaman, lalu waktu di rumah",
+              "title_en": "Wait comfortably, then time at home",
+              "body_id": [
+                "Lis melaporkan mobil jemputan datang lebih siang pada Senin, Rabu dan Jumat. Kadang ia membawa Popo ke bawah lebih awal agar Popo tidak kesal. Ini pola yang dialami Lis, bukan aturan untuk menunggu lama setiap kali.",
+                "Sesuaikan dengan kabar penjemputan, cuaca dan kenyamanan Popo. Setelah Popo berangkat, Lis pulang untuk membersihkan rumah. Setelah pekerjaan selesai, gunakan juga waktu saat Popo di pusat kegiatan untuk beristirahat."
+              ],
+              "body_en": [
+                "Lis reports that the pickup van comes later on Mondays, Wednesdays and Fridays. Sometimes she takes Popo downstairs earlier to avoid her becoming upset. This is a pattern Lis has experienced, not a rule to wait a long time on every occasion.",
+                "Adjust to pickup information, weather and Popo’s comfort. After Popo leaves, Lis returns to clean the home. Once tasks are finished, also use time while Popo is at the centre to rest."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch3-homecoming",
+          "title_id": "Pulang dan merasa nyaman",
+          "title_en": "Coming home and feeling comfortable",
+          "icon": "home",
+          "cards": [
+            {
+              "id": "ch3-return-belongings",
+              "title_id": "Bereskan barang dari luar",
+              "title_en": "Attend to belongings from outside",
+              "body_id": [
+                "Saat Popo pulang, Lis membersihkan tas, payung dan sepatu sebelum menyiapkan camilan. Lis dan keluarga akan menunjukkan produk yang dipakai serta cara membersihkan yang berlaku.",
+                "Gunakan produk sesuai petunjuknya. Jangan membuat campuran atau takaran pengenceran sendiri."
+              ],
+              "body_en": [
+                "When Popo returns, Lis cleans her bag, umbrella and shoes before preparing a snack. Lis and the family will show the products used and the current cleaning method.",
+                "Use products according to their instructions. Do not invent mixtures or dilution amounts."
+              ]
+            },
+            {
+              "id": "ch3-after-centre-snack",
+              "title_id": "Camilan dulu",
+              "title_en": "A snack first",
+              "image": "homecoming-jelly",
+              "body_id": [
+                "Setelah pulang, Lis menyiapkan camilan dan air madu. Pilihan yang akrab adalah biskuit atau crackers, jeli pandan, atau sup manis dengan tangyuan isi wijen hitam, banyak jahe dan gula kuning.",
+                "Pilih yang sesuai selera hari itu; tidak perlu membuat semuanya. Air madu biasanya menemani camilan pada hari kerja, bukan menggantikan air putih sepanjang hari."
+              ],
+              "body_en": [
+                "After returning home, Lis prepares a snack and honey water. Familiar choices are biscuits or crackers, pandan jelly, or sweet soup with black-sesame tangyuan, plenty of ginger and yellow sugar.",
+                "Choose what suits her that day; there is no need to make everything. Honey water usually accompanies weekday snacks, rather than replacing plain water throughout the day."
+              ]
+            },
+            {
+              "id": "ch3-bath-own-way",
+              "title_id": "Mandi sendiri, bantuan tetap dekat",
+              "title_en": "Bathing herself, with help nearby",
+              "body_id": [
+                "Sesudah camilan, Popo biasanya mandi sendiri. Ia tidak suka dibantu saat mandi. Tetap dekat untuk mengecek ia baik-baik saja sambil menjaga privasinya, dan pastikan kipas ventilasi menyala. Tidak ada tugas rutin untuk memandikan tubuhnya.",
+                "Cek lantai tetap kering setelah Popo menggunakan kamar mandi. Saat ia keluar, Lis biasanya menopang lewat tangan atau lengannya; pelajari cara mendampingi yang sesuai saat serah terima.",
+                "Popo hanya mencuci dengan tangan pakaian yang dipakainya sebelum mandi. Ia menerima bantuan Lis untuk menjemur pakaian itu. Pakaian lainnya dan seprai mudah terlupakan; Lis mencucinya juga, biasanya tanpa Popo menyadarinya. Bantuan mencuci ini berbeda dari menata ulang barang pribadi Popo."
+              ],
+              "body_en": [
+                "After a snack, Popo usually bathes herself. She dislikes help during the bath. Stay nearby to check she is all right while preserving her privacy, and make sure the ventilation fan is on. Routinely washing her body is not part of the current role.",
+                "Check that the floor is dry after Popo uses the bathroom. When she comes out, Lis usually supports her by the hand or arm; learn the appropriate support method during handover.",
+                "Popo hand-washes only the clothes she was wearing before bathing. She accepts Lis’s help hanging those clothes. Other clothes and bedding are easily forgotten; Lis washes those too, usually without Popo noticing. This laundry help is different from rearranging Popo’s personal belongings."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch3-evening",
+          "title_id": "Makan malam dan kebersamaan",
+          "title_en": "Dinner and company",
+          "icon": "heart",
+          "cards": [
+            {
+              "id": "ch3-dinner-shape",
+              "title_id": "Makan malam yang sudah akrab",
+              "title_en": "A familiar dinner",
+              "body_id": [
+                "Makan malam biasanya nasi, satu lauk sayur, satu lauk ikan atau ayam, dan sup. Popo biasanya makan sekitar setengah mangkuk nasi, kadang sedikit lebih banyak. Ikuti seleranya, bukan batas porsi yang kaku.",
+                "Ia suka makanan lembut dan tidak kering, dengan sedikit kuah atau saus untuk nasinya, misalnya saus dari ikan kukus. Gunakan minyak, garam dan gula secukupnya. Kari Jepang dengan kentang dan ayam atau sayap ayam termasuk kesukaannya."
+              ],
+              "body_en": [
+                "Dinner is usually rice, a vegetable dish, a fish or chicken dish, and soup. Popo usually has about half a bowl of rice, sometimes a little more. Follow her appetite rather than a rigid portion limit.",
+                "She likes soft, moist food with some juices or sauce for her rice, such as the sauce from steamed fish. Use modest oil, salt and sugar. Japanese curry with potato and chicken or chicken wings is among her favourites."
+              ]
+            },
+            {
+              "id": "ch3-comedy-company",
+              "title_id": "Komedi dan waktu bersama",
+              "title_en": "Comedy and time together",
+              "body_id": [
+                "Sesudah makan, Lis mengajak Popo menonton komedi YouTube. Lis mencuci piring dan membuang sampah, lalu kembali menonton bersama. Obat malam tetap mengikuti panduan tertulis, bukan urutan dari cerita ini.",
+                "Bantu mengganti saluran jika Popo lupa caranya. Acara makanan, perjalanan atau hewan juga bisa ditawarkan. Ikuti minatnya dan kurangi suara atau tontonan bila membuatnya tidak nyaman."
+              ],
+              "body_en": [
+                "After the meal, Lis invites Popo to watch YouTube comedy. Lis washes the dishes and takes out rubbish, then returns to watch together. Evening medicines still follow the written plan, not the order of this story.",
+                "Help change channels if Popo forgets how. Food, travel or animal programmes can also be offered. Follow her interest and reduce sound or viewing if it makes her uncomfortable."
+              ]
+            },
+            {
+              "id": "ch3-evening-care",
+              "title_id": "Perawatan malam",
+              "title_en": "Evening care",
+              "body_id": [
+                "Lis mengoleskan losion pada tangan atau lengan serta kaki Popo. Pemeriksaan tekanan darah dan pencatatannya mengikuti panduan yang ditunjukkan saat serah terima.",
+                "Bantuan perawatan kaki, kulit dan rambut, serta melepas dan membersihkan gigi palsu, tetap perlu dipelajari. Lis dan keluarga akan melatih Anda memakai cara dan produk yang sesuai dengan petunjuk perawatan yang sudah ditinjau. Jangan menggantinya dengan cara atau bahan buatan sendiri."
+              ],
+              "body_en": [
+                "Lis applies lotion to Popo’s hands or arms and feet or legs. Blood-pressure measurement and recording follow the plan shown during handover.",
+                "Support with foot, skin and hair care, and removing and cleaning dentures, still needs to be learned. Lis and the family will train you in the methods and products appropriate to the reviewed care instructions. Do not substitute improvised methods or materials."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch3-night",
+          "title_id": "Menjelang tidur dan saat malam",
+          "title_en": "Bedtime and during the night",
+          "icon": "home",
+          "cards": [
+            {
+              "id": "ch3-bedtime-comfort",
+              "title_id": "Bantal, selimut dan suasana tenang",
+              "title_en": "Pillow, blanket and a calm setting",
+              "body_id": [
+                "Lis menyiapkan bantal dan selimut saat Popo mau tidur. Buat kamar nyaman, tidak terlalu panas atau dingin, dan kurangi suara yang mengganggu.",
+                "Lis kadang memeluk Popo sebelum tidur. Ini kebiasaan mereka, bukan kewajiban Anda. Sentuhan hanya jika Popo menyukainya dan Anda juga nyaman."
+              ],
+              "body_en": [
+                "Lis prepares Popo’s pillow and blanket at bedtime. Keep the room comfortable, neither too hot nor cold, and reduce disturbing noise.",
+                "Lis sometimes hugs Popo before sleep. This is their habit, not your obligation. Touch is only for when it is welcome to Popo and comfortable for you too."
+              ]
+            },
+            {
+              "id": "ch3-night-pattern",
+              "title_id": "Bantuan malam dan tidur Anda",
+              "title_en": "Nighttime support and your sleep",
+              "body_id": [
+                "Keluarga memperkirakan Popo bangun sekitar dua atau tiga kali semalam untuk ke toilet. Kadang ia tidur lagi, kadang sulit kembali tidur. Biasanya ia tidak membangunkan Lis untuk meminta bantuan; ini bukan bukti bahwa ia aman berjalan sendiri saat malam.",
+                "Saat membantu, Lis menuntun Popo ke toilet dan kembali ke tempat tidur. Anda tidak diharapkan berjaga, memasang alarm atau berulang kali bangun untuk mengecek. Jika Anda kebetulan terbangun dan mengetahui ia perlu bantuan, gunakan cara aman yang sudah diajarkan.",
+                "Keluarga dan Anda perlu menyepakati bantuan saat Anda tidur, termasuk penerangan dan jalur ke toilet serta akses alat bantu jalan. Jika kebutuhan malam belum terpenuhi atau istirahat Anda terganggu, tinjau rencananya bersama keluarga."
+              ],
+              "body_en": [
+                "The family estimates that Popo wakes around two or three times a night to use the toilet. Sometimes she returns to sleep; sometimes it is difficult. She usually does not wake Lis to ask for help; this is not proof that she is safe walking alone at night.",
+                "When assisting, Lis guides Popo to the toilet and back to bed. You are not expected to stay awake, set alarms or repeatedly wake to check. If you naturally wake and become aware she needs help, use the safe method taught to you.",
+                "The family and you need to agree support while you sleep, including lighting, the route to the toilet and access to walking aids. If nighttime needs are unmet or your rest is disrupted, review the plan together with the family."
+              ]
+            },
+            {
+              "id": "ch3-sleep-plan-only",
+              "title_id": "Sulit tidur: ikuti panduan obat",
+              "title_en": "Trouble sleeping: follow the medicine plan",
+              "body_id": [
+                "Keluarga melaporkan ada panduan obat untuk tidur dan perilaku yang disetujui dokter. Lis dan keluarga akan menunjukkan panduan tertulis yang berlaku, termasuk persetujuan keluarga bila memang diperlukan dalam panduan itu.",
+                "Bila Popo terus sulit tidur, hubungi keluarga dan ikuti panduan tersebut. Jangan menambah, mengulang atau mengubah obat sendiri. Sebutan seperti obat malam atau obat tambahan bukan petunjuk dosis atau urutan pemberian."
+              ],
+              "body_en": [
+                "The family reports a doctor-approved medicine plan for sleep and behaviour. Lis and the family will show the current written plan, including family approval where the plan requires it.",
+                "If Popo continues to struggle with sleep, contact the family and follow that plan. Do not add, repeat or change medicines yourself. Terms such as night medicine or extra medicine are not dosing or administration-sequence instructions."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch3-weekends",
+          "title_id": "Akhir pekan dan hari tanpa pusat kegiatan",
+          "title_en": "Weekends and days without the centre",
+          "icon": "walk",
+          "cards": [
+            {
+              "id": "ch3-park-mall-treat",
+              "title_id": "Pilihan di rumah, taman dan es krim",
+              "title_en": "Choices at home, the park and ice cream",
+              "image": "outing-icecream",
+              "body_id": [
+                "Pada hari tanpa pusat kegiatan, sarapan dan perawatan tetap mengikuti kebiasaan serta panduan yang berlaku. Siapkan makan siang di rumah. Tawarkan koran, TV, mengobrol, melukis, kerajinan atau jalan sebentar sesuai minat dan kemampuan Popo hari itu. Mandi sendiri dan kegiatan malam bisa mengikuti kebiasaan hari biasa.",
+                "Pada akhir pekan dan hari libur, Lis dan keluarga mengajak Popo lihat-lihat toko di mal, bergerak ringan di taman dekat rumah, lalu menikmati es krim di McDonald’s. Ini waktu untuk bersenang-senang, tetap bergerak dan lebih siap beristirahat, bukan target latihan.",
+                "Makan malam Minggu biasanya bersama keluarga. Keluarga membantu atau ikut dalam kegiatan; rute dan pendampingan disesuaikan dengan kemampuan Popo saat ini."
+              ],
+              "body_en": [
+                "On days without the centre, breakfast and care still follow familiar habits and the current plan. Prepare lunch at home. Offer the newspaper, TV, conversation, painting, crafts or a short walk suited to Popo’s interest and ability that day. Self-bathing and evening activities can follow familiar weekday habits.",
+                "On weekends and holidays, Lis and the family take Popo to browse shops in the mall, do light activity at the nearby park, then enjoy ice cream at McDonald’s. This is time for enjoyment, movement and being more ready for rest, not an exercise target.",
+                "Sunday dinner is usually shared with family. The family helps with or joins activities; routes and support are adapted to Popo’s current ability."
+              ]
+            },
+            {
+              "id": "ch3-outing-ready",
+              "title_id": "Siap keluar, boleh mengubah rencana",
+              "title_en": "Ready to go out, free to change plans",
+              "body_id": [
+                "Bawa payung, handuk kecil, tisu, air minum dan kipas kecil bila diperlukan. Tambahkan jaket atau syal saat dingin. Berjalanlah dekat di samping Popo dan bantu memastikan langkahnya tetap mantap dengan cara yang sudah ditunjukkan.",
+                "Sesuaikan perjalanan dengan cuaca, rasa lelah dan kenyamanan. Boleh pulang lebih awal atau beristirahat; jangan memaksakan lama perjalanan agar Popo lelah atau tidur malam.",
+                "Siapa yang mendampingi akhir pekan harus disepakati bersama. Kerja hari Minggu bersifat sukarela atas persetujuan bersama, bukan kewajiban yang timbul dari contoh rutinitas Lis."
+              ],
+              "body_en": [
+                "Bring an umbrella, small towel, tissues, drinking water and a small portable fan when needed. Add a jacket or scarf in cold weather. Walk close alongside Popo and help check her steps are steady using the method shown to you.",
+                "Adapt the outing to weather, tiredness and comfort. Returning early or resting is fine; do not force its duration to tire Popo out or make her sleep at night.",
+                "Weekend accompaniment must be agreed together. Sunday work is voluntary by mutual consent, not an obligation created by Lis’s routine example."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch3-together",
+          "title_id": "Kegiatan kecil yang bermakna",
+          "title_en": "Small activities that matter",
+          "icon": "hand",
+          "cards": [
+            {
+              "id": "ch3-read-surroundings",
+              "title_id": "Dengarkan yang ingin Popo bagikan",
+              "title_en": "Listen to what Popo wants to share",
+              "body_id": [
+                "Bicaralah tenang dengan kalimat pendek, satu hal dulu, lalu beri waktu menjawab. Lis dan keluarga akan membantu Anda belajar bahasa Kanton sehari-hari yang akrab bagi Popo. Tidak perlu terus mengajukan pertanyaan; dengarkan juga obrolan yang ia mulai sendiri.",
+                "Di rumah, koran, berita hari ini atau acara TV bisa menjadi bahan obrolan. Saat keluar, Lis menunjuk harga, menu, nama atau papan toko dan iklan, lalu bertanya artinya. Popo senang menjelaskan; ikuti minatnya, bukan menjadikannya ujian.",
+                "Popo juga punya pengetahuan memasak untuk dibagikan. Anda bisa bertanya tentang masakan, melipat handuk kecil, menggambar atau membuat kerajinan bersama. Pilih bagian yang ia minati dan aman baginya. Permainan atau bahan latihan dipakai setelah keluarga menunjukkan yang sesuai, tanpa target jumlah kegiatan."
+              ],
+              "body_en": [
+                "Speak calmly in short sentences, one idea at a time, then allow time to reply. Lis and the family will help you learn everyday Cantonese familiar to Popo. There is no need for constant questions; listen to conversations she starts herself too.",
+                "At home, the newspaper, today’s news or TV programmes can start conversation. On outings, Lis points to prices, menus, shop names or signs and advertisements, then asks their meaning. Popo enjoys explaining; follow her interest rather than making it a test.",
+                "Popo also has cooking knowledge to share. You can ask about dishes, fold small towels, draw or make crafts together. Choose parts she enjoys and can do safely. Use games or practice materials after the family shows suitable ones, without an activity-count target."
+              ]
+            },
+            {
+              "id": "ch3-family-conversation",
+              "title_id": "Cerita keluarga, bukan kuis",
+              "title_en": "Family stories, not a quiz",
+              "body_id": [
+                "Lis dan keluarga mengobrol tentang anak dan keluarga Popo, jumlah serta nama saudaranya, orang tua, tempat tinggal sekarang, kampung asal, rumah dan toko dulu, serta empat pembantu keluarganya. Keluarga melaporkan obrolan seperti ini sekitar tiga atau empat kali sehari. Ini kebiasaan mereka, bukan kuota Anda atau jaminan menjaga ingatan.",
+                "Jika Popo kesulitan mengingat nama, beri petunjuk kecil berupa marga atau satu huruf Tionghoa dalam nama itu. Keluarga akan menunjukkan nama dan pengucapannya. Jika suasana hatinya buruk, ganti topik, misalnya tugas yang ia kenal di pusat kegiatan, daripada mengulang pertanyaan.",
+                "Keluarga menelepon Popo atas inisiatif mereka setiap hari. Saat perlu dukungan, Lis mengirim pesan agar mereka mencari cara menenangkan Popo bersama. Mereka bisa mengalihkan perhatian ke musik, masa muda atau teman-temannya, berhenti dulu dari percakapan langsung, lalu kembali bercanda ketika kekesalannya mereda. Keluarga menindaklanjuti lewat telepon dan dukungan bersama; Anda tidak perlu menangani semuanya sendiri."
+              ],
+              "body_en": [
+                "Lis and the family chat about Popo’s children and family, the number and names of her siblings, her parents, current home, hometown, former home and shop, and the family’s four helpers. The family reports these conversations around three or four times a day. This is their habit, not your quota or a guarantee of preserving memory.",
+                "If Popo struggles to remember a name, give a small hint with the surname or one Chinese character in it. The family will show names and pronunciation. If her mood is bad, change topic, for example to the role she knows at the centre, rather than repeating the question.",
+                "The family calls Popo proactively every day. When support is needed, Lis messages them so they can work out together how to calm Popo. They may redirect attention to music, younger days or friends, pause direct conversation, then return to joking as the upset fades. The family follows through with calls and joint support; you do not need to manage everything alone."
+              ]
+            },
+            {
+              "id": "ch3-art-with-pauses",
+              "title_id": "Melukis berarti masih membantu keluarga",
+              "title_en": "Painting means still helping her family",
+              "body_id": [
+                "Seperti cerita di Bab 1, Popo percaya ia menjadi Manajer Ruang Sampel di pusat kegiatan: gambar dan kerajinannya dijual di India, dan kupon supermarket yang diterimanya membantu kebutuhan keluarga. Ini cerita rekaan keluarga, bukan pekerjaan atau upah sungguhan, tetapi rasa bangga dan kemampuannya nyata.",
+                "Buku gambar di rumah terasa seperti pekerjaan yang perlu diselesaikan. Dalam cerita itu, Lis dan keluarga melalui panggilan harian kadang menyemangati bahwa pekerjaan di rumah bisa menghasilkan tiga kali lebih banyak. Tidak perlu mengulang semua cerita atau menjadikannya target karya; pahami mengapa kegiatan ini berarti baginya.",
+                "Popo dikenal tekun dan berbakat di pusat kegiatan. Di rumah ia bisa sangat fokus dan sulit berhenti sebelum tugas selesai. Mengajaknya beristirahat tidak selalu mudah; bekerja samalah dengan keluarga saat ia perlu jeda, tanpa menganggap ia akan langsung berhenti ketika diminta."
+              ],
+              "body_en": [
+                "As described in Chapter 1, Popo believes she is the centre’s Sample Room Manager: her paintings and crafts are sold in India, and the supermarket coupons she receives help support her family. This is a family-created story, not real employment or pay, but her pride and ability are real.",
+                "A painting book at home feels like assigned work to finish. Within that story, Lis and the family on daily calls sometimes encourage her that work at home can earn three times more. There is no need to repeat the entire story or make it an artwork target; understand why the activity matters to her.",
+                "Popo is known for commitment and talent at the centre. At home she can become deeply focused and find it hard to stop before a task is finished. Getting her to rest is not always easy; work with the family when she needs a pause, rather than assuming she will stop immediately when asked."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch3-meals",
+          "title_id": "Makanan: mulai dari yang akrab",
+          "title_en": "Food: start with what is familiar",
+          "icon": "note",
+          "cards": [
+            {
+              "id": "ch3-breakfast-options",
+              "title_id": "Pilihan sarapan",
+              "title_en": "Breakfast choices",
+              "body_id": [
+                "Selain bubur putih, pilihan yang akrab adalah bubur daging ikan dengan irisan selada Tionghoa dan jahe, telur rebus, jagung kukus atau ubi kukus. Bubur ikan kadang juga menjadi makan siang di rumah pada akhir pekan.",
+                "Keluarga menyediakan susu asin Daliang untuk pendamping bubur putih; Popo menambahkannya sendiri ke mangkuknya. Ini pilihan makanan yang pernah dinikmati, bukan daftar yang harus disajikan semuanya."
+              ],
+              "body_en": [
+                "Alongside plain congee, familiar choices include fish-meat congee with shredded Chinese lettuce and ginger, boiled eggs, steamed corn or steamed sweet potato. Fish congee is sometimes also lunch at home on weekends.",
+                "The family supplies Daliang salted milk to accompany plain congee; Popo adds it to her own bowl. These are foods enjoyed over time, not a list to serve in full."
+              ]
+            },
+            {
+              "id": "ch3-meal-company-library",
+              "title_id": "Makan bersama, belajar sedikit demi sedikit",
+              "title_en": "Share meals, learn a little at a time",
+              "body_id": [
+                "Popo biasanya makan tiga kali sehari dan senang ada teman mengobrol saat makan. Anda tidak harus makan hidangan yang sama atau mengabaikan pilihan makanan dan agama Anda.",
+                "Untuk makan siang di rumah, pilih masakan yang sudah akrab: nasi dengan sayur dan ikan atau ayam, sup, bubur ikan, atau mi kuah dengan sayuran lembut dan isian yang sudah dipastikan tanpa babi. Telur kukus, tumis telur dan tomat, selada, sawi serta beberapa masakan Indonesia tanpa cabai, termasuk tempe goreng, juga pernah dinikmati Popo.",
+                "Lis akan menunjukkan belanja di pasar basah dan memasak bersama. Pilihan menu dan foto membantu Anda belajar, bukan jadwal wajib atau tuntutan menguasai semua masakan. Untuk acara keluarga atau hari raya, rencanakan memasak lebih banyak bersama, bukan mendadak membebankannya kepada Anda."
+              ],
+              "body_en": [
+                "Popo usually has three meals a day and enjoys company and conversation at meals. You do not have to eat the same dishes or disregard your food and religious choices.",
+                "For lunch at home, choose familiar cooking: rice with vegetables and fish or chicken, soup, fish congee, or soup noodles with soft vegetables and fillings confirmed to contain no pork. Popo has also enjoyed steamed egg, stir-fried tomato and egg, lettuce, sawi greens and some Indonesian dishes without chilli, including fried tempeh.",
+                "Lis will show wet-market shopping and cooking together. Menu choices and photos help you learn; they are not a compulsory schedule or a demand to master every dish. For family occasions or festivals, plan extra cooking together rather than leaving it to you at short notice."
+              ]
+            },
+            {
+              "id": "ch3-food-boundaries",
+              "title_id": "Bahan dan minuman yang dihindari",
+              "title_en": "Ingredients and drinks to avoid",
+              "body_id": [
+                "Ikuti pilihan keluarga saat ini: jangan sajikan babi atau kacang (nuts). Periksa bahan makanan kemasan dan isian yang belum dikenal bersama Lis. Tangyuan isi wijen hitam yang disebut di bab ini tetap termasuk camilan yang diminta keluarga; wijen bukan kacang.",
+                "Jangan berikan teh atau cola. Keluarga melaporkan keduanya membuat Popo sulit tidur. Batas tahu dari keluarga adalah sekali setiap dua minggu; batas ini untuk tahu, bukan telur.",
+                "Ini aturan makanan keluarga. Lis dan keluarga akan menunjukkan bahan dan pilihan yang sesuai saat belanja dan memasak."
+              ],
+              "body_en": [
+                "Follow the family’s current food choices: do not serve pork or nuts. Check packaged ingredients and unfamiliar fillings with Lis. The black-sesame tangyuan mentioned in this chapter remains a family-requested snack; sesame is not a nut.",
+                "Do not give tea or cola. The family reports that both make it hard for Popo to sleep. The family’s tofu limit is once every two weeks; this applies to tofu, not eggs.",
+                "These are family food rules. Lis and the family will show suitable ingredients and choices during shopping and cooking."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch3-comfort",
+          "title_id": "Air, cahaya dan suhu yang nyaman",
+          "title_en": "Water, light and comfortable temperature",
+          "icon": "home",
+          "cards": [
+            {
+              "id": "ch3-water-ready",
+              "title_id": "Air minum mudah dijangkau",
+              "title_en": "Keep drinking water accessible",
+              "body_id": [
+                "Isi kembali botol air minum Popo dan taruh di tempat yang mudah dijangkau. Tawarkan air putih saat makan, sesudah mandi dan saat berjalan-jalan. Air madu boleh menemani camilan sesuai kebiasaan, tetapi air putih tetap tersedia.",
+                "Popo sering merasa haus. Jangan memaksanya menghabiskan takaran tertentu. Jika dokter memberikan panduan jumlah cairan, ikuti panduan itu."
+              ],
+              "body_en": [
+                "Refill Popo’s drinking-water bottle and keep it within easy reach. Offer plain water at meals, after bathing and during outings. Honey water can accompany snacks as usual, but plain water remains available.",
+                "Popo often feels thirsty. Do not force her to finish a set amount. If her doctor gives fluid-amount guidance, follow it."
+              ]
+            },
+            {
+              "id": "ch3-heat-cool-clothes",
+              "title_id": "Nyaman saat panas atau dingin",
+              "title_en": "Comfort in hot or cold weather",
+              "body_id": [
+                "Keluarga melaporkan Popo mudah berkeringat, memakai banyak tisu dan bisa sering berganti pakaian atau ingin mandi saat panas. Bantu menyediakan pakaian dan seprai yang bersih serta kering; ganti yang lembap. Gunakan produk perawatan dan pencucian yang ditunjukkan saat serah terima, sesuai petunjuk produknya.",
+                "Tawarkan kipas atau AC agar nyaman. Bila Popo khawatir biaya listrik, tenangkan bahwa keluarga mengurus biayanya. Popo suka sirkulasi udara dan bisa membuka banyak jendela meski dingin; tawarkan jaket bila perlu. Anda juga boleh mengatakan jika merasa kedinginan dan membicarakan kenyamanan bersama.",
+                "Kalau keluhan panas atau rasa tidak nyaman baru muncul atau jauh lebih berat dari biasanya, beri tahu keluarga. Keadaan darurat perlu pertolongan medis, bukan hanya mengubah suhu ruangan."
+              ],
+              "body_en": [
+                "The family reports that Popo sweats easily, uses many tissues and may change clothes often or want to bathe when hot. Help keep clothes and bedding clean and dry; change damp items. Use the care and laundry products shown during handover according to their instructions.",
+                "Offer a fan or air conditioning for comfort. If Popo worries about electricity cost, reassure her that the family handles it. Popo likes airflow and may open many windows even in cold weather; offer a jacket when needed. You may also say if you feel cold and discuss comfort together.",
+                "If feeling hot or uncomfortable is new or much worse than usual, tell the family. An emergency needs medical help, not just a change in room temperature."
+              ]
+            },
+            {
+              "id": "ch3-daylight-dusk",
+              "title_id": "Cahaya sebelum rumah terasa gelap",
+              "title_en": "Light before the home feels dark",
+              "body_id": [
+                "Pada siang hari, nikmati cahaya alami di tempat yang nyaman bila memungkinkan. Sesuaikan kegiatan dan istirahat dengan keadaan Popo hari itu. Jangan memaksanya tidur siang, membangunkannya demi jadwal atau membuatnya kelelahan.",
+                "Saat cuaca mendung atau menjelang senja, nyalakan lampu sebelum rumah terasa gelap. Kurangi suara yang ramai; tawarkan musik akrab, kegiatan ringan atau duduk bersama.",
+                "Jika Popo gelisah, perhatikan apakah ia lapar, haus, perlu ke toilet, lelah atau tidak nyaman. Ceritakan pola baru atau berulang kepada keluarga. Jangan langsung menganggap setiap keluhan bagian dari demensia atau setiap kegelisahan sore sebagai sundowning."
+              ],
+              "body_en": [
+                "During the day, enjoy natural daylight in a comfortable place when possible. Adapt activity and rest to how Popo is that day. Do not force a nap, wake her to meet a timetable or exhaust her.",
+                "In gloomy weather or toward dusk, turn lights on before the home feels dark. Reduce busy noise; offer familiar music, a light activity or sitting together.",
+                "If Popo is restless, notice whether she is hungry, thirsty, needs the toilet, is tired or uncomfortable. Tell the family about new or recurring patterns. Do not immediately assume every complaint is part of dementia or every afternoon upset is sundowning."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "number": 4,
+      "short_id": "Saat hari terasa berat",
+      "short_en": "When days get hard",
+      "title_id": "Saat hari terasa berat",
+      "title_en": "When days get hard",
+      "subtitle_id": "Dengarkan perasaannya, beri waktu, dan minta dukungan. Perubahan mendadak atau bahaya perlu pertolongan segera.",
+      "subtitle_en": "Listen to her feelings, allow time, and ask for support. Sudden changes or danger need immediate help.",
+      "sections": [
+        {
+          "id": "ch4-food-again",
+          "title_id": "Jika suatu saat meminta makan lagi",
+          "title_en": "If she asks for food again",
+          "icon": "bowl",
+          "cards": [
+            {
+              "id": "ch4-food-check",
+              "title_id": "Kenali kebiasaannya sekarang",
+              "title_en": "Know her current habits",
+              "body_id": [
+                "Menurut Lis, Popo tidak meminta makanan tambahan setelah makan. Panduan ini untuk persiapan jika suatu saat hal itu terjadi, bukan kebiasaan yang sering terjadi sekarang.",
+                "Tetap ikuti kebiasaan makan dan camilan yang sudah dikenal. Jika permintaan atau seleranya berubah dengan cara yang tidak biasa, beri tahu keluarga."
+              ],
+              "body_en": [
+                "According to Lis, Popo does not ask for extra food after eating. This guidance is preparation in case it happens, not a frequent current habit.",
+                "Keep following her familiar meal and snack habits. Tell family if her requests or appetite change in an unusual way."
+              ]
+            },
+            {
+              "id": "ch4-food-words",
+              "title_id": "Tanggapi laparnya, bukan menguji ingatan",
+              "title_en": "Respond to hunger, not with a memory test",
+              "kind": "dialogue",
+              "body_id": [
+                "Jika Popo mengatakan masih lapar, dengarkan dan cek apa yang sudah dimakan serta makanan atau camilan yang sesuai. Jangan berdebat untuk membuktikan bahwa ia sudah makan, atau langsung menolak makanan hanya karena ia mungkin lupa."
+              ],
+              "body_en": [
+                "If Popo says she is still hungry, listen and check what she has eaten and what meal or snack would be suitable. Do not argue to prove she has already eaten, or automatically withhold food because she may have forgotten."
+              ],
+              "dialogue": [
+                {
+                  "speaker": "Helper",
+                  "text_id": "Popo masih lapar, ya? Saya cek dulu makanan atau camilan yang cocok untuk Popo.",
+                  "text_en": "Still hungry, Popo? Let me check what food or snack would be suitable for you."
+                }
+              ],
+              "note_id": "Contoh kalimat untuk disesuaikan dalam bahasa Kanton sehari-hari, bukan kata-kata persis dari Lis.",
+              "note_en": "Example wording to adapt in everyday Cantonese, not Lis’s exact words."
+            }
+          ]
+        },
+        {
+          "id": "ch4-anger",
+          "title_id": "Saat Popo kesal atau marah",
+          "title_en": "When Popo is upset or angry",
+          "icon": "heart",
+          "cards": [
+            {
+              "id": "ch4-anger-needs",
+              "title_id": "Suara tenang, satu hal dulu",
+              "title_en": "A calm voice, one thing at a time",
+              "body_id": [
+                "Gunakan kalimat pendek dengan nada tenang, satu hal dulu, lalu beri waktu Popo menjawab. Periksa dengan lembut apakah ada yang membuatnya tidak nyaman; ini kemungkinan untuk diperhatikan, bukan kesimpulan tentang penyebab marahnya."
+              ],
+              "body_en": [
+                "Use short sentences in a calm voice, one idea at a time, then give Popo time to reply. Gently check whether something is uncomfortable; these are possibilities to notice, not a diagnosis of why she is angry."
+              ],
+              "bullets_id": [
+                "Lapar atau haus, atau perlu ke toilet.",
+                "Nyeri, kepanasan, kedinginan, lelah, atau pakaian yang lembap.",
+                "Terlalu banyak suara, suasana gelap, atau ingin ditemani."
+              ],
+              "bullets_en": [
+                "Hunger or thirst, or needing the toilet.",
+                "Pain, feeling too hot or cold, tiredness, or damp clothing.",
+                "Too much noise, darkness, or wanting company."
+              ]
+            },
+            {
+              "id": "ch4-anger-heard",
+              "title_id": "Dengarkan kekhawatirannya; kami ikut membantu",
+              "title_en": "Hear her worry; we help too",
+              "body_id": [
+                "Saat kesal, Popo bisa khawatir barangnya diambil atau rumahnya dijual. Dengarkan perasaannya tanpa membenarkan cerita itu sebagai fakta atau menyalahkan ingatannya.",
+                "Kami menelepon Popo setiap hari atas inisiatif kami, bukan hanya saat diminta. Saat Lis perlu dukungan, ia mengirim pesan; kami mencari cara menenangkan Popo bersama dan menelepon untuk menindaklanjuti atau mendukung Lis."
+              ],
+              "body_en": [
+                "When upset, Popo may worry that her belongings have been taken or her home is being sold. Listen to her feelings without confirming the story as fact or blaming her memory.",
+                "We call Popo proactively every day, not only when asked. When Lis needs support, she messages us; we work out how to calm Popo together and call to follow through or support Lis."
+              ]
+            },
+            {
+              "id": "ch4-anger-dark",
+              "title_id": "Saat suasana mulai gelap",
+              "title_en": "When things grow gloomy",
+              "body_id": [
+                "Popo kadang lebih gelisah saat mendung, hujan, atau menjelang malam. Nyalakan lampu sebelum ruangan terlalu gelap dan kurangi kebisingan, lalu tawarkan musik yang akrab, komedi, atau kegiatan sederhana bersama."
+              ],
+              "body_en": [
+                "Popo can sometimes be more unsettled in gloomy weather, rain, or toward evening. Turn on lights before the room gets too dark and reduce noise, then offer familiar music, comedy, or a simple activity together."
+              ],
+              "note_id": "Ikuti kenyamanannya hari itu; tidak ada pilihan yang selalu berhasil.",
+              "note_en": "Follow what feels comfortable that day; no choice always works."
+            },
+            {
+              "id": "ch4-anger-space",
+              "title_id": "Beri jeda pada percakapan",
+              "title_en": "Give the conversation a pause",
+              "body_id": [
+                "Lis kadang pergi ke dapur saat Popo mengucapkan kata-kata menyakitkan, daripada meneruskan perdebatan. Jeda pada percakapan bukan berarti mengabaikan Popo jika ia membutuhkan bantuan atau ada risiko yang perlu diperhatikan.",
+                "Lis dan keluarga bisa mengalihkan perhatian ke musik, masa muda, atau teman-temannya, atau berhenti dulu dari percakapan langsung. Saat hal kecil yang membuatnya kesal mulai terlupakan, Lis kembali mengajaknya bercanda dengan lembut; keluarga ikut menindaklanjuti melalui telepon."
+              ],
+              "body_en": [
+                "Lis sometimes steps into the kitchen when Popo uses hurtful words, rather than continuing an argument. Pausing the conversation does not mean ignoring Popo if she needs help or a risk needs attention.",
+                "Lis and family may divert attention to music, younger days, or friends, or pause direct conversation for a while. As the small upset fades, Lis starts gently joking with her again; family follows through with calls."
+              ]
+            },
+            {
+              "id": "ch4-anger-you",
+              "title_id": "Perasaan Anda juga penting",
+              "title_en": "Your feelings matter too",
+              "kind": "support",
+              "body_id": [
+                "Kata-kata yang menyakitkan tetap bisa membuat Anda sedih, kesal, atau lelah. Merasa terluka bukan berarti Anda gagal merawat Popo.",
+                "Beri tahu kami apa yang terjadi dan bagaimana perasaan Anda, agar kita bisa membahas dukungan bersama. Anda tidak harus menanggung saat-saat sulit ini sendirian."
+              ],
+              "body_en": [
+                "Hurtful words can still leave you sad, frustrated, or tired. Feeling hurt does not mean you have failed in caring for Popo.",
+                "Tell us what happened and how you feel so we can discuss support together. You do not have to carry these difficult moments alone."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch4-home",
+          "title_id": "Saat ingin pulang ke rumah lama",
+          "title_en": "When she wants to go to her old home",
+          "icon": "home",
+          "cards": [
+            {
+              "id": "ch4-home-comfort",
+              "title_id": "Dengarkan apa yang dirindukannya",
+              "title_en": "Listen to what she misses",
+              "kind": "dialogue",
+              "body_id": [
+                "Lis sering mendengar Popo mengingat rumah lamanya dan ingin kembali ke sana. Dengarkan apa yang ia rindukan, lalu tawarkan duduk bersama atau kegiatan yang akrab.",
+                "Tidak perlu memaksa ia menerima penjelasan tentang tempat tinggalnya sekarang atau berdebat tentang sudah berapa lama ia tinggal di sini. Jangan menjanjikan perjalanan yang belum disepakati atau mengatakan rumah akan dijual untuk menghentikan pertanyaannya."
+              ],
+              "body_en": [
+                "Lis often hears Popo remembering her old home and wanting to return there. Listen to what she misses, then offer to sit together or do something familiar.",
+                "There is no need to force an explanation about her present home or argue about how long she has lived here. Do not promise an unarranged trip or say the house will be sold to stop her questions."
+              ],
+              "dialogue": [
+                {
+                  "speaker": "Helper",
+                  "text_id": "Popo rindu rumah yang dulu, ya? Saya temani dulu. Popo mau cerita tentang rumah itu?",
+                  "text_en": "Do you miss the old home, Popo? I will stay with you. Would you like to tell me about it?"
+                }
+              ],
+              "note_id": "Contoh kalimat untuk disesuaikan dalam bahasa Kanton sehari-hari, bukan kata-kata persis dari Lis.",
+              "note_en": "Example wording to adapt in everyday Cantonese, not Lis’s exact words."
+            },
+            {
+              "id": "ch4-home-exit",
+              "title_id": "Jika ia mulai keluar rumah",
+              "title_en": "If she starts to leave",
+              "kind": "safety",
+              "body_id": [
+                "Bicaralah pelan, tetap temani dan jaga Popo terlihat bila aman, lalu hubungi keluarga untuk membantu. Jangan menarik, menahan paksa, atau mengejar dengan cara yang membahayakan Anda atau Popo."
+              ],
+              "body_en": [
+                "Speak calmly, stay with Popo and keep her in sight if safe, then call family for help. Do not pull, forcibly restrain, or pursue her in a way that endangers either of you."
+              ],
+              "bullets_id": [
+                "Jika Popo hilang dan Anda tidak tahu keberadaannya, telepon 999 segera; jangan menunggu balasan pesan.",
+                "Bahaya langsung, seperti di jalan raya atau kebakaran: telepon 999 segera.",
+                "Jangan lupa mengunci pintu depan sesuai pengaturan rumah yang disepakati. Jangan memberikan obat penenang di luar rencana tertulis dokter."
+              ],
+              "bullets_en": [
+                "If Popo is missing and you do not know where she is, call 999 immediately; do not wait for a message reply.",
+                "Immediate danger, such as traffic or fire: call 999 immediately.",
+                "Remember to lock the front door according to the agreed household arrangements. Do not give calming medicine outside the doctor’s written plan."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch4-husband",
+          "title_id": "Jika ia mencari suaminya",
+          "title_en": "If she looks for her husband",
+          "icon": "heart",
+          "cards": [
+            {
+              "id": "ch4-husband-meal",
+              "title_id": "Temani, tanpa mengulang kabar duka",
+              "title_en": "Offer company without repeating painful news",
+              "body_id": [
+                "Menurut Lis, Popo jarang membicarakan suaminya sekarang; catatan lama menyebut ia pernah ingin menunggu suaminya sebelum makan. Jika hal itu muncul, dengarkan dengan hangat, temani duduk, dan tawarkan makanan yang sudah siap tanpa menjanjikan beliau akan datang.",
+                "Tidak perlu mengulang kabar bahwa suaminya sudah meninggal; berhenti menjelaskan jika penjelasan membuatnya makin sedih atau ia menolaknya. Tawarkan musik atau kegiatan yang disukai, dan minta dukungan keluarga jika ia tetap sangat sedih atau gelisah."
+              ],
+              "body_en": [
+                "According to Lis, Popo rarely mentions her husband now; older notes describe her once wanting to wait for him before eating. If this arises, listen warmly, sit with her, and offer the food that is ready without promising he will come.",
+                "There is no need to repeat the news that her husband has died; stop explaining if it makes her more distressed or she rejects it. Offer music or an activity she enjoys, and ask family for support if she remains very sad or unsettled."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch4-missing",
+          "title_id": "Saat barang belum ketemu",
+          "title_en": "When belongings cannot be found",
+          "icon": "note",
+          "cards": [
+            {
+              "id": "ch4-missing-search",
+              "title_id": "Cari bersama, di tempat yang ia lihat",
+              "title_en": "Look together, where she can see",
+              "kind": "dialogue",
+              "body_id": [
+                "Popo suka memindahkan barang dari satu laci ke laci lain, jadi tempatnya bisa berubah. Jika ia merasa barang diambil, tanggapi kekhawatirannya tanpa membenarkan tuduhan, lalu ajak mencari bersama di tempat yang bisa ia lihat.",
+                "Bantu ia menemukan barangnya sendiri, bukan langsung mencari diam-diam di luar pandangannya. Tempat simpan yang disepakati bisa dicoba, tetapi barang tidak selalu tetap di sana."
+              ],
+              "body_en": [
+                "Popo likes moving belongings between drawers, so their location can change. If she feels something has been taken, respond to her worry without confirming the accusation, then offer to search together where she can see.",
+                "Help her find the item herself rather than immediately searching out of her sight. An agreed storage place can be tried, but things will not always stay there."
+              ],
+              "dialogue": [
+                {
+                  "speaker": "Helper",
+                  "text_id": "Barangnya belum ketemu, ya? Mari kita cari bersama, Popo.",
+                  "text_en": "It has not turned up yet? Let us look together, Popo."
+                }
+              ],
+              "note_id": "Contoh kalimat untuk disesuaikan dalam bahasa Kanton sehari-hari, bukan kata-kata persis dari Lis.",
+              "note_en": "Example wording to adapt in everyday Cantonese, not Lis’s exact words."
+            },
+            {
+              "id": "ch4-missing-packing",
+              "title_id": "Barangnya dihormati, privasi Anda juga",
+              "title_en": "Respect her belongings and your privacy too",
+              "body_id": [
+                "Popo senang mengecek, mengemas, membongkar, dan menata pakaian atau aksesori di kamarnya. Bila aman, biarkan ia mengatur dengan caranya sendiri dan tanyakan dulu sebelum memindahkan barang atau mengubah isi laci.",
+                "Kamar dan barang pribadi Anda juga perlu dihormati. Jika ada kekhawatiran tentang batas ruang pribadi, bicarakan pengaturannya dengan keluarga; jangan menganggap Anda harus melepas privasi karena Popo bingung."
+              ],
+              "body_en": [
+                "Popo enjoys checking, packing, unpacking, and arranging clothes or accessories in her room. If safe, let her arrange them her own way and ask before moving things or changing drawer contents.",
+                "Your room and personal belongings deserve respect too. If there are concerns about private-space boundaries, discuss the arrangements with family; do not assume you must give up privacy because Popo is confused."
+              ]
+            },
+            {
+              "id": "ch4-missing-collection",
+              "title_id": "Tidak semua simpanannya sampah",
+              "title_en": "Not everything she keeps is rubbish",
+              "body_id": [
+                "Popo bisa menyimpan tisu, masker, wadah plastik, kantong, kotak, atau kemasan di tas, saku, dan lemari. Jangan mengejek barangnya atau berjanji menyimpan lalu diam-diam membuangnya.",
+                "Sepakati dengan keluarga mana barang milik Popo atau benda bersih yang boleh disimpan, serta cara menangani benda kotor atau berisiko. Jika ada bahaya langsung, minta bantuan dan utamakan keselamatan tanpa berebut barang."
+              ],
+              "body_en": [
+                "Popo may keep tissues, masks, plastic containers, bags, boxes, or packaging in bags, pockets, and cupboards. Do not ridicule her belongings or promise to keep something and then secretly throw it away.",
+                "Agree with family which possessions or clean items can be kept, and how to handle dirty or hazardous items. If there is immediate danger, get help and prioritise safety without a struggle over the object."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch4-repetition",
+          "title_id": "Saat pertanyaan atau kebingungan terulang",
+          "title_en": "When questions or confusion repeat",
+          "icon": "chat",
+          "cards": [
+            {
+              "id": "ch4-repetition-meet",
+              "title_id": "Perkenalkan diri lagi dengan tenang",
+              "title_en": "Calmly introduce yourself again",
+              "kind": "dialogue",
+              "body_id": [
+                "Jika Popo tidak mengenali Anda, sebutkan nama dan peran Anda lagi tanpa menguji apakah ia ingat. Untuk pertanyaan yang terulang, jawab singkat dengan tenang dan jelaskan apa yang akan Anda lakukan sebelum mendekat atau membantu."
+              ],
+              "body_en": [
+                "If Popo does not recognise you, give your name and role again without testing whether she remembers. For repeated questions, give a short, calm answer and explain what you will do before coming closer or helping."
+              ],
+              "dialogue": [
+                {
+                  "speaker": "Helper",
+                  "text_id": "Popo, saya [nama]. Saya tinggal di sini untuk membantu Popo dan mengurus pekerjaan rumah.",
+                  "text_en": "Popo, I am [name]. I live here to help you and with household tasks."
+                }
+              ],
+              "note_id": "Contoh kalimat untuk disesuaikan dalam bahasa Kanton sehari-hari, bukan kata-kata persis dari Lis.",
+              "note_en": "Example wording to adapt in everyday Cantonese, not Lis’s exact words."
+            },
+            {
+              "id": "ch4-repetition-beliefs",
+              "title_id": "Ibadah dan pakaian Anda tetap dihormati",
+              "title_en": "Your faith and clothing remain respected",
+              "kind": "support",
+              "body_id": [
+                "Jika Popo terkejut melihat Anda berdoa atau memakai kerudung, jawab singkat dan tenang, lalu ganti topik bila perlu. Anda tetap bebas beribadah dan berpakaian sesuai keyakinan.",
+                "Jika pertanyaan yang berulang membuat Anda tertekan atau mengganggu waktu ibadah, beri tahu keluarga. Kami akan membantu membahas cara menjaga kenyamanan Anda dan Popo."
+              ],
+              "body_en": [
+                "If Popo is surprised by your prayer or head covering, answer briefly and calmly, then change the subject if needed. You remain free to practise your faith and dress accordingly.",
+                "If repeated questions distress you or disrupt prayer time, tell family. We will help discuss how to support both your comfort and Popo’s."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch4-independence",
+          "title_id": "Saat ingin mengerjakan sendiri",
+          "title_en": "When she wants to do it herself",
+          "icon": "hand",
+          "cards": [
+            {
+              "id": "ch4-independence-bath",
+              "title_id": "Mandi sendiri, tetap ditemani secukupnya",
+              "title_en": "Bathing herself, with support nearby",
+              "body_id": [
+                "Popo mandi sendiri dan tidak suka dibantu mencuci tubuhnya. Jika ingin mandi lagi, jangan mempermalukan atau berdebat tentang mandi sebelumnya; cek dengan lembut apakah ia kepanasan atau tidak nyaman.",
+                "Tetap dekat untuk mengecek ia baik-baik saja, pastikan ventilasi bekerja, dan jaga privasinya. Periksa lantai benar-benar kering setelah penggunaan kamar mandi atau toilet, lalu tawarkan dukungan berjalan dengan cara yang sudah diajarkan jika dibutuhkan."
+              ],
+              "body_en": [
+                "Popo bathes herself and dislikes help washing her body. If she wants another bath, do not shame her or argue about the earlier bath; gently check whether she is hot or uncomfortable.",
+                "Stay nearby to check that she is alright, keep ventilation working, and preserve privacy. Check that the floor is completely dry after bathroom or toilet use, then offer walking support in the way you have been taught if needed."
+              ],
+              "note_id": "Jika ia tampak tidak sehat atau tidak aman, hentikan kegiatan dan minta bantuan, bukan memaksakan bantuan fisik. Pada malam hari, bantu jika Anda memang terjaga dan menyadari ia membutuhkan bantuan; Anda tidak diminta berjaga atau bangun berulang kali untuk mengecek, dan kebutuhan tambahan dibahas bersama keluarga.",
+              "note_en": "If she appears unwell or unsafe, pause the activity and seek help rather than forcing hands-on assistance. At night, help if naturally awake and aware that she needs assistance; you are not expected to stay awake or repeatedly wake to check, and extra needs are discussed with family."
+            },
+            {
+              "id": "ch4-independence-laundry",
+              "title_id": "Bantuan mencuci, tanpa berdebat",
+              "title_en": "Laundry help without an argument",
+              "body_id": [
+                "Popo mencuci dengan tangan hanya pakaian yang dipakainya sebelum mandi, lalu Lis membantu menjemur pakaian yang sudah dicuci. Pakaian lainnya dan seprai mudah terlupakan; Lis mencucinya juga, biasanya tanpa Popo menyadarinya.",
+                "Jika Popo belum mau pakaian kotornya dicuci, jangan berdebat atau diam-diam menyemprot pakaian dengan bahan kimia. Tawarkan bantuan kecil dan bahas bersama keluarga jika penolakan berlanjut, sambil tetap menghormati barang yang ia tata sendiri."
+              ],
+              "body_en": [
+                "Popo hand-washes only the clothes she wore before bathing, and Lis helps hang the washed clothes afterwards. Other clothes and bedding are easily forgotten; Lis washes those too, usually without Popo noticing.",
+                "If Popo does not want dirty clothes washed yet, do not argue or secretly spray them with chemicals. Offer a little help and discuss with family if refusal continues, while respecting the belongings she arranges herself."
+              ]
+            },
+            {
+              "id": "ch4-independence-finish",
+              "title_id": "Karyanya penting; berhenti bisa sulit",
+              "title_en": "Her work matters; stopping can be hard",
+              "body_id": [
+                "Lukisan dan kerajinan membuat Popo merasa kemampuan dan kontribusinya dihargai. Ia bisa sangat fokus dan ingin semua pekerjaannya selesai, jadi jangan menganggap ia pasti berhenti begitu diminta.",
+                "Hargai usahanya dan bekerja samalah dengan keluarga ketika ia perlu jeda. Menawarkan istirahat kecil atau menanyakan bagian mana yang ingin ia selesaikan dulu boleh dicoba, tetapi ini saran, bukan cara yang sudah terbukti berhasil pada Popo; jangan menambah janji hadiah, upah, atau tenggat rekaan."
+              ],
+              "body_en": [
+                "Painting and crafts help Popo feel that her skills and contribution are valued. She can become deeply focused and want all her work finished, so do not assume she will stop as soon as asked.",
+                "Appreciate her effort and work with family when she needs a pause. Offering a small break or asking which part she would like to finish first can be tried, but these are suggestions, not proven approaches for Popo; do not add invented rewards, pay promises, or deadlines."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch4-safety",
+          "title_id": "Bukan sekadar hari buruk: pertolongan segera",
+          "title_en": "Not just a bad day: immediate help",
+          "icon": "stop",
+          "cards": [
+            {
+              "id": "ch4-safety-sudden",
+              "title_id": "Bingung mendadak atau jauh berbeda",
+              "title_en": "Sudden or very different confusion",
+              "kind": "safety",
+              "body_id": [
+                "Jika Popo tiba-tiba bingung dengan cara baru atau jauh lebih bingung dari biasanya, cari bantuan medis darurat segera: telepon 999. Jangan menganggapnya hanya demensia atau menunggu balasan keluarga; beri tahu keluarga setelah menelepon.",
+                "Gelisah atau mengantuk yang baru atau jauh lebih berat juga perlu penilaian medis segera. Hubungi keluarga untuk membantu mencari pertolongan, tetapi jangan menebak penyebabnya atau hanya menunggu suasana hatinya membaik."
+              ],
+              "body_en": [
+                "If Popo suddenly becomes confused in a new way or much more confused than usual, get emergency medical help immediately: call 999. Do not assume it is only dementia or wait for family to reply; notify family after calling.",
+                "New or much worse agitation or drowsiness also needs prompt medical assessment. Contact family to help arrange care, but do not guess the cause or simply wait for her mood to improve."
+              ]
+            },
+            {
+              "id": "ch4-safety-emergency",
+              "title_id": "Tanda darurat: telepon 999 dulu",
+              "title_en": "Emergency signs: call 999 first",
+              "kind": "safety",
+              "body_id": [
+                "Untuk tanda-tanda di bawah, telepon 999 segera, lalu beri tahu keluarga dan ikuti petunjuk petugas. Jangan menunggu izin pribadi, balasan pesan, pengukuran tekanan darah, atau angka tekanan darah yang tinggi."
+              ],
+              "body_en": [
+                "For the signs below, call 999 immediately, then notify family and follow the dispatcher’s instructions. Do not wait for personal permission, a message reply, a blood-pressure measurement, or a high reading."
+              ],
+              "bullets_id": [
+                "Tidak bisa dibangunkan, pingsan dan belum pulih, atau napas sangat sulit, lambat, atau tidak normal.",
+                "Nyeri dada; wajah tiba-tiba mencong; lemah atau kebas mendadak, terutama pada satu sisi; sulit bicara; atau penglihatan berubah mendadak.",
+                "Jika tidak sadar atau sulit dibangunkan, jangan beri makanan, minuman, atau obat lewat mulut."
+              ],
+              "bullets_en": [
+                "She cannot be woken, has fainted and not recovered, or has severely difficult, slow, or abnormal breathing.",
+                "Chest pain; sudden facial droop; sudden weakness or numbness, especially on one side; difficulty speaking; or a sudden change in vision.",
+                "If unconscious or difficult to wake, do not give food, drink, or medicine by mouth."
+              ]
+            },
+            {
+              "id": "ch4-safety-medicine-refusal",
+              "title_id": "Obat ditolak atau belum tentu tertelan",
+              "title_en": "Medicine refused or swallowing uncertain",
+              "kind": "safety",
+              "body_id": [
+                "Lis melaporkan mengajak Popo mengobrol atau membaca koran ketika obat pagi ditolak, dan menonton komedi bersama ketika obat malam ditolak. Suasana yang lebih tenang tidak membuktikan obat sudah diterima atau tertelan.",
+                "Ikuti rencana obat tertulis yang sudah ditinjau; kebutuhan tiap obat bisa berbeda. Catat obat yang terlewat atau belum pasti tertelan serta apa yang benar-benar terlihat, lalu hubungi keluarga dan dokter atau apoteker untuk petunjuk."
+              ],
+              "body_en": [
+                "Lis reports chatting or reading the newspaper with Popo when morning medicine is refused, and watching comedy together when nighttime medicine is refused. A calmer mood does not prove that medicine was accepted or swallowed.",
+                "Follow the reviewed written medicine plan; different medicines can have different requirements. Record missed or uncertain medicine and what you actually observed, then contact family and the doctor or pharmacist for guidance."
+              ],
+              "bullets_id": [
+                "Jangan memaksa, menyebut obat sebagai vitamin, menyembunyikan dalam makanan atau minuman, menghancurkan, atau mengubah obat sendiri.",
+                "Jangan mengulang atau menambah dosis dengan menebak jika belum yakin obat tertelan. Kesulitan menelan perlu dibahas dengan tenaga kesehatan."
+              ],
+              "bullets_en": [
+                "Do not force, describe medicine as vitamins, hide it in food or drink, crush it, or change medicine on your own.",
+                "Do not guess and repeat or add a dose if swallowing is uncertain. Discuss swallowing difficulties with a healthcare professional."
+              ]
+            },
+            {
+              "id": "ch4-safety-after-medicine",
+              "title_id": "Pusing, mengantuk, atau langkah lebih goyah",
+              "title_en": "Dizzy, sleepy, or more unsteady",
+              "kind": "safety",
+              "body_id": [
+                "Jika Popo pusing, hampir pingsan, atau lebih mengantuk atau goyah dari biasanya, hentikan kegiatan dan jangan minta ia terus berjalan. Temani, hubungi keluarga, dan cari nasihat medis segera; jangan menunggu hasil tekanan darah atau menganggap keluhan aman karena angkanya tidak tinggi.",
+                "Bantuan berjalan harus sesuai yang sudah diajarkan, dan obat untuk tidur atau menenangkan hanya mengikuti rencana tertulis dokter beserta pemantauannya. Jika sulit dibangunkan, napas tidak normal, pingsan tanpa pulih, atau ada tanda darurat lain, telepon 999 terlebih dahulu."
+              ],
+              "body_en": [
+                "If Popo is dizzy, nearly faints, or is more sleepy or unsteady than usual, stop the activity and do not ask her to keep walking. Stay with her, contact family, and seek prompt medical advice; do not wait for a blood-pressure result or assume symptoms are safe because the reading is not high.",
+                "Walking assistance must follow what you have been taught, and sleep or calming medicine follows only the doctor’s written plan and monitoring instructions. If she is difficult to wake, has abnormal breathing, faints without recovering, or has other emergency signs, call 999 first."
+              ]
+            },
+            {
+              "id": "ch4-safety-fall",
+              "title_id": "Jika Popo jatuh, jangan buru-buru mengangkat",
+              "title_en": "If Popo falls, do not rush to lift her",
+              "kind": "safety",
+              "body_id": [
+                "Tetap tenang, tanyakan apakah ia sakit, dan perhatikan nyeri, perdarahan, atau posisi tubuh yang tidak wajar. Jangan menariknya bangun, mengangkat, atau memindahkannya sendiri."
+              ],
+              "body_en": [
+                "Stay calm, ask whether she is hurt, and notice pain, bleeding, or an unusual body position. Do not pull her up, lift her, or move her yourself."
+              ],
+              "bullets_id": [
+                "Telepon 999 jika diduga ada cedera kepala, leher, punggung atau pinggul, nyeri hebat, atau ia tidak bisa bangun. Ikuti petunjuk petugas dan jaga ia nyaman serta hangat.",
+                "Laporkan setiap jatuh kepada keluarga, meskipun ia tampak baik-baik saja. Nyeri atau keluhan lain setelah jatuh juga perlu penilaian medis segera. Bantuan selanjutnya mengikuti petunjuk petugas atau cara yang sudah diajarkan, bukan mencoba teknik mengangkat sendiri."
+              ],
+              "bullets_en": [
+                "Call 999 for suspected head, neck, back or hip injury, severe pain, or if she cannot get up. Follow the dispatcher’s instructions and keep her comfortable and warm.",
+                "Report every fall to family, even if she appears alright. Other pain or symptoms after a fall also need prompt medical assessment. Further assistance follows the dispatcher’s instructions or what you have been taught, not an improvised lifting technique."
+              ]
+            },
+            {
+              "id": "ch4-safety-call",
+              "title_id": "Saat menelepon untuk meminta bantuan",
+              "title_en": "When calling for help",
+              "kind": "safety",
+              "body_id": [
+                "Untuk keadaan darurat di Hong Kong, telepon 999 dan sebutkan lokasi lengkap, apa yang terjadi, keadaan Popo, serta nomor telepon yang bisa dihubungi. Jika siapa pun dalam bahaya langsung, minta pertolongan segera.",
+                "Untuk keadaan tidak darurat, hubungi keluarga lebih awal dan gunakan kontak cadangan yang disepakati jika belum ada jawaban. Pesan WhatsApp bukan pengganti telepon darurat; jangan menunda pertolongan sambil menunggu balasan."
+              ],
+              "body_en": [
+                "For an emergency in Hong Kong, call 999 and give the full location, what happened, Popo’s condition, and a callback number. If anyone is in immediate danger, get help immediately.",
+                "For non-emergencies, contact family early and use the agreed backup contact if there is no answer. WhatsApp messages are not a substitute for an emergency call; do not delay help while waiting for a reply."
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
