@@ -351,148 +351,299 @@
       "pixel_sha256": "b00453849a27536358d21589ddc50921e718ad59e6eab1b1857f5abbf5141ae0"
     },
     {
-      "file": "food-label-pending/R01-2027-brief-page-12-food-label-pending.png",
-      "thumbnail": "thumbnails/R01-2027-brief-page-12-food-label-pending.png",
-      "group": "food-label-pending",
-      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 12; individual dish label/ingredients pending.",
-      "caption_id": null,
-      "status": "Dish label pending",
+      "file": "food/R01-plain-congee-daliang-milk.png",
+      "thumbnail": "thumbnails/R01-plain-congee-daliang-milk.png",
+      "group": "food",
+      "caption_en": "Plain rice congee with Daliang salted milk (Shunde milk slices), the hometown accompaniment described as Chinese cheese. Popo adds it herself from the jar.",
+      "caption_id": "Bubur putih dengan Daliang milk (olahan susu asin dari Shunde), yang keluarga sebut keju Cina. Popo menambahkannya sendiri dari stoples.",
+      "status": "Family-confirmed dish photograph",
       "source_aliases": [
         "2027-photo-000.png",
-        "R01"
+        "R01",
+        "food-label-pending/R01-2027-brief-page-12-food-label-pending.png"
       ],
       "width": 1080,
       "height": 1920,
       "bytes": 1825120,
-      "pixel_sha256": "b420eb5c243a9b36d1e9c432376908d147a5942a5fc08039c2c8d58eb0a76247"
+      "pixel_sha256": "40256b8d1a90d1c4a87e10d868e994fe0084a2746e26c897cd0a72b59f2e319b"
     },
     {
-      "file": "food-label-pending/R02-2027-brief-page-12-food-label-pending.png",
-      "thumbnail": "thumbnails/R02-2027-brief-page-12-food-label-pending.png",
-      "group": "food-label-pending",
-      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 12; individual dish label/ingredients pending.",
-      "caption_id": null,
-      "status": "Dish label pending",
+      "file": "food/R02-steamed-rice-rolls-honey-lemon-water.png",
+      "thumbnail": "thumbnails/R02-steamed-rice-rolls-honey-lemon-water.png",
+      "group": "food",
+      "caption_en": "Steamed rice rolls with soy sauce, served with honey-lemon water.",
+      "caption_id": "Sarapan: cheung fun (rice rolls) kukus dengan kecap asin, disajikan bersama air madu lemon.",
+      "status": "Family-confirmed dish photograph",
       "source_aliases": [
         "2027-photo-001.png",
-        "R02"
+        "R02",
+        "food-label-pending/R02-2027-brief-page-12-food-label-pending.png"
       ],
       "width": 1080,
       "height": 1920,
       "bytes": 1519296,
-      "pixel_sha256": "8560ed39a1b091c1139b1561e7665be57320833e2084e8463ec414a9ad32438e"
+      "pixel_sha256": "352753f2fcc8a47802ec99c92b40c1ec0af15981b6ebc8f8813166bd210b3ee2"
     },
     {
-      "file": "food-label-pending/R04-2027-brief-page-12-food-label-pending.png",
-      "thumbnail": "thumbnails/R04-2027-brief-page-12-food-label-pending.png",
-      "group": "food-label-pending",
-      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 12; individual dish label/ingredients pending.",
-      "caption_id": null,
-      "status": "Dish label pending",
+      "file": "food/R04-popo-making-shanghai-wontons.png",
+      "thumbnail": "thumbnails/R04-popo-making-shanghai-wontons.png",
+      "group": "food",
+      "caption_en": "Popo wrapping home-made Shanghainese chicken wontons for weekend lunch—a favourite she used to make for the family.",
+      "caption_id": "Popo membungkus pangsit ayam ala Shanghai untuk makan siang akhir pekan—makanan kesukaan yang dulu ia buat untuk keluarga.",
+      "status": "Family-confirmed dish photograph",
       "source_aliases": [
         "2027-photo-003.png",
-        "R04"
+        "R04",
+        "food-label-pending/R04-2027-brief-page-12-food-label-pending.png"
       ],
       "width": 1080,
       "height": 1920,
       "bytes": 1733681,
-      "pixel_sha256": "898afd930f38ea45151a24eb5f569984ef6a46fcd6302c61da65c6ab0cd827b4"
+      "pixel_sha256": "325787a485b8e7f5930ead46964da7ce6cf397d3197b235c37441b077081f8ea"
     },
     {
-      "file": "food-label-pending/R05-2027-brief-page-12-food-label-pending.png",
-      "thumbnail": "thumbnails/R05-2027-brief-page-12-food-label-pending.png",
-      "group": "food-label-pending",
-      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 12; individual dish label/ingredients pending.",
-      "caption_id": null,
-      "status": "Dish label pending",
+      "file": "food/R05-finished-home-made-shanghai-wontons.png",
+      "thumbnail": "thumbnails/R05-finished-home-made-shanghai-wontons.png",
+      "group": "food",
+      "caption_en": "The finished home-made Shanghainese wontons prepared with Popo—paired with the photograph of her wrapping them.",
+      "caption_id": "Hasil pangsit ala Shanghai yang dibuat bersama Popo—dipasangkan dengan foto saat ia membungkusnya.",
+      "status": "Family-confirmed dish photograph",
       "source_aliases": [
         "2027-photo-004.png",
-        "R05"
+        "R05",
+        "food-label-pending/R05-2027-brief-page-12-food-label-pending.png"
       ],
       "width": 899,
       "height": 1599,
       "bytes": 1674103,
-      "pixel_sha256": "baf333d33cf809bdb28110320483a27c066c166aed9b46e75ac0353918ca9337"
+      "pixel_sha256": "bb972a272c6f023c88a0d73bb69adb8dfeaa41b94d46ccac8fcfdc277fabe0cb"
     },
     {
-      "file": "food-label-pending/R06-2027-brief-page-13-food-label-pending.png",
-      "thumbnail": "thumbnails/R06-2027-brief-page-13-food-label-pending.png",
-      "group": "food-label-pending",
-      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 13; individual dish label/ingredients pending.",
-      "caption_id": null,
-      "status": "Dish label pending",
+      "file": "food/R06-wonton-noodles-vegetables-white-pepper.png",
+      "thumbnail": "thumbnails/R06-wonton-noodles-vegetables-white-pepper.png",
+      "group": "food",
+      "caption_en": "Saturday lunch: wonton noodles with vegetables, with a bottle of white pepper available at the table.",
+      "caption_id": "Makan siang Sabtu: mi pangsit dengan sayuran. Lada putih tersedia di meja.",
+      "status": "Family-confirmed dish photograph",
       "source_aliases": [
         "2027-photo-005.png",
-        "R06"
+        "R06",
+        "food-label-pending/R06-2027-brief-page-13-food-label-pending.png"
       ],
       "width": 1536,
       "height": 2048,
       "bytes": 3019199,
-      "pixel_sha256": "0f54303a72e79cf1b29aa56d482a66cf63730f232fb02199b203ce8a30257443"
+      "pixel_sha256": "942f1acda8ca9c40344407ccdf0b99f9589136bb39132d748a477c9729972833"
     },
     {
-      "file": "food-label-pending/R07-2027-brief-page-13-food-label-pending.png",
-      "thumbnail": "thumbnails/R07-2027-brief-page-13-food-label-pending.png",
-      "group": "food-label-pending",
-      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 13; individual dish label/ingredients pending.",
-      "caption_id": null,
-      "status": "Dish label pending",
+      "file": "food/R07-dragon-fruit-painting-break.png",
+      "thumbnail": "thumbnails/R07-dragon-fruit-painting-break.png",
+      "group": "food",
+      "caption_en": "Dragon fruit, Popo’s favourite fruit treat, during a short painting break on Saturday or Sunday.",
+      "caption_id": "Buah naga, buah kesukaan Popo, sebagai camilan saat jeda singkat melukis pada Sabtu atau Minggu.",
+      "status": "Family-confirmed dish photograph",
       "source_aliases": [
         "2027-photo-006.png",
-        "R07"
+        "R07",
+        "food-label-pending/R07-2027-brief-page-13-food-label-pending.png"
       ],
       "width": 750,
       "height": 1000,
       "bytes": 646770,
-      "pixel_sha256": "61d0804786987f86c37235396a0c88387ee536de3c687de8f6ce7da67641cd45"
+      "pixel_sha256": "d9c0beb57a30f3c5984d7d056b81cd64b1e11b3eb367eb06e859f97bb18c4c82"
     },
     {
-      "file": "food-label-pending/R08-2027-brief-page-13-food-label-pending.png",
-      "thumbnail": "thumbnails/R08-2027-brief-page-13-food-label-pending.png",
-      "group": "food-label-pending",
-      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 13; individual dish label/ingredients pending.",
-      "caption_id": null,
-      "status": "Dish label pending",
+      "file": "food/R08-chicken-feet-pot-rice-tempeh-choy-sum.png",
+      "thumbnail": "thumbnails/R08-chicken-feet-pot-rice-tempeh-choy-sum.png",
+      "group": "food",
+      "caption_en": "Dinner: Chinese chicken-feet pot rice with ginger and oyster sauce, tempeh, choy sum, and winter-melon soup with coriander and egg drop.",
+      "caption_id": "Makan malam: nasi pot ceker ayam dengan jahe dan saus tiram, tempe, caisim, serta sup kundur dengan daun ketumbar dan telur.",
+      "status": "Family-confirmed dish photograph",
       "source_aliases": [
         "2027-photo-007.png",
-        "R08"
+        "R08",
+        "food-label-pending/R08-2027-brief-page-13-food-label-pending.png"
       ],
       "width": 1920,
       "height": 1080,
       "bytes": 2756352,
-      "pixel_sha256": "e39e0b843a19564802840ace0004b77528cf2cf84587ca4bcc4ed19dd5551869"
+      "pixel_sha256": "43ecab4d9569fbf0a53abb89722af72e3f00cb6fa1989d9d47ef8fb4a9d43f0b"
     },
     {
-      "file": "food-label-pending/R09-2027-brief-page-13-food-label-pending.png",
-      "thumbnail": "thumbnails/R09-2027-brief-page-13-food-label-pending.png",
-      "group": "food-label-pending",
-      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 13; individual dish label/ingredients pending.",
-      "caption_id": null,
-      "status": "Dish label pending",
+      "file": "food/R09-steamed-fish-ginger-spring-onion-choy-sum.png",
+      "thumbnail": "thumbnails/R09-steamed-fish-ginger-spring-onion-choy-sum.png",
+      "group": "food",
+      "caption_en": "Dinner: steamed fish with plenty of ginger, spring onion and soy sauce, served with choy sum and minced ginger; the vegetables may be steamed or pan-fried.",
+      "caption_id": "Makan malam: ikan kukus dengan banyak jahe, daun bawang dan kecap asin, disajikan dengan caisim dan jahe cincang. Sayur dapat dikukus atau ditumis.",
+      "status": "Family-confirmed dish photograph",
       "source_aliases": [
         "2027-photo-008.png",
-        "R09"
+        "R09",
+        "food-label-pending/R09-2027-brief-page-13-food-label-pending.png"
       ],
       "width": 1536,
       "height": 2048,
-      "bytes": 3003669,
-      "pixel_sha256": "b2a2d60d2164ab7027939bac26339a11d82a9f4b9817413d70cb6fd9c0d56175"
+      "bytes": 2545327,
+      "pixel_sha256": "f3caec28695d9f4f368d7cc6e663289d5689a4a4edb77fed63028c6c10337bb1",
+      "privacy_edit": "Incidental background writing hidden; people, food and full framing retained.",
+      "privacy_mask_normalised": [
+        0.94,
+        0.26,
+        1.0,
+        0.52
+      ]
     },
     {
-      "file": "food-label-pending/R10-2027-brief-page-13-food-label-pending.png",
-      "thumbnail": "thumbnails/R10-2027-brief-page-13-food-label-pending.png",
-      "group": "food-label-pending",
-      "caption_en": "Food photograph extracted from the supplied 2027 brief, page 13; individual dish label/ingredients pending.",
-      "caption_id": null,
-      "status": "Dish label pending",
+      "file": "food/R10-japanese-chicken-curry-potato-carrot.png",
+      "thumbnail": "thumbnails/R10-japanese-chicken-curry-potato-carrot.png",
+      "group": "food",
+      "caption_en": "Dinner: Japanese curry made from a curry block with potato, red carrot, chopped coriander and chicken wings or chicken meat, served with Chinese lettuce and white rice.",
+      "caption_id": "Makan malam: kari Jepang dari blok kari, dengan kentang, wortel merah, daun ketumbar cincang dan sayap atau daging ayam, disajikan bersama selada Cina dan nasi putih.",
+      "status": "Family-confirmed dish photograph",
       "source_aliases": [
         "2027-photo-009.png",
-        "R10"
+        "R10",
+        "food-label-pending/R10-2027-brief-page-13-food-label-pending.png"
       ],
       "width": 1536,
       "height": 2048,
       "bytes": 3086492,
-      "pixel_sha256": "77454ef2f6f36d2c28e565f68058e77fa2875a5e9ca90476ccb238bd4f031435"
+      "pixel_sha256": "fd0ab87f930f71e32b65639f3368ddead29f51c057b7f1ce48a08deb96a25328"
+    },
+    {
+      "file": "food/S01-sweet-potato-snow-fungus-sweet-soup.png",
+      "thumbnail": "thumbnails/S01-sweet-potato-snow-fungus-sweet-soup.png",
+      "group": "food",
+      "caption_en": "Popo eating sweet-potato and snow-fungus sweet soup, made with Chinese yellow sugar; an after-centre or weekend-afternoon treat.",
+      "caption_id": "Popo makan sup manis ubi jalar dan jamur salju dengan gula kuning Cina; camilan sepulang dari pusat kegiatan atau sore akhir pekan.",
+      "status": "Family-confirmed dish photograph",
+      "source_aliases": [
+        "pasted_file_hZcTmx_image.png"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 2118305,
+      "pixel_sha256": "4fc5e82616325bfa9c2a42ec24b421e5b3d27e24a4e95248a4ab249584c00165"
+    },
+    {
+      "file": "food/DIN01-eel-pot-rice-lettuce-winter-melon-egg-soup.png",
+      "thumbnail": "thumbnails/DIN01-eel-pot-rice-lettuce-winter-melon-egg-soup.png",
+      "group": "food",
+      "caption_en": "Dinner: eel pot rice, Chinese lettuce and winter-melon and egg soup.",
+      "caption_id": "Makan malam: nasi pot belut, selada Cina, serta sup kundur dan telur.",
+      "status": "Family-confirmed dish photograph",
+      "source_aliases": [
+        "pasted_file_Rv7JFx_image.webp"
+      ],
+      "width": 1152,
+      "height": 2048,
+      "bytes": 3499292,
+      "pixel_sha256": "7a155d592e6b0401ac5aa2b99ccfae8ee1014dde9b31c6acda1aa8eb45cbf83f"
+    },
+    {
+      "file": "food/DIN02-tomato-egg-chinese-lettuce.png",
+      "thumbnail": "thumbnails/DIN02-tomato-egg-chinese-lettuce.png",
+      "group": "food",
+      "caption_en": "Dinner: pan-fried tomato and egg with Chinese lettuce.",
+      "caption_id": "Makan malam: tumis tomat dan telur dengan selada Cina.",
+      "status": "Family-confirmed dish photograph",
+      "source_aliases": [
+        "pasted_file_JqYUb3_image.png"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 2380550,
+      "pixel_sha256": "30fcd8d07d17cb99782edd45e848f92f992ae2c2cc2223e30c4f065d53265b8c"
+    },
+    {
+      "file": "food/DIN03-chinese-egg-pancake-mustard-greens-ginger-soup.png",
+      "thumbnail": "thumbnails/DIN03-chinese-egg-pancake-mustard-greens-ginger-soup.png",
+      "group": "food",
+      "caption_en": "Dinner: Chinese egg pancake with onion, shredded green beans, minced ginger and garlic; Chinese lettuce; and mustard-greens soup with plenty of ginger and no added seasoning.",
+      "caption_id": "Makan malam: telur dadar ala Cina dengan bawang bombai, buncis iris, jahe dan bawang putih cincang; selada Cina; serta sup sawi pahit dengan banyak jahe, tanpa bumbu tambahan.",
+      "status": "Family-confirmed dish photograph",
+      "source_aliases": [
+        "pasted_file_xUQhmD_image.png"
+      ],
+      "width": 1200,
+      "height": 1600,
+      "bytes": 1745339,
+      "pixel_sha256": "cbb8f345bed4a9cf087383f1691f63e957e516283ca87504f68fab0fc68b1fba",
+      "privacy_edit": "Incidental background writing hidden; people, food and full framing retained.",
+      "privacy_mask_normalised": [
+        0.935,
+        0.36,
+        1.0,
+        0.53
+      ]
+    },
+    {
+      "file": "food/DIN04-silky-steamed-egg-lettuce-vegetable-soup.png",
+      "thumbnail": "thumbnails/DIN04-silky-steamed-egg-lettuce-vegetable-soup.png",
+      "group": "food",
+      "caption_en": "Dinner: silky Chinese steamed egg with lettuce and vegetable soup.",
+      "caption_id": "Makan malam: telur kukus ala Cina yang lembut, selada dan sup sayuran.",
+      "status": "Family-confirmed dish photograph",
+      "source_aliases": [
+        "pasted_file_31gfOW_image.png"
+      ],
+      "width": 1200,
+      "height": 1600,
+      "bytes": 1314342,
+      "pixel_sha256": "dca53e9f4aec5d3919cd91246b40e180b1a310b47a7aa605e0c37af44720c1ab",
+      "privacy_edit": "Incidental background writing hidden; people, food and full framing retained.",
+      "privacy_mask_normalised": [
+        0.9,
+        0.245,
+        1.0,
+        0.45
+      ]
+    },
+    {
+      "file": "food/DIN05-steamed-chicken-lily-buds-cloud-ear-fungus.png",
+      "thumbnail": "thumbnails/DIN05-steamed-chicken-lily-buds-cloud-ear-fungus.png",
+      "group": "food",
+      "caption_en": "Dinner: steamed chicken with dried lily buds and cloud ear fungus, lettuce and vegetable soup.",
+      "caption_id": "Makan malam: ayam kukus dengan kuncup bunga lili kering dan jamur kuping, selada dan sup sayuran.",
+      "status": "Family-confirmed dish photograph",
+      "source_aliases": [
+        "pasted_file_3VsUX7_image.png"
+      ],
+      "width": 1080,
+      "height": 1920,
+      "bytes": 2466202,
+      "pixel_sha256": "e8f7dd9284b7963a58527b7db682c4090b0e271c3fc8119f8fd32ebbd91e4fbc"
+    },
+    {
+      "file": "references/REF01-stuffed-tofu-pocket-illustration.png",
+      "thumbnail": "thumbnails/REF01-stuffed-tofu-pocket-illustration.png",
+      "group": "recipe-reference",
+      "caption_en": "Reference illustration of stuffed tofu pockets, not the helper’s cooking. The pictured filling is not verified; Popo’s version uses minced fish, not beef.",
+      "caption_id": "Ilustrasi kantong tahu isi, bukan masakan pendamping. Isian di gambar belum dipastikan; versi Popo memakai ikan cincang, bukan daging sapi.",
+      "status": "User-supplied reference illustration—not family cooking",
+      "source_aliases": [
+        "pasted_file_zf4WtE_image.png"
+      ],
+      "width": 800,
+      "height": 530,
+      "bytes": 831596,
+      "pixel_sha256": "cc072fd34dc91f40a62fc5a88c6f5701224fdef55df555f1f857882239627a00"
+    },
+    {
+      "file": "references/REF02-steamed-tofu-illustration.png",
+      "thumbnail": "thumbnails/REF02-steamed-tofu-illustration.png",
+      "group": "recipe-reference",
+      "caption_en": "Steamed-tofu reference illustration supplied by the family, from The Foodie Takes Flight. The pictured sauce is not the confirmed family recipe.",
+      "caption_id": "Ilustrasi tahu kukus dari The Foodie Takes Flight yang dibagikan keluarga. Saus di gambar bukan resep keluarga yang sudah dikonfirmasi.",
+      "status": "User-supplied reference illustration—not family cooking",
+      "source_aliases": [
+        "pasted_file_IJZkI1_image.png"
+      ],
+      "width": 1365,
+      "height": 2048,
+      "bytes": 3253083,
+      "pixel_sha256": "e4ad699dbec5ce6a1c50fd6eb9dc974954ecec7b1124fbe8c4d53cbfef9abff3",
+      "source_url": "https://thefoodietakesflight.com/steamed-tofu-with-soy-garlic-sauce/"
     }
   ],
   "duplicate_sources": [

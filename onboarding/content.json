@@ -2504,16 +2504,25 @@
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Popo sendiri yang mengajari pendamping saat ini membuat bubur ini.",
-                "Sambil menunggu air memasak mendidih, rendam beras dengan air panas; beri sedikit minyak dan garam sesuai kebiasaan keluarga.",
-                "Masak bubur jangan terlalu kental. Sajikan dengan Daliang salted milk; Popo menambahkannya sendiri, dan anak perempuannya biasanya menyediakan stoplesnya."
+                "Popo sendiri yang mengajari pendamping membuat bubur ini.",
+                "Sambil menunggu air mendidih, rendam beras dalam air panas; beri sedikit minyak dan garam sesuai kebiasaan keluarga.",
+                "Buburnya jangan terlalu kental. Sajikan dengan susu asin Daliang / irisan susu Shunde; Popo menambahkannya sendiri. Anak perempuannya biasanya menyediakan stoplesnya."
               ],
               "bullets_en": [
-                "Popo taught our current helper to make this congee herself.",
-                "While the cooking water is coming to a boil, soak the rice in hot water; add a little oil and salt to the usual family taste.",
-                "Cook the congee so it is not too thick. Serve with Daliang salted milk; Popo adds it herself, and her daughter usually supplies the jar."
+                "Popo herself taught our current helper to make this congee.",
+                "While the cooking water comes to a boil, soak the rice in hot water; add a little oil and salt to the usual family taste.",
+                "Keep the congee not too thick. Serve with Daliang salted milk / Shunde milk slices; Popo adds it herself, and her daughter usually supplies the jar."
               ],
-              "image": "food-f01"
+              "image": "food-photo-r01-plain-congee-daliang-milk",
+              "image_caption_en": "Plain rice congee with Daliang salted milk (Shunde milk slices), the hometown accompaniment described as Chinese cheese. Popo adds it herself from the jar.",
+              "image_caption_id": "Bubur putih dengan Daliang milk (olahan susu asin dari Shunde), yang keluarga sebut keju Cina. Popo menambahkannya sendiri dari stoples.",
+              "additional_images": [
+                {
+                  "key": "food-f01",
+                  "caption_id": "Foto keluarga lainnya: bubur putih.",
+                  "caption_en": "Another family photograph of plain rice congee."
+                }
+              ]
             },
             {
               "id": "ch6-food-f02",
@@ -2524,7 +2533,7 @@
               "body_en": [],
               "bullets_id": [
                 "Jagung manis kukus, telur rebus, susu dan air madu.",
-                "Kadang air madunya diberi jahe; belanja dan siapkan bersama pendamping saat ini."
+                "Kadang air madunya diberi jahe; belanja dan siapkan bersama pendamping."
               ],
               "bullets_en": [
                 "Steamed sweet corn, boiled egg, milk and honey water.",
@@ -2540,31 +2549,40 @@
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Roti lapis telur orak-arik, ditemani air madu jahe.",
-                "Pendamping saat ini bisa menunjukkan roti, isi dan porsi biasanya saat membuatnya bersama."
+                "Roti lapis telur orak-arik dengan air madu jahe.",
+                "Pendamping bisa menunjukkan roti, isi dan porsi biasanya saat membuatnya bersama."
               ],
               "bullets_en": [
-                "Sandwiches with scrambled egg; honey-ginger water alongside.",
-                "Our current helper can show the bread, filling and usual portion while making it together."
+                "Scrambled-egg sandwiches with honey-ginger water.",
+                "Our current helper can show the bread, filling and usual portion while making them together."
               ],
               "image": "food-f03"
             },
             {
               "id": "ch6-food-f04",
               "kind": "food",
-              "title_id": "Rice rolls kukus dengan lada dan kecap asin",
+              "title_id": "Cheung fun kukus dengan kecap asin",
               "title_en": "Steamed rice rolls, pepper and soy sauce; lemon-honey-ginger water",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Rice rolls dibeli di pasar basah, lalu dikukus; diberi lada dan kecap asin.",
-                "Ditemani air lemon madu jahe; pendamping saat ini bisa menunjukkan kios tempat membelinya."
+                "Cheung fun (rice rolls) dari pasar basah, dikukus dengan lada dan kecap asin; air lemon madu jahe juga pernah disajikan bersama.",
+                "Foto yang sudah dikonfirmasi menunjukkan cheung fun (rice rolls) dengan kecap asin dan air madu lemon. Pendamping bisa menunjukkan kiosnya."
               ],
               "bullets_en": [
-                "Rice rolls bought at the wet market, then steamed; pepper and soy sauce.",
-                "Served with lemon-honey-ginger water; our current helper can show the market stall."
+                "Wet-market rice rolls, steamed with pepper and soy sauce; lemon-honey-ginger water is an earlier familiar pairing.",
+                "The confirmed photo shows rice rolls with soy sauce and honey-lemon water. Our current helper can show the market stall."
               ],
-              "image": "food-f04"
+              "image": "food-photo-r02-steamed-rice-rolls-honey-lemon-water",
+              "image_caption_en": "Steamed rice rolls with soy sauce, served with honey-lemon water.",
+              "image_caption_id": "Sarapan: cheung fun (rice rolls) kukus dengan kecap asin, disajikan bersama air madu lemon.",
+              "additional_images": [
+                {
+                  "key": "food-f04",
+                  "caption_id": "Foto sarapan keluarga lainnya: cheung fun kukus.",
+                  "caption_en": "Another family breakfast photograph: steamed rice rolls."
+                }
+              ]
             },
             {
               "id": "ch6-food-f07",
@@ -2574,12 +2592,12 @@
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Untuk sarapan: bubur nasi dengan daging ikan, irisan selada Tionghoa dan jahe.",
-                "Pendamping saat ini dapat menunjukkan cara yang biasa dibuat. Jangan menambah bahan yang belum disebut atau mengganti caranya dengan rujukan video."
+                "Bubur nasi dengan daging ikan, irisan selada Cina dan jahe untuk sarapan; kadang juga makan siang di rumah saat akhir pekan.",
+                "Pendamping bisa menunjukkan cara biasanya. Jangan menambah bahan yang belum disebut atau mengganti cara keluarga dengan video."
               ],
               "bullets_en": [
-                "A breakfast dish: rice congee with fish meat, shredded Chinese lettuce and ginger.",
-                "Our current helper can show the actual preparation. Do not add an unprovided ingredient or use a video as a replacement for her method."
+                "A breakfast dish: fish-meat rice congee with shredded Chinese lettuce and ginger; sometimes also weekend lunch at home.",
+                "Our current helper can show the actual preparation. Do not add unconfirmed ingredients or replace the family method with a video."
               ],
               "image": "food-f07"
             },
@@ -2592,31 +2610,13 @@
               "body_en": [],
               "bullets_id": [
                 "Ubi dari pasar basah, dikukus; kadang ditemani telur.",
-                "Disajikan dengan air madu jahe; pendamping saat ini bisa menunjukkan ubi yang biasa dibeli."
+                "Disajikan dengan air madu jahe; pendamping bisa menunjukkan ubi yang biasa dibeli."
               ],
               "bullets_en": [
                 "Wet-market sweet potato, steamed; sometimes with an egg.",
                 "Honey-ginger water alongside; our current helper can show which sweet potato she buys."
               ],
               "image": "food-f08"
-            },
-            {
-              "id": "ch6-food-f11",
-              "kind": "food",
-              "title_id": "Telur dadar bawang dan tomat",
-              "title_en": "Onion and tomato omelette",
-              "body_id": [],
-              "body_en": [],
-              "bullets_id": [
-                "Telur dadar dengan irisan bawang atau tomat.",
-                "Ide sarapan dari menu mingguan; pendamping saat ini bisa menunjukkan versi yang biasa dibuat."
-              ],
-              "bullets_en": [
-                "Omelette with sliced onion or tomato.",
-                "A breakfast idea from the weekly menu; our current helper can show her usual version."
-              ],
-              "note_id": "Foto terkonfirmasi belum tersedia.",
-              "note_en": "No confirmed photo yet."
             },
             {
               "id": "ch6-food-f44",
@@ -2645,11 +2645,11 @@
               "body_en": [],
               "bullets_id": [
                 "Egg rolls, tambahan dari keluarga.",
-                "Jenis/isian dan foto bisa ditambahkan pendamping saat ini nanti; jangan disamakan dengan rice rolls."
+                "Pendamping bisa menambahkan jenis, isian dan foto nanti; berbeda dari gulungan nasi."
               ],
               "bullets_en": [
-                "Egg rolls, newly added by the family.",
-                "Exact type/filling and a photo can be added by our current helper later; do not confuse with rice rolls."
+                "Egg rolls, added by the family.",
+                "Our current helper can add the exact type/filling and a photo later; these are not rice rolls."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet."
@@ -2665,17 +2665,17 @@
             {
               "id": "ch6-food-f05",
               "kind": "food",
-              "title_id": "Jeli pandan kesukaan Popo",
-              "title_en": "Popo’s pandan jelly",
+              "title_id": "Jeli pandan buatan pendamping",
+              "title_en": "Our current helper’s pandan jelly",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Jeli pandan buatan pendamping saat ini, salah satu camilan kesukaan Popo.",
-                "Pendamping saat ini bisa menunjukkan bahan dan cara membuatnya langsung di dapur."
+                "Jeli pandan buatan pendamping, salah satu camilan kesukaan Popo.",
+                "Pendamping bisa menunjukkan bahan dan cara membuatnya langsung di dapur."
               ],
               "bullets_en": [
-                "Pandan jelly made by our current helper, mentioned as a favourite snack.",
-                "Our current helper can show her actual ingredients and setting method in the kitchen."
+                "Pandan jelly made by our current helper, a favourite snack.",
+                "Our current helper can show the actual ingredients and setting method in the kitchen."
               ],
               "image": "food-f05"
             },
@@ -2705,11 +2705,11 @@
               "body_en": [],
               "bullets_id": [
                 "Bola-bola isi wijen hitam dalam kuah manis jahe dan gula kuning, dengan banyak jahe.",
-                "Salah satu camilan sore yang biasa disajikan; ditemani air madu pada hari kerja. Pendamping saat ini akan menunjukkan produk dan caranya langsung."
+                "Camilan sore yang akrab; ditemani air madu pada hari kerja. Pendamping akan menunjukkan produk dan caranya langsung."
               ],
               "bullets_en": [
                 "Black-sesame dumpling balls in sweet ginger/yellow-sugar soup, with plenty of ginger.",
-                "One of the familiar afternoon snacks; honey water alongside on weekdays. Our current helper will show the usual products and method in person."
+                "A familiar afternoon snack; honey water alongside on weekdays. Our current helper will show the usual products and method in person."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet."
@@ -2717,18 +2717,22 @@
             {
               "id": "ch6-food-f41",
               "kind": "food",
-              "title_id": "Buah: apel, jeruk, pisang dan kesukaan lain",
-              "title_en": "Fruit: apples, oranges, bananas and other actual favourites",
+              "title_id": "Buah naga—buah yang paling Popo suka",
+              "title_en": "Dragon fruit—Popo’s favourite fruit of all",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Contoh buah: apel, jeruk dan pisang; foto pendamping saat ini juga memuat piring buah/camilan.",
-                "Pendamping saat ini boleh menambahkan nama buahnya dan menunjukkan cara menyiapkannya."
+                "Buah naga adalah buah yang paling Popo suka, untuk camilan saat jeda singkat melukis pada Sabtu atau Minggu.",
+                "Pilihan buah sebelumnya juga mencakup apel, jeruk dan pisang. Pendamping bisa menunjukkan cara menyiapkannya."
               ],
               "bullets_en": [
-                "Fruit examples: apples, oranges and bananas; our current helper’s photos include a fruit/snack plate.",
-                "Our current helper can add the actual fruit name and show how she prepares it."
-              ]
+                "Dragon fruit is Popo’s favourite fruit of all, enjoyed during short painting breaks on Saturday or Sunday.",
+                "Earlier fruit options include apples, oranges and bananas. Our current helper can show how she prepares fruit."
+              ],
+              "image": "food-photo-r07-dragon-fruit-painting-break",
+              "image_caption_en": "Dragon fruit, Popo’s favourite fruit treat, during a short painting break on Saturday or Sunday.",
+              "image_caption_id": "Buah naga, buah kesukaan Popo, sebagai camilan saat jeda singkat melukis pada Sabtu atau Minggu.",
+              "additional_images": []
             },
             {
               "id": "ch6-food-f42",
@@ -2747,6 +2751,26 @@
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet."
+            },
+            {
+              "id": "ch6-food-f50",
+              "kind": "food",
+              "body_id": [],
+              "body_en": [],
+              "bullets_id": [
+                "Sup manis dari ubi jalar, jamur salju (jamur putih) dan gula kuning Cina.",
+                "Camilan setelah pulang dari pusat kegiatan atau pada sore Sabtu/Minggu."
+              ],
+              "bullets_en": [
+                "Sweet soup with sweet potato, snow fungus and Chinese yellow sugar.",
+                "A treat after the day centre or on Saturday/Sunday afternoons."
+              ],
+              "title_en": "Sweet potato and snow fungus sweet soup",
+              "title_id": "Sup manis ubi jalar dan jamur salju",
+              "image": "food-photo-s01-sweet-potato-snow-fungus-sweet-soup",
+              "image_caption_en": "Popo eating sweet-potato and snow-fungus sweet soup, made with Chinese yellow sugar; an after-centre or weekend-afternoon treat.",
+              "image_caption_id": "Popo makan sup manis ubi jalar dan jamur salju dengan gula kuning Cina; camilan sepulang dari pusat kegiatan atau sore akhir pekan.",
+              "additional_images": []
             }
           ]
         },
@@ -2759,38 +2783,70 @@
             {
               "id": "ch6-food-f09",
               "kind": "food",
-              "title_id": "Wonton / pangsit ayam",
-              "title_en": "Chicken wontons / dumplings",
+              "title_id": "Pangsit ayam ala Shanghai, dibuat bersama Popo",
+              "title_en": "Home-made Shanghai chicken wontons with Popo",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Wonton / pangsit ayam; brief menyebut isi ayam, daun ketumbar dan jahe.",
-                "Beli atau buat versi tanpa babi bersama pendamping saat ini; cek isian dan kuahnya bersama."
+                "Makanan kesukaan yang dulu Popo buat untuk keluarga. Sekarang Popo ikut membungkus dengan keterampilan yang sudah akrab, biasanya untuk makan siang Sabtu atau Minggu.",
+                "Pendamping membeli kulit pangsit Shanghai dan menyiapkan ayam cincang, jahe cincang, daun bawang, lada putih dan kecap asin. Arak masak Cina boleh dipakai, tetapi tidak wajib.",
+                "Isian dan kuah, jika ada, harus tanpa babi; cek versi yang dibeli bersama pendamping."
               ],
               "bullets_en": [
-                "Chicken wontons / dumplings; the brief gives chicken, coriander and ginger filling.",
-                "Buy or make the no-pork version with our current helper; check the filling and broth together."
+                "A favourite Popo used to make for the family. Now she wraps the wontons with her familiar skills, mostly for Saturday or Sunday lunch.",
+                "Our current helper buys Shanghai wonton wrappers and prepares minced chicken, minced ginger, green onion, white pepper and soy sauce. Chinese cooking wine is optional.",
+                "Keep the filling and any broth pork-free; check bought versions with our current helper."
               ],
-              "note_id": "Foto terkonfirmasi belum tersedia.",
-              "note_en": "No confirmed photo yet."
+              "image": "food-photo-r04-popo-making-shanghai-wontons",
+              "image_caption_en": "Popo wrapping home-made Shanghainese chicken wontons for weekend lunch—a favourite she used to make for the family.",
+              "image_caption_id": "Popo membungkus pangsit ayam ala Shanghai untuk makan siang akhir pekan—makanan kesukaan yang dulu ia buat untuk keluarga.",
+              "additional_images": [
+                {
+                  "key": "food-photo-r05-finished-home-made-shanghai-wontons",
+                  "caption_id": "Hasil pangsit ala Shanghai yang dibuat bersama Popo—dipasangkan dengan foto saat ia membungkusnya.",
+                  "caption_en": "The finished home-made Shanghainese wontons prepared with Popo—paired with the photograph of her wrapping them."
+                }
+              ]
             },
             {
               "id": "ch6-food-f10",
               "kind": "food",
-              "title_id": "Mi kuah dengan sayuran, jahe dan pangsit ayam",
-              "title_en": "Noodle soup with vegetables, ginger and chicken wontons",
+              "title_id": "Mi pangsit dengan sayuran",
+              "title_en": "Wonton noodles with vegetables",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Mi atau bihun kuah dengan sayuran, jahe dan pangsit ayam.",
-                "Gunakan isian dan kaldu tanpa babi; pendamping saat ini bisa menunjukkan bahan untuk makan siang di rumah."
+                "Makan siang Sabtu yang sudah dikonfirmasi: mi pangsit dengan sayuran; lada putih tersedia di meja.",
+                "Ide sebelumnya juga mencakup mi atau bihun kuah dengan sayuran, jahe dan pangsit ayam. Cek isian dan kaldu tanpa babi bersama pendamping; jenis isian dan sayur di foto belum disebut."
               ],
               "bullets_en": [
-                "Noodle or rice-noodle soup with vegetables, ginger and chicken wontons.",
-                "Use non-pork filling and broth; our current helper can show the ingredients for home-day lunch."
+                "Confirmed Saturday lunch: wonton noodles with vegetables; white pepper is available at the table.",
+                "Earlier lunch ideas also include noodle or rice-noodle soup with vegetables, ginger and chicken wontons. Check non-pork filling and broth with our current helper; the photo’s filling and vegetable types are not confirmed."
               ],
-              "note_id": "Foto terkonfirmasi belum tersedia.",
-              "note_en": "No confirmed photo yet."
+              "image": "food-photo-r06-wonton-noodles-vegetables-white-pepper",
+              "image_caption_en": "Saturday lunch: wonton noodles with vegetables, with a bottle of white pepper available at the table.",
+              "image_caption_id": "Makan siang Sabtu: mi pangsit dengan sayuran. Lada putih tersedia di meja.",
+              "additional_images": []
+            },
+            {
+              "id": "ch6-food-f11",
+              "kind": "food",
+              "title_id": "Telur dadar ala Cina—salah satu kesukaan Popo",
+              "title_en": "Chinese egg pancake—one of Popo’s favourites",
+              "body_id": [],
+              "body_en": [],
+              "bullets_id": [
+                "Telur dadar ala Cina dengan bawang bombai, buncis iris, jahe cincang dan bawang putih cincang—salah satu kesukaan Popo.",
+                "Untuk makan malam, ditemani selada Cina dan sup sawi pahit dengan banyak jahe dan sawi, tanpa bumbu tambahan. Petunjuk ini hanya untuk sup tersebut."
+              ],
+              "bullets_en": [
+                "Chinese egg pancake with onion, shredded green beans, minced ginger and minced garlic—one of Popo’s favourites.",
+                "Confirmed dinner pairing: Chinese lettuce and mustard-greens soup with plenty of ginger and mustard greens, without added seasoning. This instruction is for that soup only."
+              ],
+              "image": "food-photo-din03-chinese-egg-pancake-mustard-greens-ginger-soup",
+              "image_caption_en": "Dinner: Chinese egg pancake with onion, shredded green beans, minced ginger and garlic; Chinese lettuce; and mustard-greens soup with plenty of ginger and no added seasoning.",
+              "image_caption_id": "Makan malam: telur dadar ala Cina dengan bawang bombai, buncis iris, jahe dan bawang putih cincang; selada Cina; serta sup sawi pahit dengan banyak jahe, tanpa bumbu tambahan.",
+              "additional_images": []
             },
             {
               "id": "ch6-food-f12",
@@ -2800,17 +2856,17 @@
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Telur kukus Tionghoa yang halus dan lembut seperti puding, bukan mengembang.",
-                "Rujukan keluarga: telur:air/kaldu 1:1,5–2 menurut volume; Wok & Kin memakai 1:2.",
-                "Saring, tutup wadah tahan panas dengan penutup, lalu kukus perlahan sampai matang. Pelajari wadah dan waktunya bersama pendamping saat ini."
+                "Telur kukus ala Cina yang halus dan lembut, bukan mengembang; makan malam yang dikonfirmasi ditemani selada dan sup sayuran.",
+                "Panduan keluarga sebelumnya: telur:air/kaldu 1:1,5–2 menurut volume; Wok & Kin memakai 1:2.",
+                "Saring, tutup wadah tahan panas, lalu kukus perlahan sampai matang. Pelajari wadah dan waktunya bersama pendamping."
               ],
               "bullets_en": [
-                "Smooth, silky Chinese steamed egg custard, not puffy.",
-                "Family guide: egg:water/stock 1:1.5–2 by volume; Wok & Kin uses 1:2.",
+                "Smooth, silky Chinese steamed egg, not puffy; confirmed dinner pairing: lettuce and vegetable soup.",
+                "Earlier family guide: egg:water/stock 1:1.5–2 by volume; Wok & Kin uses 1:2.",
                 "Strain, cover a heatproof dish with a lid and steam gently until fully set. Learn the actual bowl and timing with our current helper."
               ],
-              "note_id": "Foto terkonfirmasi belum tersedia. Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
-              "note_en": "No confirmed photo yet. Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
+              "note_id": "Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
+              "note_en": "Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
               "resources": [
                 {
                   "url": "https://www.wokandkin.com/chinese-steamed-egg/",
@@ -2822,24 +2878,30 @@
                   "label_id": "Video rujukan",
                   "label_en": "Video reference"
                 }
-              ]
+              ],
+              "image": "food-photo-din04-silky-steamed-egg-lettuce-vegetable-soup",
+              "image_caption_en": "Dinner: silky Chinese steamed egg with lettuce and vegetable soup.",
+              "image_caption_id": "Makan malam: telur kukus ala Cina yang lembut, selada dan sup sayuran.",
+              "additional_images": []
             },
             {
               "id": "ch6-food-f13",
               "kind": "food",
-              "title_id": "Ikan kukus dengan selada Tionghoa",
-              "title_en": "Steamed fish with Chinese lettuce",
+              "title_id": "Ikan kukus dengan selada Cina atau caisim",
+              "title_en": "Steamed fish with Chinese lettuce or choy sum",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Ikan kukus dengan selada Tionghoa, nasi dan sup, seperti dalam foto makan malam asli pendamping saat ini.",
-                "Popo suka sedikit kuah/saus dari piring ikan untuk nasinya. Bumbu mengikuti kebiasaan keluarga yang ringan; periksa duri ikan."
+                "Foto makan malam sebelumnya menunjukkan ikan kukus dengan selada Cina, nasi dan sup.",
+                "Makan malam lain yang dikonfirmasi: ikan kukus dengan banyak jahe, daun bawang dan kecap asin; caisim dengan jahe cincang, dikukus atau ditumis. Sup di foto ini belum disebut.",
+                "Popo suka sedikit kuah dari piring ikan untuk nasinya. Ikuti bumbu ringan keluarga dan periksa durinya."
               ],
               "bullets_en": [
-                "Steamed fish with Chinese lettuce, rice and soup, as shown in our current helper’s real dinner photograph.",
-                "Popo likes a little of the fish-plate sauce/juices with her rice. Keep seasoning to the family’s usual light amount and check for bones."
+                "An earlier real dinner photo shows steamed fish with Chinese lettuce, rice and soup.",
+                "Another confirmed dinner: fish steamed with plenty of ginger, spring onion and soy sauce; choy sum with minced ginger, steamed or pan-fried. The soup in this photo is unidentified.",
+                "Popo likes a little fish-plate sauce with her rice. Keep to the family’s usual light seasoning and check for bones."
               ],
-              "image": "food-f13",
+              "image": "food-photo-r09-steamed-fish-ginger-spring-onion-choy-sum",
               "resources": [
                 {
                   "url": "https://youtu.be/-CHNAHeE9Fk",
@@ -2848,7 +2910,16 @@
                 }
               ],
               "note_id": "Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
-              "note_en": "Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients."
+              "note_en": "Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
+              "image_caption_en": "Dinner: steamed fish with plenty of ginger, spring onion and soy sauce, served with choy sum and minced ginger; the vegetables may be steamed or pan-fried.",
+              "image_caption_id": "Makan malam: ikan kukus dengan banyak jahe, daun bawang dan kecap asin, disajikan dengan caisim dan jahe cincang. Sayur dapat dikukus atau ditumis.",
+              "additional_images": [
+                {
+                  "key": "food-f13",
+                  "caption_id": "Makan malam keluarga sebelumnya: ikan kukus dengan selada Cina, nasi dan sup.",
+                  "caption_en": "Earlier family dinner: steamed fish with Chinese lettuce, rice and soup."
+                }
+              ]
             },
             {
               "id": "ch6-food-f14",
@@ -2871,27 +2942,31 @@
             {
               "id": "ch6-food-f15",
               "kind": "food",
-              "title_id": "Ayam kukus dengan jahe, jamur atau sayuran",
-              "title_en": "Steamed chicken with ginger, mushrooms or vegetables",
+              "title_id": "Ayam kukus dengan kuncup lili kering dan jamur kuping",
+              "title_en": "Steamed chicken with dried lily buds and cloud ear fungus",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Ayam kukus dengan jahe, jamur atau sayuran.",
-                "Ada video rujukan; untuk jamur, ikuti pengaturan keluarga yang sekarang."
+                "Makan malam yang dikonfirmasi: ayam kukus dengan kuncup bunga lili kering dan jamur kuping, ditemani selada dan sup sayuran.",
+                "Ide sebelumnya mencakup ayam kukus dengan jahe, jamur atau sayuran. Video tetap sebagai rujukan; ikuti pengaturan jamur dari keluarga."
               ],
               "bullets_en": [
-                "Steamed chicken with ginger, mushrooms or vegetables.",
-                "Video reference provided; use the family’s current arrangement for mushrooms."
+                "Confirmed dinner: steamed chicken with dried lily buds and cloud ear fungus, served with lettuce and vegetable soup.",
+                "Earlier ideas include steamed chicken with ginger, mushrooms or vegetables. Keep the video as a reference and follow the family’s current mushroom arrangement."
               ],
-              "note_id": "Foto terkonfirmasi belum tersedia. Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
-              "note_en": "No confirmed photo yet. Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
+              "note_id": "Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
+              "note_en": "Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
               "resources": [
                 {
                   "url": "https://youtu.be/4MTO50yQ55Y",
                   "label_id": "Video rujukan",
                   "label_en": "Video reference"
                 }
-              ]
+              ],
+              "image": "food-photo-din05-steamed-chicken-lily-buds-cloud-ear-fungus",
+              "image_caption_en": "Dinner: steamed chicken with dried lily buds and cloud ear fungus, lettuce and vegetable soup.",
+              "image_caption_id": "Makan malam: ayam kukus dengan kuncup bunga lili kering dan jamur kuping, selada dan sup sayuran.",
+              "additional_images": []
             },
             {
               "id": "ch6-food-f21",
@@ -2919,11 +2994,11 @@
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Tumis campuran sayuran: buncis, bawang dan paprika disebut dalam contoh menu.",
-                "Pendamping saat ini bisa menunjukkan sayur yang biasa dipilih di pasar."
+                "Contoh tumis sayuran sebelumnya: buncis, bawang bombai dan paprika berwarna.",
+                "Pendamping bisa menunjukkan sayur yang biasa dipilih di pasar."
               ],
               "bullets_en": [
-                "Pan-cooked mixed vegetables: green beans, onion and coloured peppers appear in the meal examples.",
+                "Pan-cooked mixed vegetables: green beans, onion and coloured peppers are earlier meal examples.",
                 "Our current helper can show the vegetables she actually chooses at the market."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
@@ -2932,45 +3007,55 @@
             {
               "id": "ch6-food-f23",
               "kind": "food",
-              "title_id": "Terong isi ikan atau daging sapi",
-              "title_en": "Aubergine stuffed with fish or beef",
+              "title_id": "Terong dan kantong tahu isi ikan cincang",
+              "title_en": "Aubergine and tofu pockets stuffed with minced fish",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Terong isi daging ikan atau sapi adalah contoh makan siang.",
-                "Pendamping saat ini bisa menunjukkan versi yang biasa dibuat; bumbunya tidak pedas."
+                "Terong dan kantong tahu sama-sama diisi ikan cincang, bukan daging sapi.",
+                "Ide makan siang; pendamping bisa menunjukkan versi keluarga. Ikuti bumbu keluarga yang tidak pedas."
               ],
               "bullets_en": [
-                "Aubergine stuffed with fish meat or beef is a lunch example.",
-                "Our current helper can show the version she uses; seasoning stays mild."
+                "Both the aubergine and the tofu pockets are filled with minced fish, not beef.",
+                "A lunch idea; our current helper can show the family’s version. Keep to the family’s usual mild seasoning."
               ],
-              "note_id": "Foto terkonfirmasi belum tersedia.",
-              "note_en": "No confirmed photo yet."
+              "image": "food-photo-ref01-stuffed-tofu-pocket-illustration",
+              "image_caption_en": "Reference illustration of stuffed tofu pockets, not the helper’s cooking. The pictured filling is not verified; Popo’s version uses minced fish, not beef.",
+              "image_caption_id": "Ilustrasi kantong tahu isi, bukan masakan pendamping. Isian di gambar belum dipastikan; versi Popo memakai ikan cincang, bukan daging sapi.",
+              "additional_images": [],
+              "reader_label_id": "Ilustrasi rujukan, bukan masakan pendamping",
+              "reader_label_en": "Reference illustration, not the helper’s cooking"
             },
             {
               "id": "ch6-food-f24",
               "kind": "food",
-              "title_id": "Tahu kukus polos — sekali tiap dua minggu",
-              "title_en": "Plain steamed tofu — once every two weeks",
+              "title_id": "Tahu kukus polos—sekali setiap dua minggu",
+              "title_en": "Plain steamed tofu—once every two weeks",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Tahu kukus polos; batas terbaru keluarga: sekali tiap dua minggu, bukan di kedua pilihan menu.",
-                "Saus kecap-bawang putih di tautan hanya ide, bukan resep pendamping saat ini yang sudah pasti. Tanpa cabai/minyak cabai; bumbu tetap sesuai kebiasaan keluarga yang ringan."
+                "Tahu kukus polos untuk makan malam, sekali setiap dua minggu—bukan di kedua pilihan menu lama. Batas ini untuk tahu kukus polos, bukan telur.",
+                "Saus kecap-bawang putih di tautan hanya ide, bukan resep pendamping yang sudah dikonfirmasi. Tanpa cabai atau minyak cabai; ikuti bumbu ringan keluarga."
               ],
               "bullets_en": [
-                "Plain steamed tofu; latest family limit: once every two weeks, not both example-menu slots.",
-                "The linked soy-garlic sauce is optional inspiration, not our current helper’s confirmed recipe. Omit chilli/chilli oil and keep seasoning to the family’s usual light amount."
+                "Plain steamed tofu for dinner, once every two weeks—not in both old menu slots. This frequency is for plain steamed tofu, not eggs.",
+                "The linked soy-garlic sauce is optional inspiration, not our current helper’s confirmed recipe. Omit chilli/chilli oil and keep the family’s usual light seasoning."
               ],
-              "note_id": "Foto terkonfirmasi belum tersedia. Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
-              "note_en": "No confirmed photo yet. Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
+              "note_id": "Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
+              "note_en": "Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
               "resources": [
                 {
                   "url": "https://thefoodietakesflight.com/steamed-tofu-with-soy-garlic-sauce/",
                   "label_id": "Lihat rujukan resep",
                   "label_en": "Open recipe reference"
                 }
-              ]
+              ],
+              "image": "food-photo-ref02-steamed-tofu-illustration",
+              "image_caption_en": "Steamed-tofu reference illustration supplied by the family, from The Foodie Takes Flight. The pictured sauce is not the confirmed family recipe.",
+              "image_caption_id": "Ilustrasi tahu kukus dari The Foodie Takes Flight yang dibagikan keluarga. Saus di gambar bukan resep keluarga yang sudah dikonfirmasi.",
+              "additional_images": [],
+              "reader_label_id": "Ilustrasi rujukan, bukan masakan pendamping",
+              "reader_label_en": "Reference illustration, not the helper’s cooking"
             },
             {
               "id": "ch6-food-f25",
@@ -2980,33 +3065,39 @@
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Nasi pot dengan belut atau ayam; brief juga menyebut nasi claypot ayam atau nasi daging-sayuran.",
-                "Pendamping saat ini bisa menunjukkan pot atau penanak nasi dan bahan yang biasa dipakai saat memasak bersama."
+                "Makan malam yang dikonfirmasi: nasi pot belut dengan selada Cina dan sup kundur/bligo dan telur.",
+                "Pilihan sebelumnya juga mencakup nasi pot ayam / nasi claypot ayam dan nasi daging-sayuran. Ini berbeda dari nasi pot ceker ayam.",
+                "Pendamping bisa menunjukkan pot atau penanak nasi dan bahan yang biasa dipakai saat memasak bersama."
               ],
               "bullets_en": [
-                "Pot rice with eel or chicken; the earlier brief also mentions chicken claypot / meat-and-vegetable rice.",
+                "Confirmed dinner: eel pot rice with Chinese lettuce and winter-melon and egg soup.",
+                "Earlier options include chicken pot rice / chicken claypot rice and meat-and-vegetable rice. These are separate from chicken-feet pot rice.",
                 "Our current helper can show the pot or rice cooker and the usual ingredients while cooking together."
               ],
-              "note_id": "Foto terkonfirmasi belum tersedia.",
-              "note_en": "No confirmed photo yet."
+              "image": "food-photo-din01-eel-pot-rice-lettuce-winter-melon-egg-soup",
+              "image_caption_en": "Dinner: eel pot rice, Chinese lettuce and winter-melon and egg soup.",
+              "image_caption_id": "Makan malam: nasi pot belut, selada Cina, serta sup kundur dan telur.",
+              "additional_images": []
             },
             {
               "id": "ch6-food-f26",
               "kind": "food",
-              "title_id": "Kari Jepang kentang dengan ayam / sayap ayam",
-              "title_en": "Japanese potato curry with chicken / chicken wings",
+              "title_id": "Kari Jepang ayam dengan kentang dan wortel merah",
+              "title_en": "Japanese chicken curry with potato and red carrot",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Kari Jepang dengan kentang dan ayam/sayap ayam adalah makanan kesukaan yang sudah disebut keluarga; ditemani sayuran dan nasi.",
-                "Popo suka kuah kari yang membuat nasinya lebih lembap dan enak. Gunakan versi keluarga tanpa cabai; brief juga memberi variasi ayam/udang dan sayuran."
+                "Kesukaan yang dikonfirmasi: kari Jepang dari blok kari dengan kentang, wortel merah, daun ketumbar cincang, serta sayap atau daging ayam; ditemani selada Cina dan nasi putih.",
+                "Popo suka kuah kari untuk nasinya. Ikuti versi keluarga yang ringan, tanpa cabai; ide sebelumnya juga mencakup variasi ayam/udang dan sayuran."
               ],
               "bullets_en": [
-                "Japanese-style curry with potato and chicken/chicken wings is a confirmed favourite; vegetables and rice accompany it.",
-                "She enjoys the moist curry sauce with her rice. Use the family’s mild, no-chilli version; the earlier brief also gives chicken/shrimp and vegetable variations."
+                "A confirmed favourite: Japanese curry block with potato, red carrot, chopped coriander, and chicken wings or chicken meat; Chinese lettuce and white rice alongside.",
+                "Popo enjoys the moist curry sauce with her rice. Keep the family’s earlier mild, no-chilli version; earlier ideas also include chicken/shrimp and vegetable variations."
               ],
-              "note_id": "Foto terkonfirmasi belum tersedia.",
-              "note_en": "No confirmed photo yet."
+              "image": "food-photo-r10-japanese-chicken-curry-potato-carrot",
+              "image_caption_en": "Dinner: Japanese curry made from a curry block with potato, red carrot, chopped coriander and chicken wings or chicken meat, served with Chinese lettuce and white rice.",
+              "image_caption_id": "Makan malam: kari Jepang dari blok kari, dengan kentang, wortel merah, daun ketumbar cincang dan sayap atau daging ayam, disajikan bersama selada Cina dan nasi putih.",
+              "additional_images": []
             },
             {
               "id": "ch6-food-f28",
@@ -3017,11 +3108,11 @@
               "body_en": [],
               "bullets_id": [
                 "Nasi santan Indonesia dengan sayuran adalah ide menu.",
-                "Di brief asli masih berupa pilihan; pendamping saat ini bisa menunjukkan lauk pendampingnya."
+                "Di brief asli masih berupa pilihan; pendamping bisa menunjukkan lauk pendampingnya."
               ],
               "bullets_en": [
                 "Indonesian coconut rice with vegetables is a menu suggestion.",
-                "The original marks it tentative; suitable accompaniments can be shown by our current helper."
+                "The original marks it tentative; our current helper can show suitable accompaniments."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet."
@@ -3034,12 +3125,12 @@
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Sup sayuran Tionghoa, juga sebagai pendamping makan.",
-                "Ada video di brief; pendamping saat ini bisa menunjukkan bahan sup yang biasa dipakai."
+                "Sup sayuran ala Cina, juga sebagai pendamping makan.",
+                "Video asli tetap sebagai rujukan; pendamping bisa menunjukkan bahan sup biasanya."
               ],
               "bullets_en": [
-                "Chinese vegetable soup, also used as a general meal accompaniment.",
-                "Keep the original video reference; our current helper can show her usual soup ingredients."
+                "Chinese vegetable soup, also a general meal accompaniment.",
+                "Keep the original video reference; our current helper can show the usual soup ingredients."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia. Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
               "note_en": "No confirmed photo yet. Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
@@ -3110,11 +3201,11 @@
               "body_en": [],
               "bullets_id": [
                 "Nasi pot kari, tambahan dari keluarga.",
-                "Berbeda dari kari dengan nasi terpisah; pendamping saat ini bisa menunjukkan cara memasak dalam pot."
+                "Berbeda dari kari dengan nasi terpisah; pendamping bisa menunjukkan cara memasak dalam pot."
               ],
               "bullets_en": [
-                "Curry pot rice, newly added by the family.",
-                "Keep separate from curry served alongside rice; our current helper can demonstrate the usual pot preparation."
+                "Curry pot rice, added by the family.",
+                "Separate from curry served alongside rice; our current helper can show the usual pot preparation."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet."
@@ -3122,17 +3213,17 @@
             {
               "id": "ch6-food-f48",
               "kind": "food",
-              "title_id": "Sup kundur/beligo, tomat dan telur",
+              "title_id": "Sup kundur/bligo, tomat dan telur",
               "title_en": "Winter melon, tomato and egg soup",
               "body_id": [],
               "body_en": [],
               "bullets_id": [
-                "Sup kundur/beligo, tomat dan telur, tambahan dari keluarga.",
-                "Berbeda dari rujukan sup labu-babi cincang atau sup telur asin di brief lama."
+                "Sup kundur/bligo, tomat dan telur, tambahan dari keluarga.",
+                "Berbeda dari rujukan sup labu-babi cincang dan sup telur asin; jangan menganggap sup kundur pendamping yang baru dikonfirmasi juga memakai tomat."
               ],
               "bullets_en": [
-                "Winter melon, tomato and egg soup, newly added by the family.",
-                "Do not replace with the older melon/minced-pork or salted-egg soup references."
+                "Winter melon, tomato and egg soup, added by the family.",
+                "Separate from the older melon/minced-pork and salted-egg soup references; do not assume tomato in the newly confirmed winter-melon side soups."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet."
@@ -3154,6 +3245,46 @@
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet."
+            },
+            {
+              "id": "ch6-food-f51",
+              "kind": "food",
+              "body_id": [],
+              "body_en": [],
+              "bullets_id": [
+                "Tumis tomat dan telur, ditemani selada Cina untuk makan malam.",
+                "Berbeda dari telur dadar ala Cina; sup dan bumbunya belum disebut."
+              ],
+              "bullets_en": [
+                "Tomato and egg cooked in a pan, served with Chinese lettuce for dinner.",
+                "A separate dish from the Chinese egg pancake; the soup and seasonings are not confirmed."
+              ],
+              "title_en": "Pan-fried tomato and egg",
+              "title_id": "Tumis tomat dan telur",
+              "image": "food-photo-din02-tomato-egg-chinese-lettuce",
+              "image_caption_en": "Dinner: pan-fried tomato and egg with Chinese lettuce.",
+              "image_caption_id": "Makan malam: tumis tomat dan telur dengan selada Cina.",
+              "additional_images": []
+            },
+            {
+              "id": "ch6-food-f52",
+              "kind": "food",
+              "body_id": [],
+              "body_en": [],
+              "bullets_id": [
+                "Nasi pot ceker ayam dengan jahe dan saus tiram untuk makan malam.",
+                "Ditemani tempe, caisim, serta sup kundur/bligo dengan daun ketumbar dan telur yang dituang ke kuah; berbeda dari nasi pot belut atau ayam lainnya."
+              ],
+              "bullets_en": [
+                "Chicken-feet pot rice with ginger and oyster sauce for dinner.",
+                "Served with tempeh, choy sum, and winter-melon soup with coriander and egg drop; separate from eel or other chicken pot rice."
+              ],
+              "title_en": "Chinese chicken-feet pot rice",
+              "title_id": "Nasi pot ceker ayam ala Cina",
+              "image": "food-photo-r08-chicken-feet-pot-rice-tempeh-choy-sum",
+              "image_caption_en": "Dinner: Chinese chicken-feet pot rice with ginger and oyster sauce, tempeh, choy sum, and winter-melon soup with coriander and egg drop.",
+              "image_caption_id": "Makan malam: nasi pot ceker ayam dengan jahe dan saus tiram, tempe, caisim, serta sup kundur dengan daun ketumbar dan telur.",
+              "additional_images": []
             }
           ]
         },
@@ -3172,11 +3303,11 @@
               "body_en": [],
               "bullets_id": [
                 "Campuran buah dan susu adalah contoh camilan/minuman.",
-                "Pendamping saat ini bisa menunjukkan campuran yang biasa dibuat; takarannya tidak dikarang."
+                "Pendamping bisa menunjukkan campuran biasanya; takaran belum disebut."
               ],
               "bullets_en": [
                 "Fruit mixed with milk is a snack/drink example.",
-                "Our current helper can show her actual fruit-and-milk combination; no ratios invented."
+                "Our current helper can show the usual fruit-and-milk combination; no ratios supplied."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet."
@@ -3190,11 +3321,11 @@
               "body_en": [],
               "bullets_id": [
                 "Air madu, air madu jahe dan air lemon madu jahe adalah versi yang disebut keluarga.",
-                "Pelajari takaran biasa dari pendamping saat ini; satu catatan minuman dipakai untuk semua sarapan."
+                "Pelajari takaran biasanya dari pendamping; catatan ini juga untuk minuman pendamping sarapan."
               ],
               "bullets_en": [
                 "Honey water, honey-ginger water and lemon-honey-ginger water are the family’s named versions.",
-                "Learn the usual amount from our current helper; one shared drink note serves all breakfast cards."
+                "Learn the usual amount from our current helper; this shared drink note covers the breakfast pairings."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet."
@@ -3208,11 +3339,11 @@
               "body_en": [],
               "bullets_id": [
                 "Susu atau susu oat ada dalam sarapan dan camilan.",
-                "Pendamping saat ini bisa menunjukkan produk keluarga dan porsi yang biasa diberikan."
+                "Pendamping bisa menunjukkan produk keluarga dan porsi biasanya."
               ],
               "bullets_en": [
                 "Milk or oat milk appears in breakfasts and snacks.",
-                "Our current helper can show the product the family uses and the usual serving."
+                "Our current helper can show the family’s product and usual serving."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet."
@@ -3234,11 +3365,11 @@
               "body_en": [],
               "bullets_id": [
                 "Rujukan: ayam dengan pasta udang, bawang dan kantong tahu.",
-                "Ide resep, belum tentu menu rutin; pendamping saat ini boleh menambahkan catatan singkat jika pernah membuatnya."
+                "Ide resep, belum tentu menu rutin; pendamping bisa menambahkan catatan jika pernah membuatnya."
               ],
               "bullets_en": [
                 "Reference: shrimp-paste chicken with shallot and bean-curd pockets.",
-                "A recipe idea, not proof this is a regular dish; our current helper may add a brief note if she makes it."
+                "A recipe idea, not proof of a regular dish; our current helper can add a short note if she makes it."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia. Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
               "note_en": "No confirmed photo yet. Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
@@ -3261,11 +3392,11 @@
               "body_en": [],
               "bullets_id": [
                 "Ayam kukus dengan pare, pilihan tanpa babi yang sudah disebut dalam brief.",
-                "Pendamping saat ini bisa menunjukkan cara keluarga; video iga babi asli tidak dipakai."
+                "Pendamping bisa menunjukkan cara keluarga; video iga babi asli tetap tidak dipakai."
               ],
               "bullets_en": [
                 "Steamed chicken with bitter melon, the non-pork alternative already offered in the brief.",
-                "Our current helper can show the family’s actual preparation; the original pork-rib video is excluded."
+                "Our current helper can show the family’s preparation; the original pork-rib video remains excluded."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia.",
               "note_en": "No confirmed photo yet.",
@@ -3308,11 +3439,11 @@
               "body_en": [],
               "bullets_id": [
                 "Rujukan: daging sapi dengan nanas; ayam disebut sebagai pilihan pengganti.",
-                "Belum otomatis menjadi makanan kesukaan; pendamping saat ini boleh menambahkan catatan nanti."
+                "Belum menjadi kesukaan yang dikonfirmasi; pendamping bisa menambahkan catatan nanti."
               ],
               "bullets_en": [
                 "Reference: beef with pineapple; the brief suggests chicken as an alternative.",
-                "Not automatically a confirmed favourite; our current helper may add a short note later."
+                "Not a confirmed favourite; our current helper can add a short note later."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia. Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
               "note_en": "No confirmed photo yet. Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
@@ -3335,11 +3466,11 @@
               "body_en": [],
               "bullets_id": [
                 "Rujukan video: bubur ikan dengan telur pitan dan kulit jeruk kering.",
-                "Berbeda dari bubur ikan-selada-jahe pendamping saat ini; video sebagai ide, bukan pengganti cara pendamping saat ini."
+                "Berbeda dari bubur ikan-selada-jahe pendamping; video hanya ide, bukan pengganti cara keluarga."
               ],
               "bullets_en": [
                 "Video references: fish congee with century egg and aged citrus peel.",
-                "Keep separate from our current helper’s confirmed fish/lettuce/ginger congee; videos are ideas, not a replacement for her method."
+                "Separate from our current helper’s confirmed fish/lettuce/ginger congee; videos are ideas, not a replacement for the family method."
               ],
               "note_id": "Foto terkonfirmasi belum tersedia. Video hanya rujukan; bahannya belum diperiksa seluruhnya. Ikuti bahan yang disepakati keluarga.",
               "note_en": "No confirmed photo yet. Videos are references, not fully ingredient-checked. Follow the family’s agreed ingredients.",
@@ -3393,13 +3524,13 @@
                 "Sarapan: Bubur putih; rice rolls kukus; 1 buah.",
                 "Siang, jika di rumah: Mi kuah ala Tionghoa dengan jahe.",
                 "Camilan: Crackers/biskuit; air madu.",
-                "Malam: Ikan kukus; sayuran; nasi; sup ala Tionghoa."
+                "Malam: Ikan kukus; sayuran; nasi; sup ala Cina. Pilihan lain: nasi pot belut, selada Cina dan sup kundur/bligo dan telur."
               ],
               "bullets_en": [
                 "Breakfast: Plain rice congee; steamed rice rolls; 1 fruit.",
                 "Lunch, if at home: Chinese soup noodles with ginger.",
                 "Snack: Crackers/biscuits; honey water.",
-                "Dinner: Steamed fish; vegetables; rice; Chinese soup."
+                "Dinner: Steamed fish; vegetables; rice; Chinese soup. Another idea: eel pot rice, Chinese lettuce and winter-melon and egg soup."
               ]
             },
             {
@@ -3411,13 +3542,13 @@
               "body_en": [],
               "bullets_id": [
                 "Sarapan: Susu oat; jagung kukus (1 potong).",
-                "Siang, jika di rumah: Jamur kukus dengan ayam, daun bawang dan jahe; sayuran; nasi.",
+                "Siang, jika di rumah: Saat di rumah: ayam kukus dengan jamur, daun bawang dan jahe; sayuran; nasi. Pilihan lain: ayam dengan kuncup lili kering dan jamur kuping, selada dan sup sayuran.",
                 "Camilan: Jeli; air madu.",
                 "Malam: Ikan dimasak di wajan; tumis sayuran (buncis, bawang bombai atau paprika); nasi."
               ],
               "bullets_en": [
                 "Breakfast: Oat milk; steamed corn (1 piece).",
-                "Lunch, if at home: Steamed mushrooms with chicken, spring onion and ginger; vegetables; rice.",
+                "Lunch, if at home: For a day at home: steamed chicken with mushrooms, spring onion and ginger; vegetables; rice. Another idea: chicken with dried lily buds and cloud ear fungus, lettuce and vegetable soup.",
                 "Snack: Jelly; honey water.",
                 "Dinner: Pan-fried fish; pan-cooked vegetables (green beans, onion or bell pepper); rice."
               ]
@@ -3433,13 +3564,13 @@
                 "Sarapan: Bubur nasi polos; ubi kukus.",
                 "Siang, jika di rumah: Sayuran dan sup telur; nasi. Tidak memakai gado-gado bersaus kacang.",
                 "Camilan: Kuah manis bola-bola wijen dengan banyak jahe dan gula kuning; air madu.",
-                "Malam: Ikan kukus; telur kukus dengan kecap asin dan daun bawang; sayuran; sup ala Tionghoa; nasi."
+                "Malam: Ikan kukus; telur kukus dengan kecap asin dan daun bawang; sayuran; sup ala Cina; nasi. Makan malam telur kukus yang dikonfirmasi ditemani selada dan sup sayuran."
               ],
               "bullets_en": [
                 "Breakfast: Plain rice congee; steamed sweet potato.",
                 "Lunch, if at home: Vegetables and egg soup; rice. No peanut-sauce gado-gado.",
                 "Snack: Sesame dumpling sweet soup with plenty of ginger and yellow sugar; honey water.",
-                "Dinner: Steamed fish; steamed eggs with soy sauce and spring onion; vegetables; Chinese soup; rice."
+                "Dinner: Steamed fish; steamed egg with soy sauce and spring onion; vegetables; Chinese soup; rice. The confirmed steamed-egg dinner pairs it with lettuce and vegetable soup."
               ]
             },
             {
@@ -3453,13 +3584,13 @@
                 "Sarapan: 1 gelas susu; telur rebus.",
                 "Siang, jika di rumah: Pangsit wonton; sup sayuran dengan irisan jahe.",
                 "Camilan: Crackers/biskuit; air madu.",
-                "Malam: Telur kukus lembut; sup ikan tomat-kentang. Tahu hanya pilihan sesuai jatah dua minggu keluarga."
+                "Malam: Telur kukus lembut; sup ikan tomat-kentang. Tahu kukus polos bisa menjadi pilihan makan malam sekali setiap dua minggu; batas ini bukan untuk telur."
               ],
               "bullets_en": [
                 "Breakfast: 1 glass of milk; boiled egg.",
                 "Lunch, if at home: Wontons; vegetable soup with sliced ginger.",
                 "Snack: Crackers/biscuits; honey water.",
-                "Dinner: Silky steamed egg; tomato-and-potato fish soup. Tofu only as the family’s fortnightly alternative."
+                "Dinner: Silky steamed egg; tomato-and-potato fish soup. Plain steamed tofu is a dinner alternative once every two weeks; this frequency is not for eggs."
               ]
             },
             {
@@ -3471,15 +3602,15 @@
               "body_en": [],
               "bullets_id": [
                 "Sarapan: Bubur nasi ikan dengan irisan jahe dan selada; telur rebus; 1 buah.",
-                "Siang, jika di rumah: Terong isi daging ikan atau sapi, digoreng di wajan; selada Tionghoa dengan irisan jahe.",
+                "Siang, jika di rumah: Saat di rumah: terong dan kantong tahu, keduanya isi ikan cincang; selada Cina dengan irisan jahe.",
                 "Camilan: Jeli atau kuah manis bola-bola wijen; air madu.",
-                "Malam: Kari Jepang tidak pedas dengan kentang dan ayam/sayap ayam; sayuran dan nasi."
+                "Malam: Kari Jepang dari blok kari dengan kentang, wortel merah, daun ketumbar cincang dan sayap atau daging ayam; selada Cina dan nasi putih. Ikuti versi keluarga yang ringan, tanpa cabai."
               ],
               "bullets_en": [
                 "Breakfast: Fish rice congee with sliced ginger and lettuce; boiled egg; 1 fruit.",
-                "Lunch, if at home: Pan-fried eggplant stuffed with fish meat or beef; Chinese lettuce with sliced ginger.",
+                "Lunch, if at home: For a day at home: aubergine and tofu pockets, both stuffed with minced fish; Chinese lettuce with sliced ginger.",
                 "Snack: Jelly or sesame-dumpling sweet soup; honey water.",
-                "Dinner: Mild Japanese curry with potato and chicken/chicken wings; vegetables and rice."
+                "Dinner: Japanese curry block with potato, red carrot, chopped coriander and chicken wings or chicken meat; Chinese lettuce and white rice. Keep the family’s mild, no-chilli version."
               ]
             },
             {
@@ -3491,15 +3622,15 @@
               "body_en": [],
               "bullets_id": [
                 "Sarapan: Bubur nasi polos; 1 telur rebus; 1 buah.",
-                "Siang, jika di rumah: Nasi santan ala Indonesia (belum pasti di menu asli); sayuran.",
-                "Camilan: Pilih camilan yang akrab: crackers/biskuit, jeli atau kuah manis bola-bola wijen.",
-                "Malam: Ayam kukus dengan jahe atau jamur; sayuran; nasi."
+                "Siang, jika di rumah: Mi pangsit dengan sayuran; lada putih tersedia di meja. Pilihan sebelumnya: nasi santan Indonesia dengan sayuran, masih belum pasti.",
+                "Camilan: Buah naga saat jeda singkat melukis, atau sup manis ubi, jamur salju dan gula kuning Cina pada sore hari. Pilihan sebelumnya tetap ada: crackers/biskuit, jeli atau kuah manis bola-bola wijen.",
+                "Malam: Ayam kukus dengan kuncup lili kering dan jamur kuping; selada; sup sayuran. Pilihan sebelumnya juga ada: ayam dengan jahe atau jamur, sayuran dan nasi."
               ],
               "bullets_en": [
                 "Breakfast: Plain rice congee; 1 boiled egg; 1 fruit.",
-                "Lunch, if at home: Indonesian coconut rice (tentative in the original menu); vegetables.",
-                "Snack: Choose a familiar snack: crackers/biscuits, jelly or sesame-dumpling sweet soup.",
-                "Dinner: Steamed chicken with ginger or mushrooms; vegetables; rice."
+                "Lunch, if at home: Wonton noodles with vegetables; white pepper available at the table. Earlier alternative: Indonesian coconut rice with vegetables, still tentative.",
+                "Snack: Dragon fruit during a short painting break, or sweet potato/snow fungus/Chinese yellow-sugar sweet soup in the afternoon. Earlier choices remain crackers/biscuits, jelly or sesame-dumpling sweet soup.",
+                "Dinner: Steamed chicken with dried lily buds and cloud ear fungus; lettuce; vegetable soup. Earlier choices also include chicken with ginger or mushrooms, vegetables and rice."
               ]
             },
             {
@@ -3511,15 +3642,15 @@
               "body_en": [],
               "bullets_id": [
                 "Sarapan: Telur dadar dengan irisan bawang bombai atau tomat.",
-                "Siang, jika di rumah: Ikan kukus; sayuran empuk; sup. Tahu kukus polos hanya jika sesuai jatah keluarga: sekali tiap dua minggu.",
-                "Camilan: Pilih camilan yang akrab; saat jalan-jalan biasanya boleh ada es krim.",
-                "Malam: Masakan Indonesia pilihanmu, atau masakan Tionghoa; tidak pedas."
+                "Siang, jika di rumah: Pangsit ayam ala Shanghai yang dibuat bersama Popo. Pilihan lain: ikan kukus, sayuran empuk dan sup.",
+                "Camilan: Buah naga saat jeda singkat melukis, atau sup manis ubi, jamur salju dan gula kuning Cina pada sore hari. Camilan yang akrab tetap bisa dipilih; saat jalan-jalan bisa ada es krim.",
+                "Malam: Nasi pot ceker ayam dengan jahe dan saus tiram; tempe; caisim; sup kundur/bligo dengan daun ketumbar dan telur yang dituang ke kuah. Pilihan lain tetap masakan Indonesia atau Cina tanpa cabai."
               ],
               "bullets_en": [
                 "Breakfast: Pan-fried omelette with sliced onion or tomato.",
-                "Lunch, if at home: Steamed fish; soft vegetables; soup. Plain steamed tofu only when the family’s once-every-two-weeks allowance is due.",
-                "Snack: Choose the familiar snacks; the usual outing may include ice cream.",
-                "Dinner: Indonesian dinner of your choice, or Chinese dishes; not spicy."
+                "Lunch, if at home: Home-made Shanghai chicken wontons prepared with Popo. Another idea: steamed fish, soft vegetables and soup.",
+                "Snack: Dragon fruit during a short painting break, or sweet potato/snow fungus/Chinese yellow-sugar sweet soup in the afternoon. Familiar snacks remain options; outings may include ice cream.",
+                "Dinner: Chicken-feet pot rice with ginger and oyster sauce; tempeh; choy sum; winter-melon soup with coriander and egg drop. Other ideas remain Indonesian or Chinese dishes without chilli."
               ]
             }
           ]

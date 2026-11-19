@@ -80,8 +80,10 @@ function renderCard(card) {
   const title = value(card, 'title');
   const quote = value(card, 'quote');
   const classes = ['card', card.image ? 'has-photo' : '', quote ? 'quote' : '', card.kind || ''].filter(Boolean).join(' ');
+  const imageCaption = value(card, 'image_caption');
   const image = card.image && photos[card.image]
-    ? `<figure class="photo"><img src="${photos[card.image]}" alt="${esc(title)}" decoding="async" ${card.image === 'popo-sunglasses' ? 'fetchpriority="high"' : 'loading="lazy"'}></figure>` : '';
+    ? `<figure class="photo"><img src="${photos[card.image]}" alt="${esc(imageCaption || title)}" decoding="async" ${card.image === 'popo-sunglasses' ? 'fetchpriority="high"' : 'loading="lazy"'}>${imageCaption ? `<figcaption>${esc(imageCaption)}</figcaption>` : ''}</figure>` : '';
+  const additionalImages = (card.additional_images || []).filter(image => photos[image.key]).map(image => `<figure class="food-story-photo"><img src="${photos[image.key]}" alt="${esc(value(image, 'caption'))}" loading="lazy" decoding="async"><figcaption>${esc(value(image, 'caption'))}</figcaption></figure>`).join('');
   const paragraphs = (value(card, 'body') || []).map((p, i) => `<p>${value(card, 'body_labels')?.[i] ? `<strong class="paragraph-label">${esc(value(card, 'body_labels')[i])}</strong>` : ''}${esc(p)}</p>`).join('');
   const bullets = (value(card, 'bullets') || []).map(p => `<li>${esc(p)}</li>`).join('');
   const quoteMarkup = quote ? `<span class="quote-symbol" aria-hidden="true">“</span><blockquote><p>${esc(quote)}</p><cite>— ${esc(value(card, 'author') || card.author)}</cite></blockquote>` : '';
@@ -98,6 +100,7 @@ function renderCard(card) {
       <h3>${esc(title)}</h3>${paragraphs}${bullets ? `<ul>${bullets}</ul>` : ''}${quoteMarkup}${dialogueMarkup}
       ${templateMarkup}${resourceMarkup ? `<div class="resource-links">${resourceMarkup}</div>` : ''}
       ${renderHelperQuote(card.helper_quote)}
+      ${additionalImages}
       ${note ? `<p class="gentle-note">${esc(note)}</p>` : ''}${listenButton(card.id)}
     </div></article>`;
 }
@@ -158,7 +161,8 @@ function cardText(card) {
   const helperQuote = card.helper_quote ? [language === 'id' ? 'Kata-kata pendamping saat ini' : 'English translation of our current helper’s words', value(card.helper_quote, 'text')] : [];
   const template = value(card, 'template') ? [language === 'id' ? 'Contoh format, ganti isian dalam kurung' : 'Example format, fill in the brackets', value(card, 'template')] : [];
   const resources = (card.resources || []).map(resource => value(resource, 'label'));
-  return [value(card, 'title'), ...paragraphs, ...(value(card, 'bullets') || []), value(card, 'quote'), ...dialogue, ...template, ...helperQuote, ...resources, value(card, 'note')].filter(Boolean).join('. ');
+  const imageCaptions = [value(card, 'image_caption'), ...(card.additional_images || []).map(image => value(image, 'caption'))];
+  return [value(card, 'title'), ...paragraphs, ...(value(card, 'bullets') || []), value(card, 'quote'), ...dialogue, ...template, ...helperQuote, ...resources, ...imageCaptions, value(card, 'note')].filter(Boolean).join('. ');
 }
 
 function updatePlayer() {
@@ -212,7 +216,7 @@ $('player-stop').addEventListener('click', () => controller.stop());
 window.addEventListener('pagehide', () => controller.stop());
 
 try {
-  const responses = await Promise.all([fetch(new URL('./content.json?v=20261119-six-chapters', import.meta.url)), fetch(new URL('./photos.json?v=20261119-six-chapters', import.meta.url))]);
+  const responses = await Promise.all([fetch(new URL('./content.json?v=20261119-confirmed-food', import.meta.url)), fetch(new URL('./photos.json?v=20261119-confirmed-food', import.meta.url))]);
   if (responses.some(r => !r.ok)) throw new Error('Guide files unavailable');
   [content, photos] = await Promise.all(responses.map(r => r.json()));
   render();

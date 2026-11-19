@@ -17,5 +17,22 @@
   "food-f07": "./onboarding/assets/food/F07.png",
   "food-f08": "./onboarding/assets/food/F08.png",
   "food-f13": "./onboarding/assets/food/F13.png",
-  "helper-with-popo": "./onboarding/assets/helper-with-popo.png"
+  "helper-with-popo": "./onboarding/assets/helper-with-popo.png",
+  "food-photo-r01-plain-congee-daliang-milk": "./onboarding/assets/food/R01-plain-congee-daliang-milk.png",
+  "food-photo-r02-steamed-rice-rolls-honey-lemon-water": "./onboarding/assets/food/R02-steamed-rice-rolls-honey-lemon-water.png",
+  "food-photo-r04-popo-making-shanghai-wontons": "./onboarding/assets/food/R04-popo-making-shanghai-wontons.png",
+  "food-photo-r05-finished-home-made-shanghai-wontons": "./onboarding/assets/food/R05-finished-home-made-shanghai-wontons.png",
+  "food-photo-r06-wonton-noodles-vegetables-white-pepper": "./onboarding/assets/food/R06-wonton-noodles-vegetables-white-pepper.png",
+  "food-photo-din03-chinese-egg-pancake-mustard-greens-ginger-soup": "./onboarding/assets/food/DIN03-chinese-egg-pancake-mustard-greens-ginger-soup.png",
+  "food-photo-din04-silky-steamed-egg-lettuce-vegetable-soup": "./onboarding/assets/food/DIN04-silky-steamed-egg-lettuce-vegetable-soup.png",
+  "food-photo-r09-steamed-fish-ginger-spring-onion-choy-sum": "./onboarding/assets/food/R09-steamed-fish-ginger-spring-onion-choy-sum.png",
+  "food-photo-din05-steamed-chicken-lily-buds-cloud-ear-fungus": "./onboarding/assets/food/DIN05-steamed-chicken-lily-buds-cloud-ear-fungus.png",
+  "food-photo-ref01-stuffed-tofu-pocket-illustration": "./onboarding/assets/food/REF01-stuffed-tofu-pocket-illustration.png",
+  "food-photo-ref02-steamed-tofu-illustration": "./onboarding/assets/food/REF02-steamed-tofu-illustration.png",
+  "food-photo-din01-eel-pot-rice-lettuce-winter-melon-egg-soup": "./onboarding/assets/food/DIN01-eel-pot-rice-lettuce-winter-melon-egg-soup.png",
+  "food-photo-r10-japanese-chicken-curry-potato-carrot": "./onboarding/assets/food/R10-japanese-chicken-curry-potato-carrot.png",
+  "food-photo-r07-dragon-fruit-painting-break": "./onboarding/assets/food/R07-dragon-fruit-painting-break.png",
+  "food-photo-s01-sweet-potato-snow-fungus-sweet-soup": "./onboarding/assets/food/S01-sweet-potato-snow-fungus-sweet-soup.png",
+  "food-photo-din02-tomato-egg-chinese-lettuce": "./onboarding/assets/food/DIN02-tomato-egg-chinese-lettuce.png",
+  "food-photo-r08-chicken-feet-pot-rice-tempeh-choy-sum": "./onboarding/assets/food/R08-chicken-feet-pot-rice-tempeh-choy-sum.png"
 }

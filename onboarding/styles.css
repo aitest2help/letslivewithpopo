@@ -207,3 +207,10 @@ blockquote cite { display: block; font: 700 13px Arial, sans-serif; color: var(-
   .chapter-nav a { flex-direction: column; text-align: center; justify-content: center; gap: 4px; padding: 7px 5px; min-height: 57px; }
   .chapter-nav a > span:last-child { overflow-wrap: anywhere; }
 }
+
+/* Confirmed cookbook photos: complete framing, visible captions, no carousel. */
+.card.food .photo { flex-direction: column; align-items: stretch; gap: 12px; }
+.card.food .photo img { height: auto; object-fit: contain; }
+.card.food .photo figcaption, .food-story-photo figcaption { color: var(--muted); font-size: 13px; line-height: 1.65; padding: 0 6px 4px; }
+.food-story-photo { margin: 12px 0 18px; padding: 12px; border: 1px solid var(--line); border-radius: 15px; background: var(--cream); }
+.food-story-photo img { display: block; width: 100%; height: auto; max-height: 430px; object-fit: contain; margin-bottom: 10px; }
