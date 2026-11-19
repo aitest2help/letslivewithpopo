@@ -10,7 +10,7 @@ let audioState = { state: 'idle', key: null };
 let noticeTimer;
 let observer;
 const records = new Map();
-const chapterIcons = { 1: 'heart', 2: 'note', 3: 'sun', 4: 'hand' };
+const chapterIcons = { 1: 'heart', 2: 'note', 3: 'sun', 4: 'hand', 5: 'chat', 6: 'home' };
 const header = document.querySelector('.site-header');
 const headerOffset = () => Math.ceil(header.getBoundingClientRect().height) + 18;
 new ResizeObserver(() => {
@@ -65,12 +65,12 @@ function listenButton(key) {
   return `<button type="button" class="listen" data-listen="${esc(key)}" aria-pressed="false" aria-label="${esc(ui[language].listen + ': ' + label)}">${icon('sound')}<span>${esc(ui[language].listen)}</span></button>`;
 }
 
-function renderLisQuote(quote) {
+function renderHelperQuote(quote) {
   if (!quote) return '';
   const portrait = photos[quote.portrait];
-  const attribution = language === 'id' ? 'Kata-kata Lis sendiri' : 'English translation of Lis’s words';
-  return `<aside class="lis-quote" aria-label="${esc(attribution)}">
-    <div class="lis-byline">${portrait ? `<img src="${portrait}" alt="" width="44" height="44" loading="lazy" decoding="async">` : ''}<div><strong>${esc(quote.author)}</strong><span>${esc(attribution)}</span></div></div>
+  const attribution = language === 'id' ? 'Kata-kata pendamping saat ini' : 'English translation of our current helper’s words';
+  return `<aside class="helper-quote" aria-label="${esc(attribution)}">
+    <div class="helper-byline">${portrait ? `<img src="${portrait}" alt="" width="44" height="44" loading="lazy" decoding="async">` : ''}<div><strong>${esc(value(quote, 'author') || quote.author)}</strong><span>${esc(attribution)}</span></div></div>
     <blockquote${language === 'id' ? ' lang="id" translate="no" class="notranslate"' : ''}><p>${esc(value(quote, 'text'))}</p></blockquote>
   </aside>`;
 }
@@ -84,16 +84,20 @@ function renderCard(card) {
     ? `<figure class="photo"><img src="${photos[card.image]}" alt="${esc(title)}" decoding="async" ${card.image === 'popo-sunglasses' ? 'fetchpriority="high"' : 'loading="lazy"'}></figure>` : '';
   const paragraphs = (value(card, 'body') || []).map((p, i) => `<p>${value(card, 'body_labels')?.[i] ? `<strong class="paragraph-label">${esc(value(card, 'body_labels')[i])}</strong>` : ''}${esc(p)}</p>`).join('');
   const bullets = (value(card, 'bullets') || []).map(p => `<li>${esc(p)}</li>`).join('');
-  const quoteMarkup = quote ? `<span class="quote-symbol" aria-hidden="true">“</span><blockquote><p>${esc(quote)}</p><cite>— ${esc(card.author)}</cite></blockquote>` : '';
+  const quoteMarkup = quote ? `<span class="quote-symbol" aria-hidden="true">“</span><blockquote><p>${esc(quote)}</p><cite>— ${esc(value(card, 'author') || card.author)}</cite></blockquote>` : '';
   const dialogue = (card.dialogue || []).map(turn => `<p class="dialogue-line"><strong>${esc(turn.speaker === 'Helper' ? (language === 'id' ? 'Anda' : 'You') : turn.speaker)}</strong><span>${esc(value(turn, 'text'))}</span></p>`).join('');
   const dialogueMarkup = dialogue ? `<div class="dialogue-example"><p class="example-label">${language === 'id' ? 'Contoh ucapan — sesuaikan dalam bahasa Kanton' : 'Example wording — adapt in everyday Cantonese'}</p>${dialogue}</div>` : '';
+  const template = value(card, 'template');
+  const templateMarkup = template ? `<div class="message-example"><p class="example-label">${language === 'id' ? 'Contoh format — ganti isian dalam kurung' : 'Example format — fill in the brackets'}</p><pre>${esc(template)}</pre></div>` : '';
+  const resourceMarkup = (card.resources || []).filter(resource => /^https:\/\//.test(resource.url)).map(resource => `<a class="resource-link" href="${esc(resource.url)}" target="_blank" rel="noopener noreferrer">${icon('play')}<span>${esc(value(resource, 'label'))}</span></a>`).join('');
   const note = value(card, 'note');
   return `<article class="${classes}" id="${esc(card.id)}">
     ${image}<div class="copy">
       ${card.kind === 'safety' ? `<p class="safety-label">${esc(ui[language].safety)}</p>` : ''}
       ${value(card, 'reader_label') ? `<p class="reference-label">${icon('note')}${esc(value(card, 'reader_label'))}</p>` : ''}
       <h3>${esc(title)}</h3>${paragraphs}${bullets ? `<ul>${bullets}</ul>` : ''}${quoteMarkup}${dialogueMarkup}
-      ${renderLisQuote(card.lis_quote)}
+      ${templateMarkup}${resourceMarkup ? `<div class="resource-links">${resourceMarkup}</div>` : ''}
+      ${renderHelperQuote(card.helper_quote)}
       ${note ? `<p class="gentle-note">${esc(note)}</p>` : ''}${listenButton(card.id)}
     </div></article>`;
 }
@@ -151,8 +155,10 @@ function render() {
 function cardText(card) {
   const dialogue = card.dialogue?.length ? [language === 'id' ? 'Contoh ucapan untuk disesuaikan dalam bahasa Kanton' : 'Example wording to adapt in everyday Cantonese', ...card.dialogue.map(turn => `${turn.speaker === 'Helper' ? (language === 'id' ? 'Anda' : 'You') : turn.speaker}: ${value(turn, 'text')}`)] : [];
   const paragraphs = (value(card, 'body') || []).flatMap((p, i) => [value(card, 'body_labels')?.[i], p]).filter(Boolean);
-  const lisQuote = card.lis_quote ? [language === 'id' ? 'Kata-kata Lis sendiri' : 'English translation of Lis’s words', value(card.lis_quote, 'text')] : [];
-  return [value(card, 'title'), ...paragraphs, ...(value(card, 'bullets') || []), value(card, 'quote'), ...dialogue, ...lisQuote, value(card, 'note')].filter(Boolean).join('. ');
+  const helperQuote = card.helper_quote ? [language === 'id' ? 'Kata-kata pendamping saat ini' : 'English translation of our current helper’s words', value(card.helper_quote, 'text')] : [];
+  const template = value(card, 'template') ? [language === 'id' ? 'Contoh format, ganti isian dalam kurung' : 'Example format, fill in the brackets', value(card, 'template')] : [];
+  const resources = (card.resources || []).map(resource => value(resource, 'label'));
+  return [value(card, 'title'), ...paragraphs, ...(value(card, 'bullets') || []), value(card, 'quote'), ...dialogue, ...template, ...helperQuote, ...resources, value(card, 'note')].filter(Boolean).join('. ');
 }
 
 function updatePlayer() {
@@ -206,7 +212,7 @@ $('player-stop').addEventListener('click', () => controller.stop());
 window.addEventListener('pagehide', () => controller.stop());
 
 try {
-  const responses = await Promise.all([fetch(new URL('./content.json?v=20261118-dayflow', import.meta.url)), fetch(new URL('./photos.json?v=20261118-dayflow', import.meta.url))]);
+  const responses = await Promise.all([fetch(new URL('./content.json?v=20261119-six-chapters', import.meta.url)), fetch(new URL('./photos.json?v=20261119-six-chapters', import.meta.url))]);
   if (responses.some(r => !r.ok)) throw new Error('Guide files unavailable');
   [content, photos] = await Promise.all(responses.map(r => r.json()));
   render();

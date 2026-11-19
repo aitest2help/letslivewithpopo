@@ -1,5 +1,5 @@
 {
-  "scope": "Supplied Popo/Lis and food photographs only; no videos, private documents, research images or generated mockups.",
+  "scope": "Supplied Popo/our current helper and food photographs only; no videos, private documents, research images or generated mockups.",
   "public": true,
   "entries": [
     {
@@ -113,7 +113,7 @@
       "file": "popo/popo-accessories-and-sunglasses.png",
       "thumbnail": "thumbnails/popo-accessories-and-sunglasses.png",
       "group": "popo",
-      "caption_en": "Popo wearing sunglasses; Lis helped choose them. The family says she enjoys accessories and compliments.",
+      "caption_en": "Popo wearing sunglasses; our current helper helped choose them. The family says she enjoys accessories and compliments.",
       "caption_id": null,
       "status": "Supplied family photograph",
       "source_aliases": [
@@ -171,10 +171,10 @@
       "pixel_sha256": "c6c53a45fa2aa3b7e0cb0f5c3857f9b7cfbb44bb606a7156167ef6db86270b1a"
     },
     {
-      "file": "popo/popo-enjoying-lis-pandan-jelly.png",
-      "thumbnail": "thumbnails/popo-enjoying-lis-pandan-jelly.png",
+      "file": "popo/popo-enjoying-helper-pandan-jelly.png",
+      "thumbnail": "thumbnails/popo-enjoying-helper-pandan-jelly.png",
       "group": "popo",
-      "caption_en": "Popo enjoying pandan jelly made by Lis.",
+      "caption_en": "Popo enjoying pandan jelly made by our current helper.",
       "caption_id": null,
       "status": "Supplied family photograph",
       "source_aliases": [
@@ -204,7 +204,7 @@
       "file": "popo/morning-music-on-tv.png",
       "thumbnail": "thumbnails/morning-music-on-tv.png",
       "group": "popo",
-      "caption_en": "Supplied morning TV/music photograph; Lis prepares familiar YouTube music.",
+      "caption_en": "Supplied morning TV/music photograph; our current helper prepares familiar YouTube music.",
       "caption_id": null,
       "status": "Supplied family photograph",
       "source_aliases": [
@@ -294,7 +294,7 @@
       "file": "popo/newspapers-in-lobby.png",
       "thumbnail": "thumbnails/newspapers-in-lobby.png",
       "group": "popo",
-      "caption_en": "Newspapers in the lobby, where Lis reports collecting the newspaper.",
+      "caption_en": "Newspapers in the lobby, where our current helper reports collecting the newspaper.",
       "caption_id": null,
       "status": "Supplied family photograph",
       "source_aliases": [
@@ -321,14 +321,14 @@
       "pixel_sha256": "461e23b708cb56a7e4ebb81eac13edf2ba4622bccbc0a0661de8a47fc18cf7d9"
     },
     {
-      "file": "lis/lis-portrait.png",
-      "thumbnail": "thumbnails/lis-portrait.png",
-      "group": "lis",
-      "caption_en": "Lis’s portrait, supplied for the introduction/testimonial.",
+      "file": "helper/helper-portrait.png",
+      "thumbnail": "thumbnails/helper-portrait.png",
+      "group": "helper",
+      "caption_en": "Our current helper’s portrait, supplied for the introduction/testimonial.",
       "caption_id": null,
       "status": "Supplied family photograph",
       "source_aliases": [
-        "lis-portrait.png"
+        "helper-portrait.png"
       ],
       "width": 940,
       "height": 1799,
@@ -336,14 +336,14 @@
       "pixel_sha256": "6f58fcf881aeb01598c0daaebc7e4eab17471fcf4f387fe72a4470bdcda0278a"
     },
     {
-      "file": "lis/lis-with-popo.png",
-      "thumbnail": "thumbnails/lis-with-popo.png",
-      "group": "lis",
-      "caption_en": "Lis with Popo, supplied for the introduction/testimonial.",
+      "file": "helper/helper-with-popo.png",
+      "thumbnail": "thumbnails/helper-with-popo.png",
+      "group": "helper",
+      "caption_en": "Our current helper with Popo, supplied for the introduction/testimonial.",
       "caption_id": null,
       "status": "Supplied family photograph",
       "source_aliases": [
-        "lis-and-mother.png"
+        "helper-and-popo.png"
       ],
       "width": 1126,
       "height": 2000,

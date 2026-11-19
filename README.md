@@ -1,34 +1,38 @@
 # Let’s Live with Popo — onboarding demo
 
-A public first-review demo of Chapters 1–4, Indonesian by default with English selectable. Main content is visible by scrolling. Each Listen button reads only its own part using the device/browser voice and stops at the end. No autoplay or whole-chapter narration.
+A public family-review draft of all six chapters, Indonesian by default with English selectable. Main guidance is visible by scrolling. Each Listen button reads only its own card, including that card’s quote or message template, using the device/browser voice and stops at the end. No autoplay or whole-chapter narration.
 
 ## Chapters
 
 1. Who Popo is — her life, pride, preferences and family context.
 2. What dementia is doing to her — understanding feelings and everyday changes.
-3. Making a good day — familiar routines, food, outings, meaningful activities and comfort.
-4. When days get hard — the original three situations and related ones, with the family's joint support and emergency boundaries.
+3. Making a good day — six familiar day moments, with separate outings, activities, food and comfort guidance.
+4. When days get hard — the original three situations and related ones, joint family support and emergency boundaries.
+5. We carry this together — the helper’s rest, sleep, feelings, personal life, support and gradual handover.
+6. Practical matters — visible WhatsApp formats, BP records, current medicine-plan process, personal care, safety, household tasks, shopping, appointments and the shared cookbook.
 
-Chapters 1–2 retain their previous reader copy. Chapters 3–4 were added on 18 November 2026, using the existing guide, Lis’s observations and later family corrections. Example dialogue is explicitly labelled as adaptable wording, not invented quotations from Lis. Chapters 5–6 are not yet implemented.
+Chapters 1–4 retain their existing practical content and card structure, with human personal names replaced by role labels. Popo is retained as the established nickname. The Chapter 3 timeline remains six moments with four genuine Indonesian helper excerpts; original spelling is preserved and English is explicitly labelled translation. Authored guidance and suggested dialogue are not presented as the helper’s real quotations.
 
-## Visibility and scope
+The cookbook has 41 source-backed food/reference cards, nine distinct existing labelled food photographs, optional supplied cooking links and seven day-menu ideas. It is organised by breakfast, snacks, meals, drinks and recipe ideas, not a fixed all-day schedule. Begin with favourites and learn through shopping/cooking together. Missing photographs remain marked; unidentified meat/filling photographs are not guessed into approved dish cards. Recipe videos are references, not represented as watched or fully ingredient-checked.
 
-Published without password protection at the owner’s explicit request on 17 November 2026. Text and selected photographs are publicly accessible. Noindex is an indexing instruction, not access protection. This is not a final approved six-chapter guide for a new hire. Private household contact information must never be published. Complete, verified medication instructions may be published with the owner’s permission; raw prescriptions and private source records remain excluded. This layout update adds no medication regimen.
+## Visibility and care boundaries
 
-Only the reader-facing demo is included. No applicant page, raw Lis feedback, prescription/medicine register, database, WhatsApp integration, generated narration, authentication or source tools. Medication-specific details belong in the current reviewed doctor-approved handover, not guessed from the narrative. The applicant site is a separate repository and is not modified by this deployment.
+This GitHub Pages demo is public and **not password protected**. Noindex is an indexing instruction, not access control. Text and photographs can be downloaded. Final family review and confirmed-new-hire readiness remain separate from this requested publication.
+
+Private household contact information must never be published, even behind a password. Contact and location arrangements are supplied separately. No private number, email, address, contact list, raw feedback/source record, identity document or identifying prescription image is included. Public emergency 999 is allowed.
+
+Verified medication instructions may be published with the owner’s permission, but the current transcription is incomplete and has schedule conflicts. The medicine-reference fields are visibly **PENDING**, not an administration chart or a new regimen. Use the current written doctor/pharmacist plan; do not invent a dose, timing, escalation, repeat, crushing or splitting rule. The publication date is not a medication-reconciliation date.
+
+Personal names have been removed from the current reader copy, narration, image captions/index and helper asset paths. Historical Git commits/tags and copies downloaded earlier are not rewritten or erased by this forward update. Photographs themselves remain the supplied real photographs, not anonymous lookalikes.
+
+No backend, database, WhatsApp integration, generated narration, authentication or source tools are deployed. The applicant website is a separate repository and is not modified here.
 
 ## Hosting and versions
 
-GitHub Pages serves main at the repository root. No build step; .nojekyll disables Jekyll processing. Asset/module/data paths are relative to the project URL. Changes use ordinary Git commits. Preserve an earlier commit/tag and restore through a new forward commit if rollback is requested; never force-push.
+GitHub Pages serves `main` at the repository root. No build step; `.nojekyll` disables Jekyll processing. Asset/module/data paths are relative to the project URL. Updates use ordinary forward commits and a pre-update rollback tag; never force-push or rewrite history. A requested rollback restores a prior version through a new forward commit.
 
-Indonesian voice availability depends on the phone/browser and may require installing a matching voice. A missing voice is explained rather than replaced with English. Actual audio needs a phone check.
+Indonesian voice availability depends on the phone/browser and may require installing a matching voice. A missing voice is explained rather than replaced with English. Actual sound still needs a phone check.
 
-## Supplied photo library for Copilot
+## Supplied photo library
 
-See the [illustrated image index](assets/library/INDEX.md) and [structured manifest](assets/library/manifest.json). Available supplied Popo/Lis and food pictures use source-backed labels; unfamiliar dishes are marked label pending. Duplicate sources are cross-referenced rather than repeatedly uploaded. The original library is unchanged by the chapter extension. Three small full-frame existing-photo derivatives support the morning, homecoming and outings cards; see [routine-image notes](onboarding/assets/README.md).
-
-## Chapter 3 day-flow — 18 November 2026
-
-Six labelled day moments connect with a thin sage line: morning, leaving for the centre, daytime at the centre/at home, homecoming, evening and bedtime. Weekends, activities, food and comfort remain visible below. Every previous practical care sentence is retained; only the mixed waiting/home-time paragraph was split into its natural moments. Chapters 1, 2 and 4 and the full photo library are unchanged.
-
-Four short Lis excerpts use her supplied portrait and exact Indonesian words. English is labelled translation. Do not give this portrait/quotation styling to authored family advice or new example dialogue. A Listen button reads only its own card and quote, then stops. Use the current `onboarding/content.json` as the layout/content baseline; do not replace it with the older nine-group draft. Keep normal Git history and the pre-update rollback tag.
+See the [illustrated image index](assets/library/INDEX.md) and [structured manifest](assets/library/manifest.json). The 32 unique full-resolution supplied pictures and their previews are preserved; current helper labels and paths are role-based. Unknown dishes remain label pending, and duplicate sources remain aliases. Guide food/handover images reuse these existing labelled previews. No original user image has been altered, no new media generated, and no private medical/contact documents uploaded.

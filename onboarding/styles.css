@@ -159,13 +159,13 @@ blockquote cite { display: block; font: 700 13px Arial, sans-serif; color: var(-
 .paragraph-label { display: block; color: var(--sage); font-size: 12px; letter-spacing: .025em; margin-bottom: 7px; }
 .card .reference-label { display: flex; align-items: center; gap: 7px; color: var(--sage); font-size: 12px; font-weight: 700; margin-bottom: 12px; }
 .reference-label .icon { width: 16px; height: 16px; }
-.lis-quote { margin: 9px 0 15px; padding: 17px 18px; border-radius: 15px; background: #edf2e8; border-left: 3px solid #b3c8a8; }
-.lis-byline { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
-.lis-byline img { width: 44px; height: 44px; object-fit: cover; object-position: 50% 25%; border-radius: 50%; background: white; flex: none; }
-.lis-byline strong { display: block; color: var(--sage); font-size: 13px; margin-bottom: 4px; }
-.lis-byline span { display: block; color: var(--muted); font-size: 11px; line-height: 1.4; }
-.lis-quote blockquote { margin: 0; }
-.lis-quote blockquote p { font: 400 17px/1.65 Georgia, serif !important; margin: 0; }
+.helper-quote { margin: 9px 0 15px; padding: 17px 18px; border-radius: 15px; background: #edf2e8; border-left: 3px solid #b3c8a8; }
+.helper-byline { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+.helper-byline img { width: 44px; height: 44px; object-fit: cover; object-position: 50% 25%; border-radius: 50%; background: white; flex: none; }
+.helper-byline strong { display: block; color: var(--sage); font-size: 13px; margin-bottom: 4px; }
+.helper-byline span { display: block; color: var(--muted); font-size: 11px; line-height: 1.4; }
+.helper-quote blockquote { margin: 0; }
+.helper-quote blockquote p { font: 400 17px/1.65 Georgia, serif !important; margin: 0; }
 @media (max-width: 650px) {
   .day-flow { width: calc(100% - 32px); }
   .day-flow::before { left: 19px; }
@@ -173,5 +173,37 @@ blockquote cite { display: block; font: 700 13px Arial, sans-serif; color: var(-
   .flow-section .section-heading { padding-left: 51px; min-height: 44px; }
   .flow-section .section-symbol { top: 31px; }
   .flow-section .cards { position: relative; }
-  .lis-quote { padding: 15px; }
+  .helper-quote { padding: 15px; }
+}
+
+/* Six chapters remain labelled and wrap without obscuring story or audio controls. */
+@media (min-width: 900px) {
+  .chapter-nav { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
+  .chapter-nav a { padding: 9px 10px; font-size: 12px; line-height: 1.4; }
+  .nav-icon { gap: 4px; }
+}
+.message-example { margin: 16px 0; padding: 17px; border: 1px solid #cddac4; border-radius: 15px; background: #edf2e8; }
+.message-example .example-label { margin-bottom: 11px; color: var(--muted); font-size: 12px; }
+.message-example pre { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 15px/1.75 Arial, sans-serif; }
+.resource-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+.resource-link { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; padding: 9px 13px; border: 1px solid var(--line); border-radius: 12px; font-size: 13px; color: var(--sage); text-decoration: none; overflow-wrap: anywhere; }
+.resource-link:hover { background: var(--light); }
+.resource-link .icon { width: 16px; height: 16px; }
+.card.food h3 { font-size: 22px; }
+.card.food .photo { min-height: 0; padding: 15px; }
+.card.food .photo img { max-height: 430px; }
+.card.food .copy { padding: 25px 27px 18px; }
+@media (max-width: 650px) {
+  .card.food .copy { padding: 23px 22px 16px; }
+  .card.food .photo { padding: 10px; }
+  .message-example { padding: 14px; }
+}
+
+@media (min-width: 651px) and (max-width: 899px) {
+  .chapter-nav { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 650px) {
+  .chapter-nav { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .chapter-nav a { flex-direction: column; text-align: center; justify-content: center; gap: 4px; padding: 7px 5px; min-height: 57px; }
+  .chapter-nav a > span:last-child { overflow-wrap: anywhere; }
 }

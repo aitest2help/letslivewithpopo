@@ -5,7 +5,7 @@ These are small full-frame JPEG derivatives of the owner's already published pho
 | File | Existing source | Use |
 |---|---|---|
 | breakfast-congee.jpg | food/F01-plain-congee-daliang-milk.png | Popo's plain-congee breakfast with Daliang salted milk. |
-| homecoming-jelly.jpg | popo/popo-enjoying-lis-pandan-jelly.png | Pandan jelly made by Lis; an enjoyed after-centre snack example. |
+| homecoming-jelly.jpg | popo/popo-enjoying-helper-pandan-jelly.png | Pandan jelly made by our current helper; an enjoyed after-centre snack example. |
 | outing-icecream.jpg | popo/popo-ice-cream-outing-01.png | Ice-cream outing; weekend companionship example. |
 
 Use the supplied captions, not visual guesses, when editing the guide. All pictures in the current public demo are publicly downloadable.

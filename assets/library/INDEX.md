@@ -1,4 +1,4 @@
-# Supplied Popo / Lis / food photo library
+# Supplied Popo / our current helper / food photo library
 
 32 full-resolution, unique source photographs/screenshots are indexed below, plus the five existing demo image derivatives. Originals remain unchanged locally. Library copies omit EXIF/text metadata and preserve image pixels, dimensions and complete framing; small previews are separate.
 
@@ -10,26 +10,26 @@ For Copilot, use [manifest.json](manifest.json). Captions come from supplied fam
 
 | Preview | File | Supplied context |
 |---|---|---|
-| <a href="popo/popo-accessories-and-sunglasses.png"><img src="thumbnails/popo-accessories-and-sunglasses.png" width="120" alt="Popo wearing sunglasses; Lis helped choose them. The family says she enjoys accessories and compliments."></a> | [popo-accessories-and-sunglasses.png](popo/popo-accessories-and-sunglasses.png) | Popo wearing sunglasses; Lis helped choose them. The family says she enjoys accessories and compliments. |
+| <a href="popo/popo-accessories-and-sunglasses.png"><img src="thumbnails/popo-accessories-and-sunglasses.png" width="120" alt="Popo wearing sunglasses; our current helper helped choose them. The family says she enjoys accessories and compliments."></a> | [popo-accessories-and-sunglasses.png](popo/popo-accessories-and-sunglasses.png) | Popo wearing sunglasses; our current helper helped choose them. The family says she enjoys accessories and compliments. |
 | <a href="popo/popo-reading-newspaper.png"><img src="thumbnails/popo-reading-newspaper.png" width="120" alt="Popo reading her Chinese newspaper."></a> | [popo-reading-newspaper.png](popo/popo-reading-newspaper.png) | Popo reading her Chinese newspaper. |
 | <a href="popo/popo-colouring-focused.png"><img src="thumbnails/popo-colouring-focused.png" width="120" alt="Popo concentrating on colouring/artwork."></a> | [popo-colouring-focused.png](popo/popo-colouring-focused.png) | Popo concentrating on colouring/artwork. |
 | <a href="popo/popo-colouring-second-photo.png"><img src="thumbnails/popo-colouring-second-photo.png" width="120" alt="A second supplied moment during artwork."></a> | [popo-colouring-second-photo.png](popo/popo-colouring-second-photo.png) | A second supplied moment during artwork. |
-| <a href="popo/popo-enjoying-lis-pandan-jelly.png"><img src="thumbnails/popo-enjoying-lis-pandan-jelly.png" width="120" alt="Popo enjoying pandan jelly made by Lis."></a> | [popo-enjoying-lis-pandan-jelly.png](popo/popo-enjoying-lis-pandan-jelly.png) | Popo enjoying pandan jelly made by Lis. |
+| <a href="popo/popo-enjoying-helper-pandan-jelly.png"><img src="thumbnails/popo-enjoying-helper-pandan-jelly.png" width="120" alt="Popo enjoying pandan jelly made by our current helper."></a> | [popo-enjoying-helper-pandan-jelly.png](popo/popo-enjoying-helper-pandan-jelly.png) | Popo enjoying pandan jelly made by our current helper. |
 | <a href="popo/popo-ice-cream-outing-01.png"><img src="thumbnails/popo-ice-cream-outing-01.png" width="120" alt="Popo enjoying ice cream on an outing."></a> | [popo-ice-cream-outing-01.png](popo/popo-ice-cream-outing-01.png) | Popo enjoying ice cream on an outing. |
-| <a href="popo/morning-music-on-tv.png"><img src="thumbnails/morning-music-on-tv.png" width="120" alt="Supplied morning TV/music photograph; Lis prepares familiar YouTube music."></a> | [morning-music-on-tv.png](popo/morning-music-on-tv.png) | Supplied morning TV/music photograph; Lis prepares familiar YouTube music. |
+| <a href="popo/morning-music-on-tv.png"><img src="thumbnails/morning-music-on-tv.png" width="120" alt="Supplied morning TV/music photograph; our current helper prepares familiar YouTube music."></a> | [morning-music-on-tv.png](popo/morning-music-on-tv.png) | Supplied morning TV/music photograph; our current helper prepares familiar YouTube music. |
 | <a href="popo/popo-at-table.png"><img src="thumbnails/popo-at-table.png" width="120" alt="Popo seated at a table; exact food/drink label has not been supplied."></a> | [popo-at-table.png](popo/popo-at-table.png) | Popo seated at a table; exact food/drink label has not been supplied. |
 | <a href="popo/popo-eating-meal.png"><img src="thumbnails/popo-eating-meal.png" width="120" alt="Popo eating a meal; exact dish/ingredients are not confirmed."></a> | [popo-eating-meal.png](popo/popo-eating-meal.png) | Popo eating a meal; exact dish/ingredients are not confirmed. |
 | <a href="popo/popo-reading-leaflet.png"><img src="thumbnails/popo-reading-leaflet.png" width="120" alt="Popo reading a leaflet; do not infer a particular class or location."></a> | [popo-reading-leaflet.png](popo/popo-reading-leaflet.png) | Popo reading a leaflet; do not infer a particular class or location. |
 | <a href="popo/popo-in-vehicle.png"><img src="thumbnails/popo-in-vehicle.png" width="120" alt="Popo travelling in a vehicle during an outing."></a> | [popo-in-vehicle.png](popo/popo-in-vehicle.png) | Popo travelling in a vehicle during an outing. |
 | <a href="popo/popo-ice-cream.png"><img src="thumbnails/popo-ice-cream.png" width="120" alt="A further ice-cream outing photograph."></a> | [popo-ice-cream.png](popo/popo-ice-cream.png) | A further ice-cream outing photograph. |
-| <a href="popo/newspapers-in-lobby.png"><img src="thumbnails/newspapers-in-lobby.png" width="120" alt="Newspapers in the lobby, where Lis reports collecting the newspaper."></a> | [newspapers-in-lobby.png](popo/newspapers-in-lobby.png) | Newspapers in the lobby, where Lis reports collecting the newspaper. |
+| <a href="popo/newspapers-in-lobby.png"><img src="thumbnails/newspapers-in-lobby.png" width="120" alt="Newspapers in the lobby, where our current helper reports collecting the newspaper."></a> | [newspapers-in-lobby.png](popo/newspapers-in-lobby.png) | Newspapers in the lobby, where our current helper reports collecting the newspaper. |
 
-## Lis and her relationship with Popo
+## our current helper and her relationship with Popo
 
 | Preview | File | Supplied context |
 |---|---|---|
-| <a href="lis/lis-portrait.png"><img src="thumbnails/lis-portrait.png" width="120" alt="Lis’s portrait, supplied for the introduction/testimonial."></a> | [lis-portrait.png](lis/lis-portrait.png) | Lis’s portrait, supplied for the introduction/testimonial. |
-| <a href="lis/lis-with-popo.png"><img src="thumbnails/lis-with-popo.png" width="120" alt="Lis with Popo, supplied for the introduction/testimonial."></a> | [lis-with-popo.png](lis/lis-with-popo.png) | Lis with Popo, supplied for the introduction/testimonial. |
+| <a href="helper/helper-portrait.png"><img src="thumbnails/helper-portrait.png" width="120" alt="our current helper’s portrait, supplied for the introduction/testimonial."></a> | [helper-portrait.png](helper/helper-portrait.png) | our current helper’s portrait, supplied for the introduction/testimonial. |
+| <a href="helper/helper-with-popo.png"><img src="thumbnails/helper-with-popo.png" width="120" alt="our current helper with Popo, supplied for the introduction/testimonial."></a> | [helper-with-popo.png](helper/helper-with-popo.png) | our current helper with Popo, supplied for the introduction/testimonial. |
 
 ## Family-labelled food photographs
 

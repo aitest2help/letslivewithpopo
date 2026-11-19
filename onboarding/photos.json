@@ -7,5 +7,15 @@
   "breakfast-congee": "./onboarding/assets/breakfast-congee.jpg",
   "homecoming-jelly": "./onboarding/assets/homecoming-jelly.jpg",
   "outing-icecream": "./onboarding/assets/outing-icecream.jpg",
-  "lis-portrait": "./onboarding/assets/lis-portrait.png"
+  "helper-portrait": "./onboarding/assets/helper-portrait.png",
+  "food-f01": "./onboarding/assets/food/F01.png",
+  "food-f02": "./onboarding/assets/food/F02.png",
+  "food-f03": "./onboarding/assets/food/F03.png",
+  "food-f04": "./onboarding/assets/food/F04.png",
+  "food-f05": "./onboarding/assets/food/F05.png",
+  "food-f06": "./onboarding/assets/food/F06.png",
+  "food-f07": "./onboarding/assets/food/F07.png",
+  "food-f08": "./onboarding/assets/food/F08.png",
+  "food-f13": "./onboarding/assets/food/F13.png",
+  "helper-with-popo": "./onboarding/assets/helper-with-popo.png"
 }
