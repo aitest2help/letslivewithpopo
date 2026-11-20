@@ -214,3 +214,65 @@ blockquote cite { display: block; font: 700 13px Arial, sans-serif; color: var(-
 .card.food .photo figcaption, .food-story-photo figcaption { color: var(--muted); font-size: 13px; line-height: 1.65; padding: 0 6px 4px; }
 .food-story-photo { margin: 12px 0 18px; padding: 12px; border: 1px solid var(--line); border-radius: 15px; background: var(--cream); }
 .food-story-photo img { display: block; width: 100%; height: auto; max-height: 430px; object-fit: contain; margin-bottom: 10px; }
+
+/* Focused usability controls; the existing chapter and day-flow styles stay intact. */
+.header-home { display: inline-flex; align-items: center; min-height: 44px; padding: 8px; color: var(--sage); font-size: 13px; text-decoration: none; }
+.overview { padding-top: 42px; }
+.welcome { display: flex; gap: 40px; align-items: center; }
+.welcome > div { flex: 1; }
+.welcome figure { margin: 0; flex: 0 0 29%; background: var(--light); border-radius: 24px; overflow: hidden; }
+.welcome img { display: block; width: 100%; max-height: 380px; object-fit: contain; }
+.overview-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin: 36px 0 20px; }
+.overview-heading h2, .food-tools h2 { font: 400 27px/1.3 Georgia, serif; margin: 0; }
+.overview-heading a, .menu-jump { font-size: 14px; color: var(--sage); min-height: 44px; display: inline-flex; align-items: center; }
+.chapter-directory { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.chapter-choice { padding: 24px; background: var(--paper); border: 1px solid var(--line); border-radius: 20px; text-decoration: none; }
+.chapter-choice:hover { border-color: var(--sage); background: #fbfcf9; }
+.chapter-choice .section-symbol { margin-bottom: 16px; }
+.chapter-choice .eyebrow { display: block; margin-bottom: 8px; }
+.chapter-choice h3 { font: 400 24px/1.3 Georgia, serif; margin-bottom: 12px; }
+.chapter-choice p { color: var(--muted); line-height: 1.65; font-size: 15px; }
+.choice-action { color: var(--sage); font-size: 13px; font-weight: 700; }
+.overview-note { color: var(--muted); font-size: 14px; line-height: 1.7; margin: 27px 0; }
+.reading-links { display: flex; justify-content: space-between; gap: 15px; padding-top: 20px; font-size: 13px; color: var(--sage); }
+.reading-links a { min-height: 44px; display: inline-flex; align-items: center; }
+.chapter-pager { display: flex; justify-content: space-between; gap: 14px; border-top: 1px solid var(--line); margin-top: 40px; padding-top: 20px; }
+.chapter-pager a { min-height: 44px; padding: 10px 14px; color: var(--sage); font-size: 14px; line-height: 1.5; text-decoration: none; border: 1px solid var(--line); border-radius: 12px; background: white; }
+.tool-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 11px 16px; border: 1px solid #c8d6bf; border-radius: 13px; background: white; color: var(--sage); font: 700 14px/1.4 Arial, sans-serif; text-decoration: none; }
+.tool-button:hover, .tool-button[aria-pressed="true"] { background: var(--sage); color: white; border-color: var(--sage); }
+.practical-shortcuts { display: flex; gap: 10px; flex-wrap: wrap; }
+.practical-shortcuts a { flex: 1 1 170px; }
+.copy-status { display: block; color: var(--sage); font-size: 13px; line-height: 1.6; margin-top: 9px; }
+.message-example .tool-button { margin-top: 15px; }
+.message-example pre { user-select: text; }
+.food-tools { margin-top: 35px; padding: 24px; border: 1px solid var(--line); background: var(--light); border-radius: 20px; }
+.food-tools p { font-size: 14px; line-height: 1.65; color: var(--muted); margin: 13px 0; }
+.food-filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0; }
+.food-tools label { display: block; font-size: 14px; font-weight: 700; margin-bottom: 9px; }
+.search-row { display: flex; gap: 10px; }
+.search-row input { flex: 1; width: 0; min-width: 0; min-height: 48px; border: 1px solid #b7c7ae; border-radius: 12px; padding: 12px; font: inherit; color: var(--ink); background: white; }
+.search-row input:focus-visible { outline: 3px solid #b17b32; outline-offset: 3px; }
+@media (max-width: 650px) {
+  .header-inner { gap: 3px; }
+  .header-home { font-size: 12px; padding: 4px; }
+  .brand strong { font-size: 15px; }
+  .overview { padding-top: 28px; }
+  .welcome { gap: 22px; flex-direction: column; align-items: stretch; }
+  .welcome figure { align-self: center; width: min(270px, 100%); }
+  .welcome img { max-height: 270px; }
+  .overview-heading { display: block; }
+  .overview-heading h2 { font-size: 25px; }
+  .chapter-directory { grid-template-columns: 1fr; gap: 13px; }
+  .chapter-choice { padding: 21px; }
+  .chapter-choice .section-symbol { float: right; margin-left: 12px; }
+  .chapter-pager { flex-wrap: wrap; }
+  .chapter-pager a { flex: 1 1 120px; }
+  .food-tools { padding: 19px; }
+  .food-filters .tool-button { font-size: 12px; padding: 10px 12px; }
+  .practical-shortcuts { gap: 8px; }
+  .practical-shortcuts a { flex: 1 1 125px; font-size: 13px; padding: 10px; }
+}
+@media (min-width: 651px) and (max-width: 899px) { .chapter-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media print {
+  .site-header, .audio-player, .audio-notice, .listen, .tool-button, .reading-links, .chapter-pager { display: none; }
+}

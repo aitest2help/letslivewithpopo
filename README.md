@@ -38,3 +38,11 @@ Indonesian voice availability depends on the phone/browser and may require insta
 ## Supplied photo library
 
 See the [illustrated bilingual image index](assets/library/INDEX.md) and [structured manifest](assets/library/manifest.json). The library now has 40 unique pictures/screenshots/reference illustrations with separate previews: 22 labelled food photographs, two tofu reference illustrations and the other supplied activity/helper/Popo pictures. All nine formerly unidentified food pictures have family-confirmed bilingual captions; duplicate sources remain aliases. Reference illustrations are not described as the helper’s cooking or proof of the family’s recipe. The aubergine reference with a personal-name watermark is omitted rather than having its attribution erased. No original user image is overwritten, no new media generated, and no private medical/contact documents uploaded.
+
+## Focused usability update — 20 November 2026
+
+The landing page now offers six descriptive chapter choices. A selected chapter stays visible in a calm scroll, with Previous/Next, a return to the overview, and Show all for the full guide. Existing chapter, section and card fragment links still open the relevant chapter, and browser Back works. Chapter 3 retains its original fully visible six-moment timeline; no accordion or automatic narration is added.
+
+Chapter 6 has four practical shortcuts, Copy controls for its five existing message formats, and optional food-category plus Indonesian/English dish/ingredient search. Copy does not send a message: paste into WhatsApp yourself and replace the brackets. The page shows success or manual-copy guidance if browser copying is denied. Food filters cover all 44 cards; original food safety/handover guidance, medical sections and weekly menu ideas remain unfiltered. Reset restores every dish. Native Listen remains available on food cards and reads only that selected card, including its captions. Navigation, language and filtering stop active speech.
+
+All reader care content, medication gaps, quotations and photographs are unchanged. No backend, AI audio, new pictures, dark mode or password hosting was introduced. This site remains public and not password protected. The applicant site and the separate ai.studio site are not modified.

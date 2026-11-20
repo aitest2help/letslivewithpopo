@@ -1,5 +1,6 @@
 import { icon } from '../icons.js';
 import { SpeechController } from '../speech.js';
+import { chapterSummaries, foodGroups, resolveGuideRoute, matchesFood, copyPlainText } from './usability.js';
 
 const $ = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -9,6 +10,9 @@ let photos;
 let audioState = { state: 'idle', key: null };
 let noticeTimer;
 let observer;
+let view = 'home';
+let foodCategory = 'all';
+let foodQuery = '';
 const records = new Map();
 const chapterIcons = { 1: 'heart', 2: 'note', 3: 'sun', 4: 'hand', 5: 'chat', 6: 'home' };
 const header = document.querySelector('.site-header');
@@ -90,7 +94,7 @@ function renderCard(card) {
   const dialogue = (card.dialogue || []).map(turn => `<p class="dialogue-line"><strong>${esc(turn.speaker === 'Helper' ? (language === 'id' ? 'Anda' : 'You') : turn.speaker)}</strong><span>${esc(value(turn, 'text'))}</span></p>`).join('');
   const dialogueMarkup = dialogue ? `<div class="dialogue-example"><p class="example-label">${language === 'id' ? 'Contoh ucapan — sesuaikan dalam bahasa Kanton' : 'Example wording — adapt in everyday Cantonese'}</p>${dialogue}</div>` : '';
   const template = value(card, 'template');
-  const templateMarkup = template ? `<div class="message-example"><p class="example-label">${language === 'id' ? 'Contoh format — ganti isian dalam kurung' : 'Example format — fill in the brackets'}</p><pre>${esc(template)}</pre></div>` : '';
+  const templateMarkup = template ? `<div class="message-example"><p class="example-label">${language === 'id' ? 'Contoh format — ganti isian dalam kurung' : 'Example format — fill in the brackets'}</p><pre tabindex="0">${esc(template)}</pre><button type="button" class="tool-button" data-copy="${esc(card.id)}">${language === 'id' ? 'Salin pesan' : 'Copy message'}</button><span class="copy-status" role="status"></span></div>` : '';
   const resourceMarkup = (card.resources || []).filter(resource => /^https:\/\//.test(resource.url)).map(resource => `<a class="resource-link" href="${esc(resource.url)}" target="_blank" rel="noopener noreferrer">${icon('play')}<span>${esc(value(resource, 'label'))}</span></a>`).join('');
   const note = value(card, 'note');
   return `<article class="${classes}" id="${esc(card.id)}">
@@ -132,10 +136,80 @@ function renderChapter(chapter) {
   </section>`;
 }
 
+function renderOverview() {
+  const pair = (id, en) => language === 'id' ? id : en;
+  return `<section class="overview wrap" id="home" aria-labelledby="welcome-title">
+    <div class="welcome"><div><p class="eyebrow">${pair('Panduan untuk teman baru Popo', 'A guide for Popo’s new companion')}</p><h1 id="welcome-title">${pair('Mari mengenal Popo. Kita jalani bersama.', 'Get to know Popo. We do this together.')}</h1><p class="subtitle">${pair('Kenali ceritanya, lalu pelajari kesehariannya. Pilih bab yang Anda butuhkan; tidak harus membaca semuanya sekaligus.', 'Start with her story, then learn her everyday life. Choose the chapter you need; you do not have to read everything at once.')}</p><a class="tool-button" href="#ch1">${pair('Mulai mengenal Popo', 'Start with Popo’s story')}</a></div><figure><img src="${photos['popo-sunglasses']}" alt="${pair('Popo menikmati kacamata dan aksesori pilihannya', 'Popo enjoying her chosen sunglasses and accessories')}" decoding="async" fetchpriority="high"></figure></div>
+    <div class="overview-heading"><h2>${pair('Enam bab, sesuai kebutuhan Anda', 'Six chapters, at your own pace')}</h2><a href="#all">${pair('Tampilkan semua bab', 'Show all chapters')}</a></div>
+    <div class="chapter-directory">${content.chapters.map(ch => `<a class="chapter-choice" href="#${esc(ch.id)}"><span class="section-symbol">${icon(chapterIcons[ch.number])}</span><span class="eyebrow">${ui[language].chapter} ${String(ch.number).padStart(2, '0')}</span><h3>${esc(value(ch, 'short'))}</h3><p>${esc(chapterSummaries[ch.number - 1][language === 'id' ? 0 : 1])}</p><span class="choice-action">${pair('Baca bab ini', 'Read this chapter')} →</span></a>`).join('')}</div>
+    <p class="overview-note">${pair('Bahasa Indonesia adalah pilihan awal. Ketuk Dengarkan pada kartu untuk mendengar bagian itu saja. Versi demo ini publik dan belum dilindungi kata sandi.', 'Indonesian is the starting language. Tap Listen on a card to hear only that part. This demo is public and not password protected.')}</p>
+  </section>`;
+}
+
+function chapterPager(chapter) {
+  const pair = (id, en) => language === 'id' ? id : en;
+  const previous = content.chapters.find(ch => ch.number === chapter.number - 1);
+  const next = content.chapters.find(ch => ch.number === chapter.number + 1);
+  return `<nav class="chapter-pager wrap" aria-label="${pair('Lanjut membaca', 'Continue reading')}">${previous ? `<a href="#${previous.id}">← ${pair('Sebelumnya', 'Previous')} · ${esc(value(previous, 'short'))}</a>` : '<span></span>'}<a href="#home">${pair('Semua pilihan bab', 'Chapter overview')}</a>${next ? `<a href="#${next.id}">${pair('Berikutnya', 'Next')} · ${esc(value(next, 'short'))} →</a>` : `<a href="#home">${pair('Selesai · kembali ke awal', 'Finished · back to overview')}</a>`}</nav>`;
+}
+
+function addPracticalTools() {
+  const chapter = $('ch6');
+  if (!chapter) return;
+  const pair = (id, en) => language === 'id' ? id : en;
+  const shortcuts = [['ch6-contacts','Kontak pribadi & 999','Private contacts & 999'],['ch6-messages','Contoh pesan','Message templates'],['ch6-bp','Tensi & obat','BP & medicines'],['ch6-food-library','Masakan & menu','Food & menu']];
+  chapter.querySelector('.chapter-heading').insertAdjacentHTML('afterend', `<nav class="practical-shortcuts wrap" aria-label="${pair('Bagian praktis', 'Practical sections')}">${shortcuts.map(([id,idLabel,enLabel]) => `<a class="tool-button" href="#${id}">${esc(pair(idLabel,enLabel))}</a>`).join('')}</nav>`);
+  $('ch6-food-library').insertAdjacentHTML('afterend', `<section class="food-tools wrap" aria-labelledby="food-tools-title"><h2 id="food-tools-title">${pair('Cari masakan yang akrab', 'Find a familiar dish')}</h2><p>${pair('Filter hanya memilih kartu masakan; panduan keamanan di atas dan ide menu di bawah tetap tersedia.', 'Filters select food cards only; the safety guidance above and menu ideas below remain available.')}</p><div class="food-filters" role="group" aria-label="${pair('Kategori masakan', 'Food categories')}">${Object.entries(foodGroups).map(([key,labels]) => `<button class="tool-button" type="button" data-food-category="${key}" aria-pressed="${key === foodCategory}">${esc(labels[language === 'id' ? 0 : 1])}</button>`).join('')}</div><label for="food-search">${pair('Nama masakan atau bahan — Indonesia / English', 'Dish or ingredient — Indonesian / English')}</label><div class="search-row"><input id="food-search" type="search" value="${esc(foodQuery)}" placeholder="${pair('Misalnya: bubur, pangsit, jahe…', 'For example: congee, wonton, ginger…')}"><button class="tool-button" type="button" data-food-reset>${pair('Atur ulang', 'Reset')}</button></div><p id="food-results" role="status" aria-live="polite"></p><p id="food-empty" hidden>${pair('Belum ada yang cocok. Coba kata lain atau tampilkan semua hidangan.', 'No matching dishes. Try another word or show all dishes.')}</p><a class="menu-jump" href="#ch6-menu">${pair('Lihat ide menu mingguan', 'See weekly menu ideas')} →</a></section>`);
+  applyFoodFilters();
+}
+
+function applyFoodFilters() {
+  if (!$('food-search')) return;
+  let count = 0;
+  let total = 0;
+  const groups = Object.keys(foodGroups).filter(key => key !== 'all').flatMap(key => key === 'snacks' ? ['snacks','drinks'] : [key]);
+  for (const group of groups) {
+    const section = content.chapters[5].sections.find(s => s.id === 'ch6-food-' + group);
+    let sectionCount = 0;
+    for (const card of section.cards) {
+      const match = matchesFood(card, section.id, foodCategory, foodQuery);
+      $(card.id).hidden = !match;
+      total++;
+      if (match) { count++; sectionCount++; }
+    }
+    $(section.id).hidden = sectionCount === 0;
+  }
+  document.querySelectorAll('[data-food-category]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.foodCategory === foodCategory)));
+  $('food-results').textContent = language === 'id' ? `${count} dari ${total} hidangan / rujukan` : `${count} of ${total} dishes / references`;
+  $('food-empty').hidden = count !== 0;
+}
+
+function routeGuide() {
+  if (!content) return;
+  const route = resolveGuideRoute(window.location.hash, content.chapters);
+  if (route.view === null) { if (!$('home') && !document.querySelector('.chapter')) render(); $('main').scrollIntoView(); return; }
+  controller.stop();
+  $('audio-notice').hidden = true;
+  view = route.view;
+  foodCategory = 'all';
+  foodQuery = '';
+  render();
+  requestAnimationFrame(() => {
+    if (route.target && $(route.target)) $(route.target).scrollIntoView({ block: 'start' });
+    else window.scrollTo({ top: 0 });
+    $('main').focus({ preventScroll: true });
+  });
+}
+
 function render() {
   observer?.disconnect();
   records.clear();
-  $('guide').innerHTML = content.chapters.map(renderChapter).join('');
+  const selected = content.chapters.find(ch => ch.id === view);
+  const readingLinks = `<div class="reading-links wrap"><a href="#home">${language === 'id' ? '← Pilihan bab' : '← Chapter overview'}</a><a href="#all">${language === 'id' ? 'Tampilkan semua bab' : 'Show all chapters'}</a></div>`;
+  $('guide').innerHTML = view === 'home' ? renderOverview() : view === 'all' ? readingLinks + content.chapters.map(renderChapter).join('') : readingLinks + renderChapter(selected) + chapterPager(selected);
+  addPracticalTools();
+  $('header-home').textContent = language === 'id' ? 'Beranda' : 'Home';
+  $('header-home').setAttribute('aria-current', view === 'home' ? 'page' : 'false');
   document.documentElement.lang = language;
   document.title = language === 'id' ? 'Hidup bersama Popo — Panduan keseharian' : 'Life with Popo — Everyday care guide';
   $('header-tagline').textContent = ui[language].tagline;
@@ -146,8 +220,8 @@ function render() {
   $('player-symbol').innerHTML = icon('sound');
   const navLinks = Array.from($('chapter-nav').querySelectorAll('a'));
   function highlight() {
-    const current = content.chapters.filter(ch => $(ch.id).getBoundingClientRect().top <= headerOffset() + 15).at(-1) || content.chapters[0];
-    navLinks.forEach(a => current.id === a.hash.slice(1) ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'));
+    const current = view === 'all' ? content.chapters.filter(ch => $(ch.id).getBoundingClientRect().top <= headerOffset() + 15).at(-1) || content.chapters[0] : selected;
+    navLinks.forEach(a => current?.id === a.hash.slice(1) ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'));
   }
   observer = new IntersectionObserver(highlight, { threshold: 0, rootMargin: '-150px 0px -65% 0px' });
   document.querySelectorAll('.chapter').forEach(ch => observer.observe(ch));
@@ -203,6 +277,26 @@ function changeLanguage(next) {
 document.addEventListener('click', event => {
   const langButton = event.target.closest('[data-language]');
   if (langButton) { changeLanguage(langButton.dataset.language); return; }
+  const copyButton = event.target.closest('[data-copy]');
+  if (copyButton) {
+    const template = value(records.get(copyButton.dataset.copy), 'template');
+    const status = copyButton.parentElement.querySelector('.copy-status');
+    const copiedLanguage = language;
+    void copyPlainText(template, navigator.clipboard, document).then(copied => {
+      if (!status.isConnected) return;
+      status.textContent = copied ? (copiedLanguage === 'id' ? 'Tersalin. Tempel di WhatsApp, lalu isi bagian dalam kurung.' : 'Copied. Paste into WhatsApp, then fill in the brackets.') : (copiedLanguage === 'id' ? 'Belum tersalin. Tekan lama teks pesan untuk menyalinnya secara manual.' : 'Could not copy. Select the message text and copy it manually.');
+    });
+    return;
+  }
+  const category = event.target.closest('[data-food-category]');
+  const reset = event.target.closest('[data-food-reset]');
+  if (category || reset) {
+    controller.stop();
+    foodCategory = reset ? 'all' : category.dataset.foodCategory;
+    if (reset) { foodQuery = ''; $('food-search').value = ''; }
+    applyFoodFilters();
+    return;
+  }
   if (event.target.closest('#chapter-nav a')) { controller.stop(); return; }
   const button = event.target.closest('[data-listen]');
   if (button) {
@@ -211,21 +305,19 @@ document.addEventListener('click', event => {
     if (record) void controller.play({ key: record.id, label: value(record, 'title'), text: cardText(record), language });
   }
 });
+document.addEventListener('input', event => {
+  if (event.target.id === 'food-search') { controller.stop(); foodQuery = event.target.value; applyFoodFilters(); }
+});
+window.addEventListener('hashchange', routeGuide);
 $('player-pause').addEventListener('click', () => audioState.state === 'paused' ? controller.resume() : controller.pause());
 $('player-stop').addEventListener('click', () => controller.stop());
 window.addEventListener('pagehide', () => controller.stop());
 
 try {
-  const responses = await Promise.all([fetch(new URL('./content.json?v=20261119-confirmed-food', import.meta.url)), fetch(new URL('./photos.json?v=20261119-confirmed-food', import.meta.url))]);
+  const responses = await Promise.all([fetch(new URL('./content.json?v=20261120-usability', import.meta.url)), fetch(new URL('./photos.json?v=20261120-usability', import.meta.url))]);
   if (responses.some(r => !r.ok)) throw new Error('Guide files unavailable');
   [content, photos] = await Promise.all(responses.map(r => r.json()));
-  render();
-  if (window.location.hash) {
-    requestAnimationFrame(() => {
-      const target = $(decodeURIComponent(window.location.hash.slice(1)));
-      target?.scrollIntoView({ block: 'start' });
-    });
-  }
+  routeGuide();
 } catch (error) {
   $('loading-message').textContent = 'Panduan belum berhasil dimuat. Muat ulang halaman ini untuk mencoba lagi.';
   console.error('Onboarding guide:', error);
